@@ -1,8 +1,8 @@
 ------------------
 System Information
 ------------------
-Time of this report: 2/5/2018, 12:16:45
-       Machine name: TRJ208-20A
+Time of this report: 2/9/2018, 09:36:16
+       Machine name: TRJ208-07
    Operating System: Windows 7 Enterprise 64-bit (6.1, Build 7601) Service Pack 1 (7601.win7sp1_ldr.170913-0600)
            Language: English (Regional Setting: English)
 System Manufacturer: Viglen
@@ -11,7 +11,7 @@ System Manufacturer: Viglen
           Processor: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz (8 CPUs), ~3.6GHz
              Memory: 32768MB RAM
 Available OS Memory: 32608MB RAM
-          Page File: 6254MB used, 58961MB available
+          Page File: 6446MB used, 58768MB available
         Windows Dir: C:\Windows
     DirectX Version: DirectX 11
 DX Setup Parameters: Not found
@@ -56,20 +56,20 @@ Display Devices
         Native Mode: 1920 x 1080(p) (60.000Hz)
         Output Type: DVI
         Driver Name: nvd3dumx.dll,nvwgf2umx.dll,nvwgf2umx.dll,nvd3dum,nvwgf2um,nvwgf2um
-Driver File Version: 10.18.0013.6839 (English)
-     Driver Version: 10.18.13.6839
+Driver File Version: 22.21.0013.8494 (English)
+     Driver Version: 22.21.13.8494
         DDI Version: 11
        Driver Model: WDDM 1.1
   Driver Attributes: Final Retail
-   Driver Date/Size: 6/7/2016 02:56:48, 17450504 bytes
+   Driver Date/Size: 8/3/2017 15:58:14, 17972696 bytes
         WHQL Logo'd: Yes
     WHQL Date Stamp: 
-  Device Identifier: {D7B71E3E-5082-11CF-4541-79091CC2C735}
+  Device Identifier: {D7B71E3E-5082-11CF-DC7A-79091BC2DB35}
           Vendor ID: 0x10DE
           Device ID: 0x13C2
           SubSys ID: 0x29743842
         Revision ID: 0x00A1
- Driver Strong Name: oem18.inf:NVIDIA_Devices.NTamd64.6.1:Section032:10.18.13.6839:pci\ven_10de&dev_13c2
+ Driver Strong Name: oem43.inf:NVIDIA_Devices.NTamd64.6.1:Section028:22.21.13.8494:pci\ven_10de&dev_13c2
      Rank Of Driver: 00E62001
         Video Accel: 
    Deinterlace Caps: {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
@@ -121,20 +121,20 @@ Driver File Version: 10.18.0013.6839 (English)
 -------------
 Sound Devices
 -------------
-            Description: Speakers (High Definition Audio Device)
+            Description: Speakers (Realtek High Definition Audio)
  Default Sound Playback: Yes
  Default Voice Playback: Yes
             Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_0887&SUBSYS_10438576&REV_1003
         Manufacturer ID: 1
-             Product ID: 65535
+             Product ID: 100
                    Type: WDM
-            Driver Name: HdAudio.sys
-         Driver Version: 6.01.7601.17514 (English)
+            Driver Name: RTKVHD64.sys
+         Driver Version: 6.00.0001.7982 (English)
       Driver Attributes: Final Retail
             WHQL Logo'd: Yes
-          Date and Size: 11/20/2010 01:44:24, 350208 bytes
+          Date and Size: 11/9/2016 10:49:02, 5437960 bytes
             Other Files: 
-        Driver Provider: Microsoft
+        Driver Provider: Realtek Semiconductor Corp.
          HW Accel Level: Basic
               Cap Flags: 0xF1F
     Min/Max Sample Rate: 100, 200000
@@ -233,7 +233,7 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 170.2 GB
+ Free Space: 162.4 GB
 Total Space: 467.9 GB
 File System: NTFS
       Model: HFS512G32MNB-2200A ATA Device
@@ -434,8 +434,13 @@ Midi Renderers:
 Default MidiOut Device,0x00800000,1,0,quartz.dll,6.06.7601.23709
 Microsoft GS Wavetable Synth,0x00200000,1,0,quartz.dll,6.06.7601.23709
 
+WDM Streaming Capture Devices:
+Realtek HD Audio Line input,0x00200000,1,1,ksproxy.ax,6.01.7601.19091
+Realtek HD Audio Mic input,0x00200000,1,1,ksproxy.ax,6.01.7601.19091
+Realtek HD Audio Stereo input,0x00200000,1,1,ksproxy.ax,6.01.7601.19091
+
 WDM Streaming Rendering Devices:
-HD Audio Speaker,0x00200000,1,1,ksproxy.ax,6.01.7601.19091
+Realtek HD Audio output,0x00200000,1,1,ksproxy.ax,6.01.7601.19091
 
 BDA Network Providers:
 Microsoft ATSC Network Provider,0x00200000,0,1,MSDvbNP.ax,6.06.7601.17514
@@ -461,10 +466,10 @@ WDM Streaming Communication Transforms:
 Tee/Sink-to-Sink Converter,0x00200000,1,1,ksproxy.ax,6.01.7601.19091
 
 Audio Renderers:
-Speakers (High Definition Audio,0x00200000,1,0,quartz.dll,6.06.7601.23709
+Speakers (Realtek High Definiti,0x00200000,1,0,quartz.dll,6.06.7601.23709
 Default DirectSound Device,0x00800000,1,0,quartz.dll,6.06.7601.23709
 Default WaveOut Device,0x00200000,1,0,quartz.dll,6.06.7601.23709
-DirectSound: Speakers (High Definition Audio Device),0x00200000,1,0,quartz.dll,6.06.7601.23709
+DirectSound: Speakers (Realtek High Definition Audio),0x00200000,1,0,quartz.dll,6.06.7601.23709
 
 ---------------
 EVR Power Information
