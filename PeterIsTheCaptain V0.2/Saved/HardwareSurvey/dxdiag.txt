@@ -1,8 +1,8 @@
 ------------------
 System Information
 ------------------
-Time of this report: 1/29/2018, 12:01:30
-       Machine name: TRJ208-29
+Time of this report: 2/9/2018, 09:36:16
+       Machine name: TRJ208-07
    Operating System: Windows 7 Enterprise 64-bit (6.1, Build 7601) Service Pack 1 (7601.win7sp1_ldr.170913-0600)
            Language: English (Regional Setting: English)
 System Manufacturer: Viglen
@@ -11,7 +11,7 @@ System Manufacturer: Viglen
           Processor: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz (8 CPUs), ~3.6GHz
              Memory: 32768MB RAM
 Available OS Memory: 32608MB RAM
-          Page File: 6388MB used, 58827MB available
+          Page File: 6446MB used, 58768MB available
         Windows Dir: C:\Windows
     DirectX Version: DirectX 11
 DX Setup Parameters: Not found
@@ -233,7 +233,7 @@ PS/2 Devices
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
- Free Space: 165.2 GB
+ Free Space: 162.4 GB
 Total Space: 467.9 GB
 File System: NTFS
       Model: HFS512G32MNB-2200A ATA Device
