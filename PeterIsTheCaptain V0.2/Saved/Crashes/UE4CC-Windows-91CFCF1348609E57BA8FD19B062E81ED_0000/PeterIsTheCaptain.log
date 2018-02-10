@@ -1,0 +1,1491 @@
+﻿Log file open, 02/10/18 18:05:42
+LogInit:Display: Running engine for game: PeterIsTheCaptain
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1002943799) SRandInit(1002943799).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.093683
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Unreal Engine/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.10-18.05.42:810][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.10-18.05.42:810][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.10-18.05.42:833][  0]LogInit: Computer: DESKTOP-00B2ES8
+[2018.02.10-18.05.42:833][  0]LogInit: User: Filip
+[2018.02.10-18.05.42:833][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.10-18.05.42:833][  0]LogInit: High frequency timer resolution =2.742189 MHz
+[2018.02.10-18.05.42:834][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.02.10-18.05.42:834][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.10-18.05.42:834][  0]LogMemory: Process Physical Memory: 274.07 MB used, 274.07 MB peak
+[2018.02.10-18.05.42:834][  0]LogMemory: Process Virtual Memory: 260.84 MB used, 260.84 MB peak
+[2018.02.10-18.05.42:834][  0]LogMemory: Physical Memory: 5329.55 MB used,  2728.72 MB free, 8058.27 MB total
+[2018.02.10-18.05.42:834][  0]LogMemory: Virtual Memory: 671.81 MB used,  2728.72 MB free, 134217728.00 MB total
+[2018.02.10-18.05.42:919][  0]LogInit: Using OS detected language (en-GB).
+[2018.02.10-18.05.42:919][  0]LogInit: Using OS detected locale (en-GB).
+[2018.02.10-18.05.42:922][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.02.10-18.05.46:652][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.10-18.05.46:713][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2018.02.10-18.05.46:713][  0]LogD3D11RHI:       4029/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.10-18.05.46:724][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.02.10-18.05.46:724][  0]LogD3D11RHI:       128/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.02.10-18.05.46:727][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.10-18.05.46:727][  0]LogD3D11RHI:       0/0/4029 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.10-18.05.46:727][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.10-18.05.46:734][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.10-18.05.46:734][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2018.02.10-18.05.46:734][  0]LogWindows: EnumDisplayDevices:
+[2018.02.10-18.05.46:734][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.02.10-18.05.46:734][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.02.10-18.05.46:734][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.02.10-18.05.46:735][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2018.02.10-18.05.46:735][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.10-18.05.46:735][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2018.02.10-18.05.46:735][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.10-18.05.46:735][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.10-18.05.46:735][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.10-18.05.46:762][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.10-18.05.46:875][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.02.10-18.05.46:876][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Intermediate/Shaders/WorkingDirectory/9224/).
+[2018.02.10-18.05.46:876][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Filip/AppData/Local/Temp/UnrealShaderWorkingDir/33C1B206457E4A390DABC18723CE517C/'.
+[2018.02.10-18.05.46:876][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.10-18.05.49:786][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.10-18.05.49:848][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.02.10-18.05.49:947][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.10-18.05.50:027][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.02.10-18.05.50:141][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.02.10-18.05.50:273][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.10-18.05.50:416][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.10-18.05.50:535][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.10-18.05.50:599][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.10-18.05.50:680][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.02.10-18.05.50:736][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.10-18.05.50:790][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.10-18.05.50:843][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.10-18.05.50:942][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.10-18.05.51:065][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.10-18.05.51:340][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.10-18.05.51:340][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.10-18.05.51:412][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.02.10-18.05.51:555][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.02.10-18.05.51:643][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.02.10-18.05.51:748][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.10-18.05.51:811][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.10-18.05.51:864][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.10-18.05.51:967][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.02.10-18.05.51:967][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.10-18.05.52:831][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.10-18.05.53:020][  0]LogDerivedDataCache: Loaded boot cache 0.19s 90MB C:/Users/Filip/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.10-18.05.53:020][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Filip/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.02.10-18.05.53:020][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.10-18.05.53:020][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.10-18.05.53:020][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.10-18.05.53:020][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.10-18.05.53:060][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.10-18.05.53:073][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Filip/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.10-18.05.53:099][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.10-18.05.53:100][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.10-18.05.53:172][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.10-18.05.53:172][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.10-18.05.54:242][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.10-18.05.54:386][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.10-18.05.54:589][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.10-18.05.54:638][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.10-18.05.54:721][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.10-18.05.54:721][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.02.10-18.05.54:721][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.10-18.05.56:000][  0]LogNetVersion: PeterIsTheCaptain , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1858553666)
+[2018.02.10-18.05.56:089][  0]LogAssetRegistry: FAssetRegistry took 0.0323 seconds to start up
+[2018.02.10-18.05.56:221][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.072635 seconds
+[2018.02.10-18.05.56:234][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.02.10-18.05.56:234][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.02.10-18.05.56:235][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.10-18.05.56:314][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.10-18.06.03:788][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.10-18.06.03:876][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.10-18.06.04:968][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.10-18.06.05:873][  0]SourceControl: Info Source control is disabled
+[2018.02.10-18.06.05:876][  0]SourceControl: Info Source control is disabled
+[2018.02.10-18.06.06:000][  0]SourceControl: Info Source control is disabled
+[2018.02.10-18.06.06:106][  0]SourceControl: Info Source control is disabled
+[2018.02.10-18.06.07:693][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.10-18.06.08:676][  0]LogEngine: Initializing Engine...
+[2018.02.10-18.06.08:677][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.10-18.06.08:966][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.10-18.06.08:966][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.10-18.06.09:182][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.10-18.06.09:291][  0]LogInit: XAudio2 using 'Reproduktory / sluchátka (Realtek Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-18.06.09:430][  0]LogInit: FAudioDevice initialized.
+[2018.02.10-18.06.09:563][  0]LogDerivedDataCache: Saved boot cache 0.13s 90MB C:/Users/Filip/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.10-18.06.09:595][  0]LogInit: Texture streaming: Enabled
+[2018.02.10-18.06.09:723][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.10-18.06.10:346][  0]LogInit: Transaction tracking system initialized
+[2018.02.10-18.06.10:836][  0]BlueprintLog: New page: Editor Load
+[2018.02.10-18.06.12:251][  0]LocalizationService: Info Localization service is disabled
+[2018.02.10-18.06.13:824][  0]LogConsoleResponse:Display: 
+[2018.02.10-18.06.14:203][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.10-18.06.14:203][  0]LogCook:Display: Mobile HDR setting 1
+[2018.02.10-18.06.14:981][  0]LogFileCache: Scanning file cache for directory 'C:/Program Files (x86)/Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/' took 0.02s
+[2018.02.10-18.06.16:021][  0]SourceControl: Info Source control is disabled
+[2018.02.10-18.06.16:021][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.10-18.06.16:022][  0]LightingResults: New page: Lighting Build
+[2018.02.10-18.06.16:083][  0]MapCheck: New page: Map Check
+[2018.02.10-18.06.16:083][  0]LightingResults: New page: Lighting Build
+[2018.02.10-18.06.16:325][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.02.10-18.06.16:327][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.02.10-18.06.16:333][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.10-18.06.16:367][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.10-18.06.16:417][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.995ms to complete.
+[2018.02.10-18.06.16:418][  0]LogFileHelpers: Loading map 'Template_Default' took 0.396
+[2018.02.10-18.06.17:940][  0]LogCollectionManager: Loaded 0 collections in 0.004025 seconds
+[2018.02.10-18.06.18:218][  0]LogFileCache: Scanning file cache for directory 'C:/Program Files (x86)/Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Collections/' took 0.01s
+[2018.02.10-18.06.18:218][  0]LogFileCache: Scanning file cache for directory 'C:/Program Files (x86)/Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Developers/Filip/Collections/' took 0.01s
+[2018.02.10-18.06.18:218][  0]LogFileCache: Scanning file cache for directory 'C:/Program Files (x86)/Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Collections/' took 0.01s
+[2018.02.10-18.06.18:218][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.02.10-18.06.18:267][  0]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2329 classes and 491 folders.
+[2018.02.10-18.06.18:422][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.02.10-18.06.22:325][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.02.10-18.06.22:652][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.02.10-18.06.23:465][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.02.10-18.06.23:662][  0]LogSlate: Took 0.045758 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.10-18.06.23:674][  0]LogSlate: Took 0.009870 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.10-18.06.23:777][  0]LogSlate: Took 0.050676 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.10-18.06.24:351][  0]LogRenderer: Reallocating scene render targets to support 984x424 NumSamples 1 (Frame:1).
+[2018.02.10-18.06.25:709][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.02.10-18.06.25:788][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0050 seconds. Added 1 classes and 2 folders.
+[2018.02.10-18.06.25:789][  0]LogLoad: (Engine Initialization) Total time: 45.00 seconds
+[2018.02.10-18.06.25:789][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.18 seconds
+[2018.02.10-18.06.25:789][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.02.10-18.06.25:789][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.02.10-18.06.25:820][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.02.10-18.06.25:821][  0]LogOcInput: OculusInput pre-init called
+[2018.02.10-18.06.25:821][  0]LogHMD: Starting GearVRController plugin
+[2018.02.10-18.06.25:989][  0]LogContentStreaming: Texture pool size now 600 MB
+[2018.02.10-18.06.30:208][236]LogSlate: Took 0.035876 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.10-18.06.30:834][274]LogAssetRegistry: Asset discovery search completed in 34.7676 seconds
+[2018.02.10-18.06.30:836][274]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.02.10-18.06.30:836][274]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2018.02.10-18.07.03:978][984]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.10-18.07.04:174][984]LogSavePackage: Save=20.17ms
+[2018.02.10-18.07.04:174][984]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_minigame811F99864C02A180B7DB09B5350EEA48.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap'
+[2018.02.10-18.07.04:190][984]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap
+[2018.02.10-18.07.04:201][984]LogFileHelpers: Saving map 'Pacman_minigame' took 0.137
+[2018.02.10-18.07.05:459][ 49]Cmd: MAP LOAD FILE="../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.10-18.07.05:459][ 49]LightingResults: New page: Lighting Build
+[2018.02.10-18.07.05:459][ 49]LoadErrors: New page: Loading map: Pacman_minigame.umap
+[2018.02.10-18.07.05:460][ 49]MapCheck: New page: Map Check
+[2018.02.10-18.07.05:460][ 49]LightingResults: New page: Lighting Build
+[2018.02.10-18.07.05:493][ 49]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.10-18.07.05:493][ 49]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.10-18.07.05:534][ 49]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.10-18.07.05:581][ 49]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.99ms to complete.
+[2018.02.10-18.07.05:582][ 49]LogFileHelpers: Loading map 'Pacman_minigame' took 0.124
+[2018.02.10-18.07.14:626][577]LogActorFactory: Actor Factory created Cube
+[2018.02.10-18.07.15:140][602]LogActorFactory: Actor Factory created Cube
+[2018.02.10-18.07.43:251][180]LogEditorViewport: Clicking Background
+[2018.02.10-18.07.44:415][249]LogEditorViewport: Clicking Background
+[2018.02.10-18.07.47:656][441]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.10-18.07.47:666][441]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.02.10-18.07.48:693][502]LogEditorActor: Deleted Actor: SkyLight
+[2018.02.10-18.07.48:701][502]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2018.02.10-18.07.53:480][785]Cmd: DELETE
+[2018.02.10-18.07.53:480][785]Cmd: ACTOR DELETE
+[2018.02.10-18.07.53:535][785]LogEditorActor: Deleted Actor: SpotLight
+[2018.02.10-18.07.53:546][785]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.02.10-18.08.22:711][509]LogActorFactory: Actor Factory created Cube
+[2018.02.10-18.08.22:879][519]LogActorFactory: Actor Factory created Cube
+[2018.02.10-18.08.38:439][444]LogEditorViewport: Clicking Background
+[2018.02.10-18.08.39:844][528]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.10-18.08.39:917][528]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.10-18.08.39:966][528]PIE: New page: PIE session: Pacman_minigame (10 Feb 2018 18:08:39)
+[2018.02.10-18.08.39:966][528]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.10-18.08.39:968][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001473s)
+[2018.02.10-18.08.39:968][528]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.10-18.08.39:968][528]LogPlayLevel: PIE: World Init took: (0.000829s)
+[2018.02.10-18.08.39:983][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.016996s)
+[2018.02.10-18.08.39:995][528]LogInit: XAudio2 using 'Reproduktory / sluchátka (Realtek Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-18.08.40:066][528]LogInit: FAudioDevice initialized.
+[2018.02.10-18.08.40:161][528]LogLinker:Warning: Can't find file '/Game/Blueprints/GameMode'
+[2018.02.10-18.08.40:162][528]LogLinker:Warning: Can't find file '/Game/Blueprints/GameMode'
+[2018.02.10-18.08.40:162][528]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/Blueprints/GameMode.GameMode_C'
+[2018.02.10-18.08.40:162][528]LogLoad: Game class is 'GameModeBase'
+[2018.02.10-18.08.40:205][528]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 60) at 2018.02.10-18.08.40
+[2018.02.10-18.08.40:218][528]LogWorld: Bringing up level for play took: 0.002033
+[2018.02.10-18.08.40:414][528]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2018.02.10-18.08.40:445][528]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame 0.368
+[2018.02.10-18.08.40:488][528]LogRenderer: Reallocating scene render targets to support 984x536 NumSamples 1 (Frame:1).
+[2018.02.10-18.08.42:550][645]LogEditorViewport: Clicking Background
+[2018.02.10-18.08.43:002][671]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2018.02.10-18.08.43:825][719]Cmd: DELETE
+[2018.02.10-18.08.43:825][719]Cmd: ACTOR DELETE
+[2018.02.10-18.08.43:825][719]LogEditorActor: Deleted Actor: SkyLight
+[2018.02.10-18.08.43:833][719]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2018.02.10-18.11.09:742][789]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.10-18.11.40:801][639]LogEditorViewport: Clicking on Actor (context menu): SkyLight (SkyLight)
+[2018.02.10-18.11.43:608][803]LogSlate: Took 0.024075 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.10-18.12.04:578][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.10-18.12.05:393][ 88]LogEditorViewport: Clicking Background
+[2018.02.10-18.12.12:133][484]LogEditorViewport: Clicking Background
+[2018.02.10-18.12.12:450][503]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.10-18.12.53:762][959]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.02.10-18.12.53:830][961]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Sphere mesh)
+[2018.02.10-18.15.47:911][141]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2018.02.10-18.15.47:976][143]LogEditorViewport: Clicking on Component (LMB): DirectionalLightComponent (LightComponent0)
+[2018.02.10-18.16.15:902][754]LogAIModule: Creating AISystem for world OldNewMap
+[2018.02.10-18.16.17:763][754]LogSavePackage: Save=18.19ms
+[2018.02.10-18.16.17:763][754]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_minigame1630C87047645FD15B7CBF8B695FED2A.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap'
+[2018.02.10-18.16.17:766][754]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap
+[2018.02.10-18.16.17:794][754]LogFileHelpers: Saving map 'Pacman_minigame' took 0.136
+[2018.02.10-18.16.17:795][754]Cmd: MAP LOAD FILE="../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/OldNewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.10-18.16.17:795][754]LightingResults: New page: Lighting Build
+[2018.02.10-18.16.17:796][754]LoadErrors: New page: Loading map: OldNewMap.umap
+[2018.02.10-18.16.17:796][754]MapCheck: New page: Map Check
+[2018.02.10-18.16.17:796][754]LightingResults: New page: Lighting Build
+[2018.02.10-18.16.17:812][754]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.10-18.16.17:963][754]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.10-18.16.18:009][754]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 46.845ms to complete.
+[2018.02.10-18.16.18:009][754]LogFileHelpers: Loading map 'OldNewMap' took 0.215
+[2018.02.10-18.16.18:010][754]LogSlate: Took 0.000156 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.10-18.16.21:652][957]LogEditorViewport: Clicking on Actor (LMB): AtmosphericFog (Atmospheric Fog)
+[2018.02.10-18.16.31:715][555]Cmd: EDIT COPY
+[2018.02.10-18.16.33:129][629]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.10-18.16.33:145][629]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.10-18.16.33:146][629]PIE: New page: PIE session: OldNewMap (10 Feb 2018 18:16:33)
+[2018.02.10-18.16.33:146][629]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_OldNewMap
+[2018.02.10-18.16.33:161][629]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015330s)
+[2018.02.10-18.16.33:162][629]LogAIModule: Creating AISystem for world OldNewMap
+[2018.02.10-18.16.33:162][629]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2018.02.10-18.16.33:162][629]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/OldNewMap.OldNewMap to /Game/Levels/UEDPIE_0_OldNewMap.OldNewMap (0.016278s)
+[2018.02.10-18.16.33:187][629]LogInit: XAudio2 using 'Reproduktory / sluchátka (Realtek Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-18.16.33:257][629]LogInit: FAudioDevice initialized.
+[2018.02.10-18.16.33:307][629]LogLoad: Game class is 'GameModeBase'
+[2018.02.10-18.16.33:309][629]LogWorld: Bringing World /Game/Levels/UEDPIE_0_OldNewMap.OldNewMap up for play (max tick rate 60) at 2018.02.10-18.16.33
+[2018.02.10-18.16.33:428][629]LogWorld: Bringing up level for play took: 0.119649
+[2018.02.10-18.16.33:499][629]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_OldNewMap -0.577
+[2018.02.10-18.16.35:900][759]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.10-18.16.37:502][759]Cmd: MAP LOAD FILE="../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.10-18.16.37:504][759]LightingResults: New page: Lighting Build
+[2018.02.10-18.16.37:506][759]LoadErrors: New page: Loading map: Pacman_minigame.umap
+[2018.02.10-18.16.37:509][759]MapCheck: New page: Map Check
+[2018.02.10-18.16.37:509][759]LightingResults: New page: Lighting Build
+[2018.02.10-18.16.37:532][759]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.10-18.16.37:576][759]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.10-18.16.37:637][759]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.577ms to complete.
+[2018.02.10-18.16.37:637][759]LogFileHelpers: Loading map 'Pacman_minigame' took 0.137
+[2018.02.10-18.16.38:342][800]Cmd: EDIT PASTE
+[2018.02.10-18.16.38:502][800]LogProperty:Warning: ObjectProperty /Engine/EngineSky/BP_Sky_Sphere.BP_Sky_Sphere_C:Directional light actor: unresolved reference to 'DirectionalLight'LightSource''
+[2018.02.10-18.16.38:915][823]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2018.02.10-18.16.58:934][  6]Cmd: DELETE
+[2018.02.10-18.16.58:934][  6]Cmd: ACTOR DELETE
+[2018.02.10-18.16.58:934][  6]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2018.02.10-18.16.58:945][  6]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.02.10-18.17.05:515][399]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.10-18.17.14:032][901]Cmd: DELETE
+[2018.02.10-18.17.14:032][901]Cmd: ACTOR DELETE
+[2018.02.10-18.17.14:032][901]LogEditorActor: Deleted Actor: DirectionalLight
+[2018.02.10-18.17.14:043][901]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.02.10-18.17.16:743][ 63]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.10-18.17.16:792][ 64]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.02.10-18.17.21:050][314]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.10-18.17.25:318][562]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.10-18.17.29:169][785]LogActorFactory: Actor Factory created Cube
+[2018.02.10-18.17.29:576][808]LogActorFactory: Actor Factory created Cube
+[2018.02.10-18.21.41:461][261]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Filip/Desktop/Pacman assets/black.png)
+[2018.02.10-18.21.41:468][261]LogTexture:Display: Building textures: black (AutoDXT, 128X128)
+[2018.02.10-18.21.41:541][261]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Filip/Desktop/Pacman assets/orange.png)
+[2018.02.10-18.21.41:543][261]LogTexture:Display: Building textures: orange (AutoDXT, 128X128)
+[2018.02.10-18.21.41:551][261]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Filip/Desktop/Pacman assets/pacman.png)
+[2018.02.10-18.21.41:553][261]LogTexture:Display: Building textures: pacman (AutoDXT, 128X128)
+[2018.02.10-18.21.41:565][261]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Filip/Desktop/Pacman assets/yellow.png)
+[2018.02.10-18.21.41:570][261]LogTexture:Display: Building textures: yellow (AutoDXT, 128X128)
+[2018.02.10-18.21.46:702][555]LogTexture:Display: Building textures: black (BGRA8, 128X128)
+[2018.02.10-18.21.46:704][555]LogTexture:Display: Building textures: orange (BGRA8, 128X128)
+[2018.02.10-18.21.46:711][555]LogTexture:Display: Building textures: pacman (BGRA8, 128X128)
+[2018.02.10-18.21.46:715][555]LogTexture:Display: Building textures: yellow (BGRA8, 128X128)
+[2018.02.10-18.22.18:954][430]LogSlate: Took 0.019357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.10-18.22.20:480][495]LogRenderer: Reallocating scene render targets to support 984x708 NumSamples 1 (Frame:66).
+[2018.02.10-18.22.58:923][569]LogSavePackage: Save=51.18ms
+[2018.02.10-18.22.58:923][569]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/yellow_TileSet1167BA6A4DF91B13D9A9F4B5FEA64DE2.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/yellow_TileSet.uasset'
+[2018.02.10-18.22.58:926][569]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/yellow_TileSet.uasset
+[2018.02.10-18.23.23:044][957]LogSavePackage: Save=9.35ms
+[2018.02.10-18.23.23:044][957]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/black_TileSet5C1489E1433A3044294338886AB256F6.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/black_TileSet.uasset'
+[2018.02.10-18.23.23:046][957]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/black_TileSet.uasset
+[2018.02.10-18.23.31:194][420]LogSavePackage: Save=9.56ms
+[2018.02.10-18.23.31:194][420]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/orange_TileSetA48C3DF64F7EA72490D16A9E4BF853EB.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/orange_TileSet.uasset'
+[2018.02.10-18.23.31:196][420]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/orange_TileSet.uasset
+[2018.02.10-18.23.45:538][220]LogSavePackage: Save=8.70ms
+[2018.02.10-18.23.45:538][220]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/pacman_TileSet1CAB7A334D76676F3D5F4C8D0C83E677.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/pacman_TileSet.uasset'
+[2018.02.10-18.23.45:542][220]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/pacman_TileSet.uasset
+[2018.02.10-18.27.09:191][855]LogSavePackage: Save=172.05ms
+[2018.02.10-18.27.09:192][855]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_Tilemap03A5A94D41B44330D62D9090C5F12EDB.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Pacman_Tilemap.uasset'
+[2018.02.10-18.27.09:194][855]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Pacman_Tilemap.uasset
+[2018.02.10-18.27.48:275][974]LogSlate: Took 0.021356 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.10-18.27.57:315][  1]LogSavePackage: Save=15.16ms
+[2018.02.10-18.27.57:315][  1]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_minigame_Auto1E6F12C6541A339D9412554B18F3F213F.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Levels/Pacman_minigame_Auto1.umap'
+[2018.02.10-18.27.57:316][  1]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Levels/Pacman_minigame_Auto1.umap
+[2018.02.10-18.27.57:321][  1]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Pacman_minigame' took 0.061
+[2018.02.10-18.27.57:321][  1]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.061
+[2018.02.10-18.27.57:351][  1]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Pacman_minigame/black] ([1] browsable assets)...
+[2018.02.10-18.27.57:354][  1]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/Pacman_minigame/black.black]
+[2018.02.10-18.27.57:354][  1]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Pacman_minigame/black]
+[2018.02.10-18.27.57:362][  1]LogSavePackage: Save=6.64ms
+[2018.02.10-18.27.57:362][  1]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/black_Auto10CA9FEB7465D394166AA4FBB984A9C02.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/black_Auto1.uasset'
+[2018.02.10-18.27.57:363][  1]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/black_Auto1.uasset
+[2018.02.10-18.27.57:364][  1]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Pacman_minigame/pacman] ([1] browsable assets)...
+[2018.02.10-18.27.57:367][  1]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/Pacman_minigame/pacman.pacman]
+[2018.02.10-18.27.57:367][  1]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Pacman_minigame/pacman]
+[2018.02.10-18.27.57:375][  1]LogSavePackage: Save=6.25ms
+[2018.02.10-18.27.57:375][  1]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/pacman_Auto1B1E8211749D1334B23C1D1A104B65E73.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/pacman_Auto1.uasset'
+[2018.02.10-18.27.57:376][  1]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/pacman_Auto1.uasset
+[2018.02.10-18.27.57:377][  1]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Pacman_minigame/yellow] ([1] browsable assets)...
+[2018.02.10-18.27.57:380][  1]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/Pacman_minigame/yellow.yellow]
+[2018.02.10-18.27.57:380][  1]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Pacman_minigame/yellow]
+[2018.02.10-18.27.57:389][  1]LogSavePackage: Save=6.66ms
+[2018.02.10-18.27.57:389][  1]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/yellow_Auto1890D547741CFF44A084E36B5CF863D6A.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/yellow_Auto1.uasset'
+[2018.02.10-18.27.57:390][  1]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/yellow_Auto1.uasset
+[2018.02.10-18.27.57:390][  1]LogFileHelpers: Auto-saving content packages took 0.053
+[2018.02.10-18.28.04:552][109]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Filip/Desktop/Pacman assets/orange.png)
+[2018.02.10-18.28.04:554][109]LogTexture:Display: Building textures: orange (AutoDXT, 64X64)
+[2018.02.10-18.28.07:897][304]LogTexture:Display: Building textures: orange (BGRA8, 64X64)
+[2018.02.10-18.28.16:685][818]LogSavePackage: Save=8.02ms
+[2018.02.10-18.28.16:685][818]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/orange_TileSet90FD71E04ABECBFFB84670944830A3DC.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/orange_TileSet.uasset'
+[2018.02.10-18.28.16:687][818]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/orange_TileSet.uasset
+[2018.02.10-18.30.19:388][708]LogSavePackage: Save=7.62ms
+[2018.02.10-18.30.19:388][708]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/orange_TileSetFA7E5BE24E03BAAB6D580EB52FE05F04.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/orange_TileSet.uasset'
+[2018.02.10-18.30.19:394][708]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/orange_TileSet.uasset
+[2018.02.10-18.30.54:849][792]Cmd: TRANSACTION UNDO
+[2018.02.10-18.30.54:849][792]LogEditorTransaction: Undo Tile Painting
+[2018.02.10-18.35.39:044][335]LogSavePackage: Save=264.25ms
+[2018.02.10-18.35.39:044][335]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_Tilemap9E63B8FF46C596E65C6694BA0C3B5934.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Pacman_Tilemap.uasset'
+[2018.02.10-18.35.39:047][335]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Pacman_Tilemap.uasset
+[2018.02.10-18.36.08:455][ 63]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.10-18.36.09:282][110]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (black_Sprite)
+[2018.02.10-18.36.18:387][639]Cmd: TRANSACTION UNDO
+[2018.02.10-18.36.18:387][639]LogEditorTransaction: Undo Move Actors
+[2018.02.10-18.36.18:559][646]Cmd: TRANSACTION UNDO
+[2018.02.10-18.36.18:559][646]LogEditorTransaction: Undo Move Actors
+[2018.02.10-18.36.18:757][655]Cmd: TRANSACTION UNDO
+[2018.02.10-18.36.18:757][655]LogEditorTransaction: Undo Move Actors
+[2018.02.10-18.36.18:948][664]Cmd: TRANSACTION UNDO
+[2018.02.10-18.36.18:948][664]LogEditorTransaction: Undo Move Actors
+[2018.02.10-18.36.19:126][673]Cmd: TRANSACTION UNDO
+[2018.02.10-18.36.19:126][673]LogEditorTransaction: Undo Move Actors
+[2018.02.10-18.36.19:302][682]Cmd: TRANSACTION UNDO
+[2018.02.10-18.36.19:302][682]LogEditorTransaction: Undo Move Actors
+[2018.02.10-18.36.19:630][700]Cmd: TRANSACTION UNDO
+[2018.02.10-18.36.19:630][700]LogEditorTransaction: Undo Move Actors
+[2018.02.10-18.36.19:887][714]Cmd: TRANSACTION UNDO
+[2018.02.10-18.36.19:887][714]LogEditorTransaction: Undo Clicking on Actors
+[2018.02.10-18.36.20:420][744]Cmd: TRANSACTION UNDO
+[2018.02.10-18.36.20:420][744]LogEditorTransaction: Undo Clicking on Actors (context menu)
+[2018.02.10-18.36.20:970][775]Cmd: TRANSACTION UNDO
+[2018.02.10-18.36.20:970][775]LogEditorTransaction: Undo Move Actors
+[2018.02.10-18.36.21:754][822]Cmd: TRANSACTION UNDO
+[2018.02.10-18.36.21:754][822]LogEditorTransaction: Undo Rotate Actors
+[2018.02.10-18.36.22:137][845]Cmd: TRANSACTION UNDO
+[2018.02.10-18.36.22:137][845]LogEditorTransaction: Undo Create Actors
+[2018.02.10-18.36.47:915][345]LogSavePackage: Save=314.73ms
+[2018.02.10-18.36.47:915][345]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_Tilemap3BFDF2584C1BC7CED63BF492781323B8.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Pacman_Tilemap.uasset'
+[2018.02.10-18.36.47:918][345]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Pacman_Tilemap.uasset
+[2018.02.10-18.37.11:136][721]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.02.10-18.37.12:546][803]Cmd: DELETE
+[2018.02.10-18.37.12:546][803]Cmd: ACTOR DELETE
+[2018.02.10-18.37.12:547][803]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.10-18.37.12:566][803]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.02.10-18.37.13:322][849]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.10-18.37.36:561][236]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.10-18.38.11:670][306]Cmd: TRANSACTION UNDO
+[2018.02.10-18.38.11:670][306]LogEditorTransaction: Undo Scale Actors
+[2018.02.10-18.38.12:040][328]Cmd: TRANSACTION UNDO
+[2018.02.10-18.38.12:040][328]LogEditorTransaction: Undo Scale Actors
+[2018.02.10-18.38.12:232][339]Cmd: TRANSACTION UNDO
+[2018.02.10-18.38.12:232][339]LogEditorTransaction: Undo Move Actors
+[2018.02.10-18.38.12:432][351]Cmd: TRANSACTION UNDO
+[2018.02.10-18.38.12:432][351]LogEditorTransaction: Undo Rotate Actors
+[2018.02.10-18.38.26:052][161]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Pacman_Tilemap)
+[2018.02.10-18.38.27:135][224]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (pacman_Sprite)
+[2018.02.10-18.38.28:502][304]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.10-18.38.30:836][440]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (pacman_Sprite)
+[2018.02.10-18.38.32:568][541]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.10-18.38.38:384][885]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Pacman_Tilemap)
+[2018.02.10-18.38.39:989][979]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.10-18.38.46:470][365]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (pacman_Sprite)
+[2018.02.10-18.38.48:377][477]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.10-18.38.59:133][116]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.10-18.39.35:321][820]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.02.10-18.39.54:768][966]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.10-18.39.56:392][ 62]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (orange_Sprite)
+[2018.02.10-18.40.39:698][498]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Filip/Desktop/Pacman assets/orange.png)
+[2018.02.10-18.40.39:700][498]LogTexture:Display: Building textures: orange (AutoDXT, 32X32)
+[2018.02.10-18.40.42:669][672]LogTexture:Display: Building textures: orange (BGRA8, 32X32)
+[2018.02.10-18.40.54:197][350]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.40.54:206][350]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.02.10-18.40.55:313][417]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (orange_Sprite2)
+[2018.02.10-18.41.08:116][182]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.10-18.41.11:753][397]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (orange_Sprite2)
+[2018.02.10-18.41.17:371][730]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.10-18.41.19:770][871]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.10-18.41.20:799][931]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.10-18.42.00:450][915]LogSavePackage: Save=67.10ms
+[2018.02.10-18.42.00:450][915]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_minigame_Auto275FCB5A64ABF570177722D836CC65019.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Levels/Pacman_minigame_Auto2.umap'
+[2018.02.10-18.42.00:452][915]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Levels/Pacman_minigame_Auto2.umap
+[2018.02.10-18.42.00:454][915]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Pacman_minigame' took 0.099
+[2018.02.10-18.42.00:454][915]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.099
+[2018.02.10-18.42.00:457][915]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Pacman_minigame/orange] ([1] browsable assets)...
+[2018.02.10-18.42.00:458][915]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/Pacman_minigame/orange.orange]
+[2018.02.10-18.42.00:458][915]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Pacman_minigame/orange]
+[2018.02.10-18.42.00:468][915]LogSavePackage: Save=7.34ms
+[2018.02.10-18.42.00:468][915]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/orange_Auto27F26C96A48C048FBDBE98B824223478A.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/orange_Auto2.uasset'
+[2018.02.10-18.42.00:469][915]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/orange_Auto2.uasset
+[2018.02.10-18.42.00:469][915]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Pacman_minigame/orange_Sprite] ([1] browsable assets)...
+[2018.02.10-18.42.00:478][915]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Pacman_minigame/orange_Sprite.orange_Sprite]
+[2018.02.10-18.42.00:478][915]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Pacman_minigame/orange_Sprite]
+[2018.02.10-18.42.00:502][915]LogSavePackage: Save=16.61ms
+[2018.02.10-18.42.00:502][915]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/orange_Sprite_Auto27BBAE315483CB1C5858C69B923A04F3B.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/orange_Sprite_Auto2.uasset'
+[2018.02.10-18.42.00:503][915]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/orange_Sprite_Auto2.uasset
+[2018.02.10-18.42.00:504][915]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Pacman_minigame/orange_TileSet] ([1] browsable assets)...
+[2018.02.10-18.42.00:513][915]OBJ SavePackage:     Rendered thumbnail for [PaperTileSet /Game/Sprites/Pacman_minigame/orange_TileSet.orange_TileSet]
+[2018.02.10-18.42.00:513][915]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Pacman_minigame/orange_TileSet]
+[2018.02.10-18.42.00:524][915]LogSavePackage: Save=8.46ms
+[2018.02.10-18.42.00:524][915]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/orange_TileSet_Auto28FD58FC04E7C2B920F4EF19BCC26641D.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/orange_TileSet_Auto2.uasset'
+[2018.02.10-18.42.00:525][915]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/orange_TileSet_Auto2.uasset
+[2018.02.10-18.42.00:526][915]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sprites/Pacman_minigame/Pacman_Tilemap] ([1] browsable assets)...
+[2018.02.10-18.42.00:526][915]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Pacman_minigame/Pacman_Tilemap]
+[2018.02.10-18.42.00:555][915]LogSavePackage: Save=21.85ms
+[2018.02.10-18.42.00:556][915]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_Tilemap_Auto23E7F12FD403E138D715273ABC85B9940.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Pacman_Tilemap_Auto2.uasset'
+[2018.02.10-18.42.00:558][915]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Pacman_Tilemap_Auto2.uasset
+[2018.02.10-18.42.00:559][915]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Pacman_minigame/black_Sprite] ([1] browsable assets)...
+[2018.02.10-18.42.00:565][915]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Pacman_minigame/black_Sprite.black_Sprite]
+[2018.02.10-18.42.00:565][915]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Pacman_minigame/black_Sprite]
+[2018.02.10-18.42.00:575][915]LogSavePackage: Save=6.96ms
+[2018.02.10-18.42.00:575][915]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/black_Sprite_Auto226BD6B3E4E63722F1D9A22BB5358AC9E.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/black_Sprite_Auto2.uasset'
+[2018.02.10-18.42.00:576][915]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/black_Sprite_Auto2.uasset
+[2018.02.10-18.42.00:577][915]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Pacman_minigame/pacman_Sprite] ([1] browsable assets)...
+[2018.02.10-18.42.00:584][915]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Sprites/Pacman_minigame/pacman_Sprite.pacman_Sprite]
+[2018.02.10-18.42.00:584][915]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Pacman_minigame/pacman_Sprite]
+[2018.02.10-18.42.00:593][915]LogSavePackage: Save=6.81ms
+[2018.02.10-18.42.00:593][915]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/pacman_Sprite_Auto2644D708B4C9B90873808398F4F22A592.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/pacman_Sprite_Auto2.uasset'
+[2018.02.10-18.42.00:594][915]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/pacman_Sprite_Auto2.uasset
+[2018.02.10-18.42.00:594][915]LogFileHelpers: Auto-saving content packages took 0.138
+[2018.02.10-18.42.06:050][186]Cmd: TRANSACTION UNDO
+[2018.02.10-18.42.06:050][186]LogEditorTransaction: Undo Tile Paint Bucket
+[2018.02.10-18.42.25:627][329]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (orange_Sprite2)
+[2018.02.10-18.43.57:832][694]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.10-18.43.58:074][706]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2018.02.10-18.44.00:548][853]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Pacman_Tilemap)
+[2018.02.10-18.44.01:340][898]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.10-18.44.22:690][177]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.10-18.44.23:355][214]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.10-18.44.24:017][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.10-18.46.09:088][868]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (pacman_Sprite)
+[2018.02.10-18.46.20:375][525]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.10-18.46.21:636][598]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (orange_Sprite62)
+[2018.02.10-18.46.30:896][144]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.10-18.46.31:674][188]Cmd: DELETE
+[2018.02.10-18.46.31:674][188]Cmd: ACTOR DELETE
+[2018.02.10-18.46.31:674][188]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.10-18.46.31:687][188]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.02.10-18.46.37:062][507]LogActorFactory: Actor Factory created Cube
+[2018.02.10-18.46.37:298][521]LogActorFactory: Actor Factory created Cube
+[2018.02.10-18.46.41:651][777]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube)
+[2018.02.10-18.46.49:805][263]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.10-18.46.50:688][314]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.10-18.47.05:059][156]LogMaterial: Missing cached shader map for material Black, compiling. 
+[2018.02.10-18.47.05:558][156]LogMaterial: Missing cached shader map for material Black, compiling. 
+[2018.02.10-18.47.05:597][156]LogMaterial: Missing cached shader map for material Black, compiling. 
+[2018.02.10-18.47.12:891][511]LogMaterial: Missing cached shader map for material Black, compiling. 
+[2018.02.10-18.47.12:907][511]LogMaterial: Missing cached shader map for material Black, compiling. 
+[2018.02.10-18.47.12:908][511]LogMaterial:Warning: Failed to compile Material /Engine/Transient.Black for platform PCD3D_SM5, Default Material will be used in game.
+[2018.02.10-18.47.12:908][511]LogMaterial:Warning: 	(Node Desaturation) Missing Desaturation input
+[2018.02.10-18.47.12:928][511]MaterialEditorStats:Error: Error [SM5] (Node Desaturation) Missing Desaturation input
+[2018.02.10-18.47.15:161][639]LogMaterial: Missing cached shader map for material Black, compiling. 
+[2018.02.10-18.47.16:431][689]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.02.10-18.47.16:431][689]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.02.10-18.47.16:431][689]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.02.10-18.52.01:542][654]LogSavePackage: Save=92.43ms
+[2018.02.10-18.52.01:542][654]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_minigame_Auto39C05524A48467B09F4C8C6BE382E797E.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Levels/Pacman_minigame_Auto3.umap'
+[2018.02.10-18.52.01:544][654]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Levels/Pacman_minigame_Auto3.umap
+[2018.02.10-18.52.01:546][654]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Pacman_minigame' took 0.124
+[2018.02.10-18.52.01:546][654]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.124
+[2018.02.10-18.52.01:549][654]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/Black] ([1] browsable assets)...
+[2018.02.10-18.52.01:561][654]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/Black.Black]
+[2018.02.10-18.52.01:561][654]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/Black]
+[2018.02.10-18.52.01:561][654]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Black" FILE="../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Materials/Black_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.02.10-18.52.01:577][654]LogSavePackage: Save=14.23ms
+[2018.02.10-18.52.01:577][654]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Black_Auto3A158B904477822F55519E997C2C82B4D.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Materials/Black_Auto3.uasset'
+[2018.02.10-18.52.01:578][654]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Materials/Black_Auto3.uasset
+[2018.02.10-18.52.01:578][654]LogFileHelpers: Auto-saving content packages took 0.031
+[2018.02.10-18.52.32:033][193]LogSavePackage: Save=81.83ms
+[2018.02.10-18.52.32:033][193]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_minigame74BFC4104FE493ADABFDCAA6594E3D6E.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap'
+[2018.02.10-18.52.32:039][193]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap
+[2018.02.10-18.52.32:069][193]LogFileHelpers: Saving map 'Pacman_minigame' took 0.191
+[2018.02.10-18.52.32:084][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Black" FILE="../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Materials/Black.uasset" SILENT=true
+[2018.02.10-18.52.32:100][193]LogSavePackage: Save=13.75ms
+[2018.02.10-18.52.32:100][193]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Black14ED09DC481EE7590CCCA081E40AE58C.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Materials/Black.uasset'
+[2018.02.10-18.52.32:106][193]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Materials/Black.uasset
+[2018.02.10-18.52.32:119][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Pacman_minigame/black" FILE="../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/black.uasset" SILENT=true
+[2018.02.10-18.52.32:134][193]LogSavePackage: Save=12.01ms
+[2018.02.10-18.52.32:134][193]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/black470CCAEF4640E3E79F401C99C1DA2E38.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/black.uasset'
+[2018.02.10-18.52.32:147][193]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/black.uasset
+[2018.02.10-18.52.32:183][193]LogSavePackage: Save=13.68ms
+[2018.02.10-18.52.32:183][193]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/black_Sprite6D032BA440DC4D7DE40FE6B151F47704.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/black_Sprite.uasset'
+[2018.02.10-18.52.32:196][193]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/black_Sprite.uasset
+[2018.02.10-18.52.32:203][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Pacman_minigame/orange" FILE="../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/orange.uasset" SILENT=true
+[2018.02.10-18.52.32:213][193]LogSavePackage: Save=6.66ms
+[2018.02.10-18.52.32:213][193]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/orange92936D724035586B3B143ABF7F3B6BB7.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/orange.uasset'
+[2018.02.10-18.52.32:221][193]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/orange.uasset
+[2018.02.10-18.52.32:246][193]LogSavePackage: Save=9.24ms
+[2018.02.10-18.52.32:246][193]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/orange_Sprite5A2F555249CA4867AEDE6A8E2B818121.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/orange_Sprite.uasset'
+[2018.02.10-18.52.32:255][193]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/orange_Sprite.uasset
+[2018.02.10-18.52.32:278][193]LogSavePackage: Save=8.25ms
+[2018.02.10-18.52.32:278][193]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/orange_TileSetC2B2A1F64F3DA1152EB226BDFC9ECA04.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/orange_TileSet.uasset'
+[2018.02.10-18.52.32:287][193]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/orange_TileSet.uasset
+[2018.02.10-18.52.32:293][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Pacman_minigame/pacman" FILE="../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/pacman.uasset" SILENT=true
+[2018.02.10-18.52.32:303][193]LogSavePackage: Save=7.47ms
+[2018.02.10-18.52.32:303][193]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/pacmanF1CFE7DE4A10CE4CE79097A1D8F9B221.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/pacman.uasset'
+[2018.02.10-18.52.32:310][193]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/pacman.uasset
+[2018.02.10-18.52.32:331][193]LogSavePackage: Save=7.30ms
+[2018.02.10-18.52.32:331][193]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/pacman_SpriteEE27E2734249E9FB31F72DA1CB49F3AF.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/pacman_Sprite.uasset'
+[2018.02.10-18.52.32:336][193]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/pacman_Sprite.uasset
+[2018.02.10-18.52.34:724][225]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Filip/Desktop/Pacman assets/orange-pixilart.png)
+[2018.02.10-18.52.34:733][225]LogTexture:Display: Building textures: orange-pixilart (AutoDXT, 128X128)
+[2018.02.10-18.52.39:045][478]LogTexture:Display: Building textures: orange-pixilart (BGRA8, 128X128)
+[2018.02.10-18.53.04:205][687]LogSavePackage: Save=7.16ms
+[2018.02.10-18.53.04:205][687]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/orange-pixilart_TileSet49E1D14143F20C444E8072A01B9F8598.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/orange-pixilart_TileSet.uasset'
+[2018.02.10-18.53.04:208][687]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/orange-pixilart_TileSet.uasset
+[2018.02.10-18.53.12:367][151]LogSavePackage: Save=16.68ms
+[2018.02.10-18.53.12:367][151]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_TilemapDFA5841E49C9E2D7449CB5B7E881FEB6.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Pacman_Tilemap.uasset'
+[2018.02.10-18.53.12:369][151]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Pacman_Tilemap.uasset
+[2018.02.10-18.53.29:461][ 67]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.02.10-18.53.35:153][407]Cmd: ACTOR SELECT ALL
+[2018.02.10-18.53.36:263][472]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.10-18.53.44:298][950]Cmd: ACTOR SELECT MATCHINGMATERIAL
+[2018.02.10-18.53.45:229][  5]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.10-18.53.46:537][ 82]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.10-18.53.47:281][126]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.10-18.54.05:318][191]Cmd: DELETE
+[2018.02.10-18.54.05:318][191]Cmd: ACTOR DELETE
+[2018.02.10-18.54.05:319][191]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.05:332][191]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2018.02.10-18.54.09:576][445]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.09:586][445]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.02.10-18.54.10:361][491]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.10:371][491]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.02.10-18.54.10:897][522]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.10:905][522]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.02.10-18.54.12:016][588]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.12:023][588]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2018.02.10-18.54.12:564][620]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.12:572][620]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2018.02.10-18.54.13:064][649]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.13:071][649]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2018.02.10-18.54.13:948][701]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.13:956][701]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.02.10-18.54.14:780][750]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.14:789][750]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.02.10-18.54.15:400][786]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.15:408][786]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2018.02.10-18.54.15:948][818]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.15:956][818]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2018.02.10-18.54.16:483][849]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.16:496][849]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2018.02.10-18.54.17:322][898]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.17:331][898]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.02.10-18.54.18:070][942]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.18:082][942]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.02.10-18.54.18:687][978]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.18:697][978]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.02.10-18.54.19:220][  9]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.19:231][  9]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.02.10-18.54.20:039][ 57]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.20:049][ 57]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.02.10-18.54.20:754][ 99]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.20:763][ 99]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.02.10-18.54.21:389][136]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.21:399][136]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.02.10-18.54.22:682][212]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.22:690][212]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2018.02.10-18.54.23:314][249]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.23:323][249]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.02.10-18.54.23:929][285]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.23:939][285]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.02.10-18.54.24:548][321]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.24:555][321]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2018.02.10-18.54.25:146][356]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.25:156][356]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.02.10-18.54.25:679][387]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.25:688][387]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.02.10-18.54.26:192][417]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.26:203][417]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.02.10-18.54.26:709][447]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.26:720][447]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.02.10-18.54.27:292][481]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.27:302][481]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.02.10-18.54.27:842][513]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.27:853][513]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.02.10-18.54.28:429][547]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.28:438][547]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.02.10-18.54.29:030][582]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.29:038][582]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2018.02.10-18.54.29:609][616]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.29:620][616]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.02.10-18.54.30:442][665]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.30:454][665]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.02.10-18.54.31:313][716]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.31:321][716]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.02.10-18.54.32:045][759]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.32:054][759]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.02.10-18.54.32:797][803]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.32:804][803]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2018.02.10-18.54.33:463][842]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.33:472][842]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.02.10-18.54.34:081][878]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.34:090][878]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.02.10-18.54.34:763][918]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.34:772][918]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.02.10-18.54.35:362][953]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.35:371][953]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.02.10-18.54.35:960][988]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.35:970][988]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.02.10-18.54.36:526][ 21]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.36:536][ 21]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.02.10-18.54.37:111][ 55]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.37:120][ 55]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.02.10-18.54.37:643][ 86]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.37:654][ 86]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.02.10-18.54.38:194][118]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.38:204][118]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.02.10-18.54.38:801][153]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.38:809][153]LogEditorActor: Deleted 1 Actors (0.008 secs)
+[2018.02.10-18.54.39:348][185]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.39:356][185]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.02.10-18.54.52:805][969]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.52:805][969]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.52:805][969]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.52:805][969]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.52:805][969]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.52:805][969]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.52:805][969]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.52:805][969]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.52:805][969]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.52:805][969]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.52:805][969]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.52:806][969]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.52:806][969]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.52:806][969]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.52:806][969]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.52:806][969]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.52:806][969]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.52:806][969]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.52:806][969]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.52:806][969]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-18.54.52:816][969]LogEditorActor: Deleted 20 Actors (0.012 secs)
+[2018.02.10-18.55.37:330][639]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Pacman_Tilemap)
+[2018.02.10-18.55.55:378][673]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.10-18.55.56:589][744]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.02.10-18.55.57:295][784]Cmd: DELETE
+[2018.02.10-18.55.57:295][784]Cmd: ACTOR DELETE
+[2018.02.10-18.55.57:296][784]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.02.10-18.55.57:305][784]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2018.02.10-18.56.36:657][144]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (pacman_Sprite)
+[2018.02.10-18.56.40:656][380]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.10-18.56.43:154][527]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (pacman_Sprite)
+[2018.02.10-18.56.47:121][760]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.10-18.58.17:634][160]LogSavePackage: Save=16.15ms
+[2018.02.10-18.58.17:634][160]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_TilemapBD03003945788A0D7700019FFA7A1605.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Pacman_Tilemap.uasset'
+[2018.02.10-18.58.17:637][160]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Pacman_Tilemap.uasset
+[2018.02.10-18.59.58:506][382]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 112 classes and 0 folders.
+[2018.02.10-19.00.34:979][ 99]BlueprintLog: New page: Compile Spawner
+[2018.02.10-19.00.40:910][376]LogRenderer: Reallocating scene render targets to support 1064x708 NumSamples 1 (Frame:93696).
+[2018.02.10-19.00.53:559][100]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.10-19.00.59:957][479]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.10-19.01.01:170][550]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (pacman_Sprite)
+[2018.02.10-19.01.08:805][  4]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2018.02.10-19.02.06:729][806]LogSlate: Took 0.023842 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.02.10-19.02.44:710][964]BlueprintLog: New page: Compile Spawner
+[2018.02.10-19.03.46:123][177]LogSavePackage: Save=17.94ms
+[2018.02.10-19.03.46:123][177]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_minigame_Auto449B5408C452D6ABB69C6089DE4FB5509.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Levels/Pacman_minigame_Auto4.umap'
+[2018.02.10-19.03.46:124][177]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Levels/Pacman_minigame_Auto4.umap
+[2018.02.10-19.03.46:126][177]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Pacman_minigame' took 0.056
+[2018.02.10-19.03.46:126][177]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.056
+[2018.02.10-19.03.46:131][177]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Pacman_minigame/orange-pixilart] ([1] browsable assets)...
+[2018.02.10-19.03.46:134][177]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/Pacman_minigame/orange-pixilart.orange-pixilart]
+[2018.02.10-19.03.46:134][177]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Pacman_minigame/orange-pixilart]
+[2018.02.10-19.03.46:141][177]LogSavePackage: Save=5.42ms
+[2018.02.10-19.03.46:141][177]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/orange-pixilart_Auto42BE8F1674DBA41A32967A7A42F381EC5.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/orange-pixilart_Auto4.uasset'
+[2018.02.10-19.03.46:142][177]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/orange-pixilart_Auto4.uasset
+[2018.02.10-19.03.46:142][177]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sprites/Pacman_minigame/Spawner] ([1] browsable assets)...
+[2018.02.10-19.03.46:142][177]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Pacman_minigame/Spawner]
+[2018.02.10-19.03.46:160][177]LogSavePackage: Save=15.02ms
+[2018.02.10-19.03.46:160][177]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Spawner_Auto47B13C0EB46D74CA0A1ED2CA96C4634D3.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Spawner_Auto4.uasset'
+[2018.02.10-19.03.46:163][177]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Spawner_Auto4.uasset
+[2018.02.10-19.03.46:163][177]LogFileHelpers: Auto-saving content packages took 0.034
+[2018.02.10-19.05.56:869][723]BlueprintLog: New page: Compile Spawner
+[2018.02.10-19.05.56:911][723]LogBlueprint:Error: [Compiler Spawner] Error Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2018.02.10-19.05.57:130][723]BlueprintEditorCompileResults:Error: Error Spawn node  SpawnActor NONE  must have a  Class  specified.
+[2018.02.10-19.05.57:131][723]LogBlueprint:Warning: [Compiler Spawner] Warning [3616.34] Compile of Spawner failed. 1 Fatal Issue(s) 0 Warning(s) [in 261 ms] (/Game/Sprites/Pacman_minigame/Spawner.Spawner)
+[2018.02.10-19.05.58:209][785]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Sprites/Pacman_minigame/Spawner" FILE="../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Spawner.uasset" SILENT=true
+[2018.02.10-19.05.58:233][785]LogSavePackage: Save=21.63ms
+[2018.02.10-19.05.58:233][785]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Spawner1EB1392C4752995DE14EA48C7ACA4E8A.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Spawner.uasset'
+[2018.02.10-19.05.58:239][785]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Spawner.uasset
+[2018.02.10-19.06.45:215][494]LogEditorActor: Deleted Actor: SkyLight
+[2018.02.10-19.06.45:238][494]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2018.02.10-19.06.46:920][594]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2018.02.10-19.06.46:942][594]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.02.10-19.06.52:540][927]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (pacman_Sprite)
+[2018.02.10-19.07.25:167][355]Cmd: EDIT CUT
+[2018.02.10-19.07.25:172][355]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2018.02.10-19.07.25:199][355]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2018.02.10-19.07.28:221][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/NewBlueprint.NewBlueprint:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Sprites/Pacman_minigame/NewBlueprint.PackageMetaData'
+[2018.02.10-19.07.28:221][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/NewBlueprint.SKEL_NewBlueprint_C:UserConstructionScript' ref from Metadata '/Game/Sprites/Pacman_minigame/NewBlueprint.PackageMetaData'
+[2018.02.10-19.07.28:221][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/NewBlueprint.SKEL_NewBlueprint_C' ref from Metadata '/Game/Sprites/Pacman_minigame/NewBlueprint.PackageMetaData'
+[2018.02.10-19.07.28:221][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/NewBlueprint.NewBlueprint_C:UserConstructionScript' ref from Metadata '/Game/Sprites/Pacman_minigame/NewBlueprint.PackageMetaData'
+[2018.02.10-19.07.28:221][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/NewBlueprint.NewBlueprint_C' ref from Metadata '/Game/Sprites/Pacman_minigame/NewBlueprint.PackageMetaData'
+[2018.02.10-19.07.28:221][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/NewBlueprint.NewBlueprint:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Sprites/Pacman_minigame/NewBlueprint.PackageMetaData'
+[2018.02.10-19.07.28:221][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/NewBlueprint.NewBlueprint:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Sprites/Pacman_minigame/NewBlueprint.PackageMetaData'
+[2018.02.10-19.07.28:221][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/NewBlueprint.NewBlueprint:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Sprites/Pacman_minigame/NewBlueprint.PackageMetaData'
+[2018.02.10-19.07.28:227][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Spawner.Spawner:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Sprites/Pacman_minigame/Spawner.PackageMetaData'
+[2018.02.10-19.07.28:227][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Spawner.SKEL_Spawner_C' ref from Metadata '/Game/Sprites/Pacman_minigame/Spawner.PackageMetaData'
+[2018.02.10-19.07.28:227][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Spawner.SKEL_Spawner_C:ReceiveBeginPlay' ref from Metadata '/Game/Sprites/Pacman_minigame/Spawner.PackageMetaData'
+[2018.02.10-19.07.28:227][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Spawner.SKEL_Spawner_C:DefaultSceneRoot' ref from Metadata '/Game/Sprites/Pacman_minigame/Spawner.PackageMetaData'
+[2018.02.10-19.07.28:227][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Spawner.Spawner_C' ref from Metadata '/Game/Sprites/Pacman_minigame/Spawner.PackageMetaData'
+[2018.02.10-19.07.28:227][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Spawner.Spawner:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Sprites/Pacman_minigame/Spawner.PackageMetaData'
+[2018.02.10-19.07.28:227][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Spawner.Spawner:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Sprites/Pacman_minigame/Spawner.PackageMetaData'
+[2018.02.10-19.07.28:227][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Spawner.Spawner:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Sprites/Pacman_minigame/Spawner.PackageMetaData'
+[2018.02.10-19.07.28:227][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Spawner.SKEL_Spawner_C:UserConstructionScript' ref from Metadata '/Game/Sprites/Pacman_minigame/Spawner.PackageMetaData'
+[2018.02.10-19.07.28:227][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Spawner.SKEL_Spawner_C:TargetCharacter' ref from Metadata '/Game/Sprites/Pacman_minigame/Spawner.PackageMetaData'
+[2018.02.10-19.07.28:227][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Spawner.SKEL_Spawner_C:ExecuteUbergraph_Spawner' ref from Metadata '/Game/Sprites/Pacman_minigame/Spawner.PackageMetaData'
+[2018.02.10-19.07.28:227][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Spawner.Spawner_C:TargetCharacter' ref from Metadata '/Game/Sprites/Pacman_minigame/Spawner.PackageMetaData'
+[2018.02.10-19.07.28:227][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Spawner.Spawner_C:DefaultSceneRoot' ref from Metadata '/Game/Sprites/Pacman_minigame/Spawner.PackageMetaData'
+[2018.02.10-19.07.28:227][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Spawner.Spawner_C:ReceiveBeginPlay' ref from Metadata '/Game/Sprites/Pacman_minigame/Spawner.PackageMetaData'
+[2018.02.10-19.07.28:227][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Spawner.Spawner_C:UserConstructionScript' ref from Metadata '/Game/Sprites/Pacman_minigame/Spawner.PackageMetaData'
+[2018.02.10-19.07.28:227][533]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Spawner.Spawner_C:ExecuteUbergraph_Spawner' ref from Metadata '/Game/Sprites/Pacman_minigame/Spawner.PackageMetaData'
+[2018.02.10-19.07.28:275][533]LogSavePackage: Save=20.56ms
+[2018.02.10-19.07.28:275][533]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/NewBlueprint1C0AFB9D4B51F32DCEBEED811B9A2A32.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/NewBlueprint.uasset'
+[2018.02.10-19.07.28:278][533]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/NewBlueprint.uasset
+[2018.02.10-19.07.28:306][533]LogSavePackage: Save=20.00ms
+[2018.02.10-19.07.28:306][533]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Spawner7AF1B7334FE69359711FACB08B651142.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Spawner.uasset'
+[2018.02.10-19.07.28:309][533]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Spawner.uasset
+[2018.02.10-19.07.48:632][691]LogSavePackage: Save=15.65ms
+[2018.02.10-19.07.48:632][691]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/blackCBC41B924E5F74E9567096896471DE24.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/black.uasset'
+[2018.02.10-19.07.48:635][691]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/black.uasset
+[2018.02.10-19.07.48:667][691]LogSavePackage: Save=12.36ms
+[2018.02.10-19.07.48:668][691]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/black_Sprite3A05E388471F58FB33D78C8D0F554A27.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/black_Sprite.uasset'
+[2018.02.10-19.07.48:670][691]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/black_Sprite.uasset
+[2018.02.10-19.07.48:690][691]LogSavePackage: Save=6.89ms
+[2018.02.10-19.07.48:690][691]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/black_TileSet7E70C51C442780F75A0841B963B9045F.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/black_TileSet.uasset'
+[2018.02.10-19.07.48:693][691]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/black_TileSet.uasset
+[2018.02.10-19.07.48:707][691]LogSavePackage: Save=5.37ms
+[2018.02.10-19.07.48:707][691]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/orange3DE0ACEC421C6F2095F2AF9C558A2F19.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/orange.uasset'
+[2018.02.10-19.07.48:709][691]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/orange.uasset
+[2018.02.10-19.07.48:729][691]LogSavePackage: Save=8.46ms
+[2018.02.10-19.07.48:729][691]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/orange-pixilart40FAEE4D4F816BBC478CDBB1C9F0EE9B.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/orange-pixilart.uasset'
+[2018.02.10-19.07.48:735][691]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/orange-pixilart.uasset
+[2018.02.10-19.07.48:775][691]LogSavePackage: Save=7.62ms
+[2018.02.10-19.07.48:775][691]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/orange-pixilart_TileSet377B7DCF493B6609F8E863A237420FE3.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/orange-pixilart_TileSet.uasset'
+[2018.02.10-19.07.48:779][691]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/orange-pixilart_TileSet.uasset
+[2018.02.10-19.07.48:807][691]LogSavePackage: Save=7.96ms
+[2018.02.10-19.07.48:807][691]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/orange_SpriteF37054194CF9C5F89177649D9EC80D1F.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/orange_Sprite.uasset'
+[2018.02.10-19.07.48:809][691]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/orange_Sprite.uasset
+[2018.02.10-19.07.48:825][691]LogSavePackage: Save=4.31ms
+[2018.02.10-19.07.48:825][691]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/orange_Sprite13A04AC34D5B0FB30DF4AFA75706BF6F.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/orange_Sprite.uasset'
+[2018.02.10-19.07.48:828][691]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/orange_Sprite.uasset
+[2018.02.10-19.07.48:858][691]LogSavePackage: Save=7.17ms
+[2018.02.10-19.07.48:858][691]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/orange_TileSetBDC8BCAD47A20DA01182EF9FBA405EC0.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/orange_TileSet.uasset'
+[2018.02.10-19.07.48:860][691]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/orange_TileSet.uasset
+[2018.02.10-19.07.48:881][691]LogSavePackage: Save=8.38ms
+[2018.02.10-19.07.48:882][691]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/pacman9B8522DC4732CA56AE6CDB9A8EE6A884.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/pacman.uasset'
+[2018.02.10-19.07.48:884][691]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/pacman.uasset
+[2018.02.10-19.07.48:908][691]LogSavePackage: Save=7.91ms
+[2018.02.10-19.07.48:908][691]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/pacman_Sprite9D9AE51A4D4E86E5DADF14B137BB2C35.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/pacman_Sprite.uasset'
+[2018.02.10-19.07.48:910][691]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/pacman_Sprite.uasset
+[2018.02.10-19.07.48:930][691]LogSavePackage: Save=5.90ms
+[2018.02.10-19.07.48:930][691]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/pacman_SpriteC88BF4FD4B38A50A48B10CBCF2F385DB.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/pacman_Sprite.uasset'
+[2018.02.10-19.07.48:934][691]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/pacman_Sprite.uasset
+[2018.02.10-19.07.48:956][691]LogSavePackage: Save=14.77ms
+[2018.02.10-19.07.48:956][691]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_TilemapCAF590944B9076B38896D79E994D8594.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/Pacman_Tilemap.uasset'
+[2018.02.10-19.07.48:958][691]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/Pacman_Tilemap.uasset
+[2018.02.10-19.07.48:983][691]LogSavePackage: Save=8.43ms
+[2018.02.10-19.07.48:983][691]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_TilemapBCBD2DDD4005FB654162FFABDB2F3750.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Pacman_Tilemap.uasset'
+[2018.02.10-19.07.48:986][691]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Pacman_Tilemap.uasset
+[2018.02.10-19.07.49:009][691]LogSavePackage: Save=7.85ms
+[2018.02.10-19.07.49:009][691]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/pacman_TileSet1542E5BB4D6E39DC47DC43B0A6B356A8.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/pacman_TileSet.uasset'
+[2018.02.10-19.07.49:014][691]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/pacman_TileSet.uasset
+[2018.02.10-19.09.27:065][786]BlueprintLog: New page: Compile Spawner
+[2018.02.10-19.09.30:849][939]LogSavePackage: Save=23.68ms
+[2018.02.10-19.09.30:849][939]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Spawner126B21C04A10F993DABB09BAAE5C1325.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Spawner.uasset'
+[2018.02.10-19.09.30:854][939]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Spawner.uasset
+[2018.02.10-19.09.50:599][512]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.02.10-19.09.54:148][720]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Pacman_Tilemap)
+[2018.02.10-19.13.18:008][114]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'PaperTileLayer_10' or package '/Engine/Transient'.
+[2018.02.10-19.13.18:008][114]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'PaperTileMapComponent_20' or package '/Engine/Transient'.
+[2018.02.10-19.13.22:848][231]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Filip/Desktop/Pacman assets/black.png)
+[2018.02.10-19.13.22:851][231]LogTexture:Display: Building textures: black (AutoDXT, 128X128)
+[2018.02.10-19.13.25:609][282]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Filip/Desktop/Pacman assets/wall-pixilart.png)
+[2018.02.10-19.13.25:611][282]LogTexture:Display: Building textures: wall-pixilart (AutoDXT, 128X128)
+[2018.02.10-19.13.29:108][485]LogTexture:Display: Building textures: black (BGRA8, 128X128)
+[2018.02.10-19.13.32:189][666]LogTexture:Display: Building textures: wall-pixilart (BGRA8, 128X128)
+[2018.02.10-19.13.43:291][290]LogSavePackage: Save=6.94ms
+[2018.02.10-19.13.43:291][290]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/black_TileSet9EC35E124E85A5AFC1D6949D541C3039.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/black_TileSet.uasset'
+[2018.02.10-19.13.43:294][290]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/black_TileSet.uasset
+[2018.02.10-19.13.55:909][918]LogSavePackage: Save=7.50ms
+[2018.02.10-19.13.55:909][918]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/wall-pixilart_TileSet2055410E499FC0D7865F4BBE0C99AF63.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/wall-pixilart_TileSet.uasset'
+[2018.02.10-19.13.55:913][918]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/wall-pixilart_TileSet.uasset
+[2018.02.10-19.14.01:491][239]LogSavePackage: Save=16.17ms
+[2018.02.10-19.14.01:491][239]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/wall-pixilart_TileSet1A9B39AF40AD1A3DE9290F8355082A9B.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/wall-pixilart_TileSet.uasset'
+[2018.02.10-19.14.01:493][239]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/wall-pixilart_TileSet.uasset
+[2018.02.10-19.14.38:173][289]LogEditorViewport: Clicking Background
+[2018.02.10-19.14.46:801][805]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2018.02.10-19.14.46:822][805]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2018.02.10-19.17.16:774][745]LogSavePackage: Save=61.44ms
+[2018.02.10-19.17.16:774][745]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_tilemap802CA0FA46FE265A370EBDA569E254AB.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/Pacman_tilemap.uasset'
+[2018.02.10-19.17.16:777][745]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/Pacman_tilemap.uasset
+[2018.02.10-19.17.43:906][358]LogSavePackage: Save=73.44ms
+[2018.02.10-19.17.43:906][358]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_tilemap7477710F4A94EF51E11008BDDF468FC2.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/Pacman_tilemap.uasset'
+[2018.02.10-19.17.43:909][358]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/Pacman_tilemap.uasset
+[2018.02.10-19.17.55:057][696]LogSavePackage: Save=75.51ms
+[2018.02.10-19.17.55:057][696]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_tilemap2EE8A06D43995DC5746E80B0BC3EC241.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/Pacman_tilemap.uasset'
+[2018.02.10-19.17.55:058][696]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/Pacman_tilemap.uasset
+[2018.02.10-19.18.30:778][584]LogSavePackage: Save=9.61ms
+[2018.02.10-19.18.30:778][584]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_minigame_Auto5B9BB4432423E102916777D8FB05C64F3.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Levels/Pacman_minigame_Auto5.umap'
+[2018.02.10-19.18.30:780][584]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Levels/Pacman_minigame_Auto5.umap
+[2018.02.10-19.18.30:783][584]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Pacman_minigame' took 0.045
+[2018.02.10-19.18.30:783][584]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.045
+[2018.02.10-19.18.30:786][584]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sprites/Pacman_minigame/Pacman_Tilemap] ([1] browsable assets)...
+[2018.02.10-19.18.30:786][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Pacman_minigame/Pacman_Tilemap]
+[2018.02.10-19.18.30:795][584]LogSavePackage: Save=4.00ms
+[2018.02.10-19.18.30:795][584]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_Tilemap_Auto570EAA9E04E03E7554D3B50BBAA6A2F62.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Pacman_Tilemap_Auto5.uasset'
+[2018.02.10-19.18.30:797][584]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Pacman_Tilemap_Auto5.uasset
+[2018.02.10-19.18.30:798][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Pacman_minigame/Tiles/wall-pixilart] ([1] browsable assets)...
+[2018.02.10-19.18.30:801][584]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/Pacman_minigame/Tiles/wall-pixilart.wall-pixilart]
+[2018.02.10-19.18.30:801][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Pacman_minigame/Tiles/wall-pixilart]
+[2018.02.10-19.18.30:809][584]LogSavePackage: Save=5.94ms
+[2018.02.10-19.18.30:809][584]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/wall-pixilart_Auto535216C604CEA2F521B21548F1949E4B7.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Tiles/wall-pixilart_Auto5.uasset'
+[2018.02.10-19.18.30:810][584]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Tiles/wall-pixilart_Auto5.uasset
+[2018.02.10-19.18.30:811][584]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Pacman_minigame/Tiles/black] ([1] browsable assets)...
+[2018.02.10-19.18.30:814][584]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Sprites/Pacman_minigame/Tiles/black.black]
+[2018.02.10-19.18.30:814][584]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Pacman_minigame/Tiles/black]
+[2018.02.10-19.18.30:822][584]LogSavePackage: Save=4.97ms
+[2018.02.10-19.18.30:822][584]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/black_Auto5894BE2B64C969672CF1E45B53E5FF991.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Tiles/black_Auto5.uasset'
+[2018.02.10-19.18.30:823][584]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Tiles/black_Auto5.uasset
+[2018.02.10-19.18.30:823][584]LogFileHelpers: Auto-saving content packages took 0.038
+[2018.02.10-19.21.19:950][992]LogSavePackage: Save=25.33ms
+[2018.02.10-19.21.19:950][992]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_tilemap8E7C749F494AB255222D5298234B1235.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/Pacman_tilemap.uasset'
+[2018.02.10-19.21.19:953][992]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/Pacman_tilemap.uasset
+[2018.02.10-19.21.35:552][823]LogSavePackage: Save=25.20ms
+[2018.02.10-19.21.35:552][823]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_tilemap6130CA144F7C77C0F4D7139C607BFA91.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/Pacman_tilemap.uasset'
+[2018.02.10-19.21.35:555][823]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/Pacman_tilemap.uasset
+[2018.02.10-19.23.19:944][215]LogSavePackage: Save=19.41ms
+[2018.02.10-19.23.19:944][215]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/SpawnerCC4E04A942D69A2DBD960AB7401A8EF7.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Spawner.uasset'
+[2018.02.10-19.23.19:946][215]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Spawner.uasset
+[2018.02.10-19.23.40:273][324]LogEditorViewport: Clicking Background
+[2018.02.10-19.24.11:123][233]LogEditorViewport: Clicking Background
+[2018.02.10-19.24.45:856][293]Cmd: TRANSACTION UNDO
+[2018.02.10-19.24.45:856][293]LogEditorTransaction: Undo Tile Erasing
+[2018.02.10-19.24.48:520][445]LogSavePackage: Save=28.44ms
+[2018.02.10-19.24.48:520][445]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_tilemapA8109BD44A9F1111F73CB3B48CC2F2D8.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/Pacman_tilemap.uasset'
+[2018.02.10-19.24.48:523][445]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/Pacman_tilemap.uasset
+[2018.02.10-19.26.04:774][671]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Pacman.Pacman:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Sprites/Pacman_minigame/Blueprints/NewBlueprint.PackageMetaData'
+[2018.02.10-19.26.04:774][671]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Pacman.SKEL_Pacman_C' ref from Metadata '/Game/Sprites/Pacman_minigame/Blueprints/NewBlueprint.PackageMetaData'
+[2018.02.10-19.26.04:774][671]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Pacman.Pacman_C' ref from Metadata '/Game/Sprites/Pacman_minigame/Blueprints/NewBlueprint.PackageMetaData'
+[2018.02.10-19.26.04:774][671]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Pacman.Pacman:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Sprites/Pacman_minigame/Blueprints/NewBlueprint.PackageMetaData'
+[2018.02.10-19.26.04:774][671]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Pacman.Pacman:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Sprites/Pacman_minigame/Blueprints/NewBlueprint.PackageMetaData'
+[2018.02.10-19.26.04:774][671]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Pacman.Pacman:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Sprites/Pacman_minigame/Blueprints/NewBlueprint.PackageMetaData'
+[2018.02.10-19.26.04:810][671]LogSavePackage: Save=17.50ms
+[2018.02.10-19.26.04:810][671]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/PacmanB2105A7041E0682AC8C0A7827F1ACA9F.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman.uasset'
+[2018.02.10-19.26.04:812][671]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman.uasset
+[2018.02.10-19.26.23:261][180]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.10-19.26.35:798][765]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Pacman_minigame.Pacman_minigame_C' ref from Metadata '/Game/Sprites/Pacman_minigame/Blueprints/Pacman.PackageMetaData'
+[2018.02.10-19.26.35:798][765]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Pacman_minigame.SKEL_Pacman_minigame_C' ref from Metadata '/Game/Sprites/Pacman_minigame/Blueprints/Pacman.PackageMetaData'
+[2018.02.10-19.26.35:798][765]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Pacman_minigame.Pacman_minigame:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Sprites/Pacman_minigame/Blueprints/Pacman.PackageMetaData'
+[2018.02.10-19.26.35:798][765]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Pacman_minigame.Pacman_minigame:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Sprites/Pacman_minigame/Blueprints/Pacman.PackageMetaData'
+[2018.02.10-19.26.35:798][765]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Pacman_minigame.Pacman_minigame:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Sprites/Pacman_minigame/Blueprints/Pacman.PackageMetaData'
+[2018.02.10-19.26.35:798][765]LogMetaData: Removing '/Game/Sprites/Pacman_minigame/Blueprints/Pacman_minigame.Pacman_minigame:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Sprites/Pacman_minigame/Blueprints/Pacman.PackageMetaData'
+[2018.02.10-19.26.35:833][765]LogSavePackage: Save=18.50ms
+[2018.02.10-19.26.35:833][765]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_minigame32F7CBA9485A4CE6524F5994AC6E987B.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman_minigame.uasset'
+[2018.02.10-19.26.35:836][765]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman_minigame.uasset
+[2018.02.10-19.29.31:415][627]LogSavePackage: Save=11.16ms
+[2018.02.10-19.29.31:415][627]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_minigame_Auto68435BF2E4BFBBD0C67ECD688574EDCF6.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Levels/Pacman_minigame_Auto6.umap'
+[2018.02.10-19.29.31:417][627]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Levels/Pacman_minigame_Auto6.umap
+[2018.02.10-19.29.31:419][627]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Pacman_minigame' took 0.051
+[2018.02.10-19.29.31:419][627]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.051
+[2018.02.10-19.29.31:421][627]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sprites/Pacman_minigame/Blueprints/Pacman_minigame] ([1] browsable assets)...
+[2018.02.10-19.29.31:421][627]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Pacman_minigame/Blueprints/Pacman_minigame]
+[2018.02.10-19.29.31:448][627]LogSavePackage: Save=18.06ms
+[2018.02.10-19.29.31:449][627]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_minigame_Auto6E69C64D84C564A73E590B093897EA8E9.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Blueprints/Pacman_minigame_Auto6.uasset'
+[2018.02.10-19.29.31:451][627]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Blueprints/Pacman_minigame_Auto6.uasset
+[2018.02.10-19.29.31:451][627]LogFileHelpers: Auto-saving content packages took 0.031
+[2018.02.10-19.29.54:557][804]BlueprintLog: New page: Compile Pacman_minigame
+[2018.02.10-19.29.55:190][829]LogSavePackage: Save=16.49ms
+[2018.02.10-19.29.55:190][829]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_minigame768F415843246D6ED81C1E9ADAEA17F8.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman_minigame.uasset'
+[2018.02.10-19.29.55:199][829]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman_minigame.uasset
+[2018.02.10-19.30.01:879][220]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.10-19.30.01:902][220]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.10-19.30.01:902][220]PIE: New page: PIE session: Pacman_minigame (10 Feb 2018 19:30:01)
+[2018.02.10-19.30.01:902][220]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.10-19.30.01:903][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000928s)
+[2018.02.10-19.30.01:904][220]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.10-19.30.01:904][220]LogPlayLevel: PIE: World Init took: (0.001042s)
+[2018.02.10-19.30.01:904][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.002240s)
+[2018.02.10-19.30.01:920][220]LogInit: XAudio2 using 'Reproduktory / sluchátka (Realtek Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-19.30.01:989][220]LogInit: FAudioDevice initialized.
+[2018.02.10-19.30.02:038][220]LogLoad: Game class is 'GameModeBase'
+[2018.02.10-19.30.02:040][220]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 60) at 2018.02.10-19.30.02
+[2018.02.10-19.30.02:041][220]LogWorld: Bringing up level for play took: 0.001180
+[2018.02.10-19.30.02:088][220]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame 0.012
+[2018.02.10-19.30.29:492][430]BlueprintLog: New page: Compile Pacman_minigame
+[2018.02.10-19.30.33:523][654]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.02.10-19.30.34:288][679]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2018.02.10-19.32.05:822][761]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.10-19.32.57:239][ 38]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.02.10-19.33.21:796][240]BlueprintLog: New page: Compile Pacman-character_minigame
+[2018.02.10-19.33.53:383][111]BlueprintLog: New page: Compile Pacman-character_minigame
+[2018.02.10-19.33.53:940][131]LogSavePackage: Save=19.78ms
+[2018.02.10-19.33.53:940][131]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman-character_minigame6A8841AB47F9C7D194DF8E915FB8324F.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset'
+[2018.02.10-19.33.53:942][131]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset
+[2018.02.10-19.33.58:269][316]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Pacman_minigame_C_82' or package '/Engine/Transient'.
+[2018.02.10-19.33.58:269][316]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2018.02.10-19.33.58:288][316]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Pacman_minigame_C_99' or package '/Engine/Transient'.
+[2018.02.10-19.33.58:288][316]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Pacman_minigame_C_1' or package '/Engine/Transient'.
+[2018.02.10-19.33.58:288][316]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2018.02.10-19.33.58:289][316]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2018.02.10-19.33.58:289][316]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Pacman_minigame_C_0' or package '/Engine/Transient'.
+[2018.02.10-19.33.58:289][316]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Pacman_minigame_C_98' or package '/Engine/Transient'.
+[2018.02.10-19.33.58:289][316]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Pacman_minigame_C_78' or package '/Engine/Transient'.
+[2018.02.10-19.34.02:496][534]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.10-19.35.40:771][706]BlueprintLog: New page: Compile Pacman-character_minigame
+[2018.02.10-19.35.41:467][737]LogSavePackage: Save=14.14ms
+[2018.02.10-19.35.41:467][737]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman-character_minigameFE0644E1474C2AFDE765A4A4F11A5C8C.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset'
+[2018.02.10-19.35.41:469][737]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset
+[2018.02.10-19.35.48:310][966]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.10-19.35.48:736][969]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PeterIsTheCaptain
+[2018.02.10-19.35.48:736][969]LogTemp: CWD: C:\Program Files (x86)\Unreal Engine\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.10-19.35.48:736][969]LogTemp: Initial Dir: C:\Program Files (x86)\Unreal Engine\UE_4.16
+[2018.02.10-19.35.48:736][969]LogTemp: Env CWD: C:\Program Files (x86)\Unreal Engine\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.10-19.35.48:736][969]LogTemp: BranchPath = DESKTOP-00B2ES8/C/Program Files (x86)/Unreal Engine/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-00B2ES8/C/Program Files (x86)/Unreal Engine/UE_4.16/Engine/Binaries
+[2018.02.10-19.35.48:736][969]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Filip\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.10-19.40.27:834][182]LogSavePackage: Save=10.30ms
+[2018.02.10-19.40.27:834][182]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_minigame_Auto7A77AF8144C585F352FC5E6B2CBE4A2C3.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Levels/Pacman_minigame_Auto7.umap'
+[2018.02.10-19.40.27:835][182]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Levels/Pacman_minigame_Auto7.umap
+[2018.02.10-19.40.27:839][182]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Pacman_minigame' took 0.047
+[2018.02.10-19.40.27:839][182]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.047
+[2018.02.10-19.40.27:841][182]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame] ([1] browsable assets)...
+[2018.02.10-19.40.27:841][182]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame]
+[2018.02.10-19.40.27:864][182]LogSavePackage: Save=17.90ms
+[2018.02.10-19.40.27:864][182]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman-character_minigame_Auto7B4F4DE6E46AE3C52F97C46A59B15679B.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame_Auto7.uasset'
+[2018.02.10-19.40.27:865][182]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame_Auto7.uasset
+[2018.02.10-19.40.27:865][182]LogFileHelpers: Auto-saving content packages took 0.025
+[2018.02.10-19.43.58:903][565]BlueprintLog: New page: Compile Pacman-character_minigame
+[2018.02.10-19.43.59:570][590]LogSavePackage: Save=26.49ms
+[2018.02.10-19.43.59:570][590]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman-character_minigame48EB35C146F88573D4FE83A87A218694.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset'
+[2018.02.10-19.43.59:577][590]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset
+[2018.02.10-19.44.08:365][830]BlueprintLog: New page: Compile Pacman-character_minigame
+[2018.02.10-19.47.21:391][684]BlueprintLog: New page: Compile Pacman-character_minigame
+[2018.02.10-19.47.22:131][706]LogSavePackage: Save=28.50ms
+[2018.02.10-19.47.22:131][706]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman-character_minigame8BA814D240496F31BFE386B10A23472E.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset'
+[2018.02.10-19.47.22:132][706]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset
+[2018.02.10-19.52.29:374][195]BlueprintLog: New page: Compile Pacman-character_minigame
+[2018.02.10-19.53.09:731][811]BlueprintLog: New page: Compile Pacman-character_minigame
+[2018.02.10-19.53.36:137][992]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Pacman_minigame' took 0.023
+[2018.02.10-19.53.36:139][992]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame] ([1] browsable assets)...
+[2018.02.10-19.53.36:139][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame]
+[2018.02.10-19.53.36:177][992]LogSavePackage: Save=24.43ms
+[2018.02.10-19.53.36:177][992]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman-character_minigame_Auto8087C15254FB21D68A7BFC99EA11F09EE.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame_Auto8.uasset'
+[2018.02.10-19.53.36:178][992]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame_Auto8.uasset
+[2018.02.10-19.53.36:178][992]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Sprites/Pacman_minigame/Tiles/Pacmanasdasf] ([1] browsable assets)...
+[2018.02.10-19.53.36:190][992]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/Sprites/Pacman_minigame/Tiles/Pacmanasdasf.Pacmanasdasf]
+[2018.02.10-19.53.36:190][992]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Pacman_minigame/Tiles/Pacmanasdasf]
+[2018.02.10-19.53.36:199][992]LogSavePackage: Save=6.90ms
+[2018.02.10-19.53.36:199][992]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacmanasdasf_Auto8F01469A948D0055E57E5898F094D1984.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Tiles/Pacmanasdasf_Auto8.uasset'
+[2018.02.10-19.53.36:202][992]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Tiles/Pacmanasdasf_Auto8.uasset
+[2018.02.10-19.53.36:202][992]LogFileHelpers: Auto-saving content packages took 0.064
+[2018.02.10-19.55.08:222][317]BlueprintLog: New page: Compile Pacman-character_minigame
+[2018.02.10-19.55.08:708][337]LogSavePackage: Save=24.02ms
+[2018.02.10-19.55.08:708][337]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman-character_minigameE23EB4074850445B0EAC39A4CE56D77B.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset'
+[2018.02.10-19.55.08:714][337]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset
+[2018.02.10-19.56.31:145][899]BlueprintLog: New page: Compile Pacman-character_minigame
+[2018.02.10-19.56.32:812][981]LogSavePackage: Save=25.72ms
+[2018.02.10-19.56.32:813][981]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman-character_minigameC5D99C9E41B04E7ABA8BB4A91CB8B039.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset'
+[2018.02.10-19.56.32:815][981]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset
+[2018.02.10-19.56.39:634][ 85]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.10-19.56.39:656][ 85]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.10-19.56.39:656][ 85]PIE: New page: PIE session: Pacman_minigame (10 Feb 2018 19:56:39)
+[2018.02.10-19.56.39:656][ 85]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.10-19.56.39:657][ 85]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000895s)
+[2018.02.10-19.56.39:657][ 85]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.10-19.56.39:658][ 85]LogPlayLevel: PIE: World Init took: (0.000920s)
+[2018.02.10-19.56.39:658][ 85]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.002036s)
+[2018.02.10-19.56.39:676][ 85]LogInit: XAudio2 using 'Reproduktory / sluchátka (Realtek Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-19.56.39:744][ 85]LogInit: FAudioDevice initialized.
+[2018.02.10-19.56.39:797][ 85]LogLoad: Game class is 'GameModeBase'
+[2018.02.10-19.56.39:800][ 85]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 60) at 2018.02.10-19.56.39
+[2018.02.10-19.56.39:800][ 85]LogWorld: Bringing up level for play took: 0.002038
+[2018.02.10-19.56.39:860][ 85]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame -0.216
+[2018.02.10-19.57.23:073][266]BlueprintLog: New page: Compile Pacman-character_minigame
+[2018.02.10-19.57.23:578][283]LogSavePackage: Save=24.78ms
+[2018.02.10-19.57.23:578][283]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman-character_minigame4FAB457842D4B7F51987B0BE872E115B.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset'
+[2018.02.10-19.57.23:581][283]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset
+[2018.02.10-19.57.24:243][321]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.10-19.57.24:266][321]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.10-19.57.24:266][321]PIE: New page: PIE session: Pacman_minigame (10 Feb 2018 19:57:24)
+[2018.02.10-19.57.24:266][321]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.10-19.57.24:267][321]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000781s)
+[2018.02.10-19.57.24:267][321]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.10-19.57.24:267][321]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2018.02.10-19.57.24:268][321]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.001844s)
+[2018.02.10-19.57.24:291][321]LogInit: XAudio2 using 'Reproduktory / sluchátka (Realtek Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-19.57.24:360][321]LogInit: FAudioDevice initialized.
+[2018.02.10-19.57.24:409][321]LogLoad: Game class is 'GameModeBase'
+[2018.02.10-19.57.24:412][321]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 60) at 2018.02.10-19.57.24
+[2018.02.10-19.57.24:412][321]LogWorld: Bringing up level for play took: 0.001655
+[2018.02.10-19.57.24:425][321]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame 0.348
+[2018.02.10-19.57.32:893][810]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.10-19.57.32:913][810]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.10-19.57.32:914][810]PIE: New page: PIE session: Pacman_minigame (10 Feb 2018 19:57:32)
+[2018.02.10-19.57.32:914][810]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.10-19.57.32:914][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000611s)
+[2018.02.10-19.57.32:915][810]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.10-19.57.32:915][810]LogPlayLevel: PIE: World Init took: (0.000507s)
+[2018.02.10-19.57.32:915][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.001316s)
+[2018.02.10-19.57.32:931][810]LogInit: XAudio2 using 'Reproduktory / sluchátka (Realtek Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-19.57.32:996][810]LogInit: FAudioDevice initialized.
+[2018.02.10-19.57.33:046][810]LogLoad: Game class is 'GameModeBase'
+[2018.02.10-19.57.33:051][810]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 60) at 2018.02.10-19.57.33
+[2018.02.10-19.57.33:052][810]LogWorld: Bringing up level for play took: 0.002576
+[2018.02.10-19.57.33:063][810]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame 0.987
+[2018.02.10-19.57.46:166][525]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.02.10-19.57.46:231][527]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.PeterIsTheCaptain
+[2018.02.10-19.57.46:231][527]LogTemp: CWD: C:\Program Files (x86)\Unreal Engine\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.10-19.57.46:231][527]LogTemp: Initial Dir: C:\Program Files (x86)\Unreal Engine\UE_4.16
+[2018.02.10-19.57.46:231][527]LogTemp: Env CWD: C:\Program Files (x86)\Unreal Engine\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.02.10-19.57.46:247][528]LogTemp: BranchPath = DESKTOP-00B2ES8/C/Program Files (x86)/Unreal Engine/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-00B2ES8/C/Program Files (x86)/Unreal Engine/UE_4.16/Engine/Binaries
+[2018.02.10-19.57.46:263][529]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Filip\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.02.10-19.58.10:052][937]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.10-19.58.10:072][937]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.10-19.58.10:073][937]PIE: New page: PIE session: Pacman_minigame (10 Feb 2018 19:58:10)
+[2018.02.10-19.58.10:073][937]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.10-19.58.10:073][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000628s)
+[2018.02.10-19.58.10:074][937]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.10-19.58.10:074][937]LogPlayLevel: PIE: World Init took: (0.000540s)
+[2018.02.10-19.58.10:074][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.001343s)
+[2018.02.10-19.58.10:092][937]LogInit: XAudio2 using 'Reproduktory / sluchátka (Realtek Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-19.58.10:169][937]LogInit: FAudioDevice initialized.
+[2018.02.10-19.58.10:224][937]LogLoad: Game class is 'GameModeBase'
+[2018.02.10-19.58.10:229][937]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 60) at 2018.02.10-19.58.10
+[2018.02.10-19.58.10:230][937]LogWorld: Bringing up level for play took: 0.003577
+[2018.02.10-19.58.10:245][937]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame 0.169
+[2018.02.10-19.58.46:137][ 71]BlueprintLog: New page: Compile Pacman-character_minigame
+[2018.02.10-19.58.46:695][ 90]LogSavePackage: Save=22.88ms
+[2018.02.10-19.58.46:695][ 90]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman-character_minigame9EEF556A4B3902B30789D3BDB835B5A0.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset'
+[2018.02.10-19.58.46:698][ 90]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset
+[2018.02.10-19.58.47:266][124]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.10-19.58.47:286][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.10-19.58.47:286][124]PIE: New page: PIE session: Pacman_minigame (10 Feb 2018 19:58:47)
+[2018.02.10-19.58.47:286][124]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.10-19.58.47:287][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000599s)
+[2018.02.10-19.58.47:287][124]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.10-19.58.47:287][124]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2018.02.10-19.58.47:288][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.001651s)
+[2018.02.10-19.58.47:305][124]LogInit: XAudio2 using 'Reproduktory / sluchátka (Realtek Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-19.58.47:373][124]LogInit: FAudioDevice initialized.
+[2018.02.10-19.58.47:422][124]LogLoad: Game class is 'GameModeBase'
+[2018.02.10-19.58.47:426][124]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 60) at 2018.02.10-19.58.47
+[2018.02.10-19.58.47:426][124]LogWorld: Bringing up level for play took: 0.001732
+[2018.02.10-19.58.47:432][124]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame -0.644
+[2018.02.10-19.59.00:912][918]BlueprintLog: New page: Compile Pacman-character_minigame
+[2018.02.10-19.59.01:547][941]LogSavePackage: Save=23.93ms
+[2018.02.10-19.59.01:547][941]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman-character_minigame34F666534678BD511DE7E0890F8D195B.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset'
+[2018.02.10-19.59.01:550][941]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset
+[2018.02.10-19.59.02:703][ 10]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.10-19.59.02:722][ 10]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.10-19.59.02:722][ 10]PIE: New page: PIE session: Pacman_minigame (10 Feb 2018 19:59:02)
+[2018.02.10-19.59.02:722][ 10]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.10-19.59.02:724][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000666s)
+[2018.02.10-19.59.02:724][ 10]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.10-19.59.02:724][ 10]LogPlayLevel: PIE: World Init took: (0.000605s)
+[2018.02.10-19.59.02:724][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.001479s)
+[2018.02.10-19.59.02:741][ 10]LogInit: XAudio2 using 'Reproduktory / sluchátka (Realtek Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-19.59.02:807][ 10]LogInit: FAudioDevice initialized.
+[2018.02.10-19.59.02:854][ 10]LogLoad: Game class is 'GameModeBase'
+[2018.02.10-19.59.02:857][ 10]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 60) at 2018.02.10-19.59.02
+[2018.02.10-19.59.02:858][ 10]LogWorld: Bringing up level for play took: 0.001258
+[2018.02.10-19.59.02:864][ 10]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame 0.787
+[2018.02.10-19.59.37:140][  3]BlueprintLog: New page: Compile Pacman-character_minigame
+[2018.02.10-19.59.37:682][ 21]LogSavePackage: Save=24.24ms
+[2018.02.10-19.59.37:682][ 21]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman-character_minigame3A4E6EC4422B6A0ADB8E1596E9D812BF.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset'
+[2018.02.10-19.59.37:685][ 21]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset
+[2018.02.10-19.59.38:457][ 67]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.10-19.59.38:483][ 67]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.10-19.59.38:483][ 67]PIE: New page: PIE session: Pacman_minigame (10 Feb 2018 19:59:38)
+[2018.02.10-19.59.38:483][ 67]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.10-19.59.38:484][ 67]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000713s)
+[2018.02.10-19.59.38:484][ 67]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.10-19.59.38:484][ 67]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2018.02.10-19.59.38:485][ 67]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.001677s)
+[2018.02.10-19.59.38:510][ 67]LogInit: XAudio2 using 'Reproduktory / sluchátka (Realtek Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-19.59.38:578][ 67]LogInit: FAudioDevice initialized.
+[2018.02.10-19.59.38:622][ 67]LogLoad: Game class is 'GameModeBase'
+[2018.02.10-19.59.38:625][ 67]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 60) at 2018.02.10-19.59.38
+[2018.02.10-19.59.38:625][ 67]LogWorld: Bringing up level for play took: 0.001552
+[2018.02.10-19.59.38:631][ 67]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame 0.555
+[2018.02.10-20.01.38:111][403]BlueprintLog: New page: Compile Pacman-character_minigame
+[2018.02.10-20.03.47:491][387]BlueprintLog: New page: Compile Pacman-character_minigame
+[2018.02.10-20.03.48:379][423]LogSavePackage: Save=23.01ms
+[2018.02.10-20.03.48:380][423]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman-character_minigame88025C5A49A8AAE1ACCD37949DB14C38.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset'
+[2018.02.10-20.03.48:382][423]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset
+[2018.02.10-20.03.50:282][536]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.10-20.03.50:301][536]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.10-20.03.50:301][536]PIE: New page: PIE session: Pacman_minigame (10 Feb 2018 20:03:50)
+[2018.02.10-20.03.50:301][536]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.10-20.03.50:302][536]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000707s)
+[2018.02.10-20.03.50:303][536]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.10-20.03.50:303][536]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2018.02.10-20.03.50:303][536]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.001829s)
+[2018.02.10-20.03.50:324][536]LogInit: XAudio2 using 'Reproduktory / sluchátka (Realtek Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-20.03.50:393][536]LogInit: FAudioDevice initialized.
+[2018.02.10-20.03.50:444][536]LogLoad: Game class is 'GameModeBase'
+[2018.02.10-20.03.50:447][536]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 60) at 2018.02.10-20.03.50
+[2018.02.10-20.03.50:447][536]LogWorld: Bringing up level for play took: 0.001623
+[2018.02.10-20.03.50:455][536]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame 0.379
+[2018.02.10-20.05.01:078][744]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.10-20.05.01:098][744]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.10-20.05.01:098][744]PIE: New page: PIE session: Pacman_minigame (10 Feb 2018 20:05:01)
+[2018.02.10-20.05.01:098][744]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.10-20.05.01:099][744]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000702s)
+[2018.02.10-20.05.01:100][744]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.10-20.05.01:100][744]LogPlayLevel: PIE: World Init took: (0.000605s)
+[2018.02.10-20.05.01:100][744]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.001470s)
+[2018.02.10-20.05.01:117][744]LogInit: XAudio2 using 'Reproduktory / sluchátka (Realtek Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-20.05.01:181][744]LogInit: FAudioDevice initialized.
+[2018.02.10-20.05.01:231][744]LogLoad: Game class is 'GameModeBase'
+[2018.02.10-20.05.01:233][744]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 60) at 2018.02.10-20.05.01
+[2018.02.10-20.05.01:234][744]LogWorld: Bringing up level for play took: 0.001643
+[2018.02.10-20.05.01:243][744]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame -0.833
+[2018.02.10-20.05.17:633][712]BlueprintLog: New page: Compile Pacman-character_minigame
+[2018.02.10-20.05.18:185][732]LogSavePackage: Save=24.65ms
+[2018.02.10-20.05.18:185][732]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman-character_minigame8A83117347455A767DBB1A821D910930.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset'
+[2018.02.10-20.05.18:188][732]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset
+[2018.02.10-20.05.18:736][764]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.10-20.05.18:758][764]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.10-20.05.18:758][764]PIE: New page: PIE session: Pacman_minigame (10 Feb 2018 20:05:18)
+[2018.02.10-20.05.18:758][764]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.10-20.05.18:759][764]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000644s)
+[2018.02.10-20.05.18:760][764]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.10-20.05.18:760][764]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2018.02.10-20.05.18:760][764]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.001581s)
+[2018.02.10-20.05.18:777][764]LogInit: XAudio2 using 'Reproduktory / sluchátka (Realtek Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-20.05.18:844][764]LogInit: FAudioDevice initialized.
+[2018.02.10-20.05.18:892][764]LogLoad: Game class is 'GameModeBase'
+[2018.02.10-20.05.18:895][764]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 60) at 2018.02.10-20.05.18
+[2018.02.10-20.05.18:895][764]LogWorld: Bringing up level for play took: 0.001571
+[2018.02.10-20.05.18:902][764]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame 0.826
+[2018.02.10-20.05.49:827][899]BlueprintLog: New page: Compile Pacman-character_minigame
+[2018.02.10-20.05.50:355][918]LogSavePackage: Save=25.63ms
+[2018.02.10-20.05.50:355][918]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman-character_minigame38E1583049B12598ECDF268916C25DD7.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset'
+[2018.02.10-20.05.50:358][918]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset
+[2018.02.10-20.05.50:835][946]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.10-20.05.50:854][946]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.10-20.05.50:854][946]PIE: New page: PIE session: Pacman_minigame (10 Feb 2018 20:05:50)
+[2018.02.10-20.05.50:854][946]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.10-20.05.50:855][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000582s)
+[2018.02.10-20.05.50:856][946]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.10-20.05.50:856][946]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2018.02.10-20.05.50:856][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.001333s)
+[2018.02.10-20.05.50:874][946]LogInit: XAudio2 using 'Reproduktory / sluchátka (Realtek Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-20.05.50:939][946]LogInit: FAudioDevice initialized.
+[2018.02.10-20.05.50:996][946]LogLoad: Game class is 'GameModeBase'
+[2018.02.10-20.05.51:001][946]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 60) at 2018.02.10-20.05.51
+[2018.02.10-20.05.51:002][946]LogWorld: Bringing up level for play took: 0.003143
+[2018.02.10-20.05.51:015][946]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame 0.939
+[2018.02.10-20.06.14:011][924]BlueprintLog: New page: Compile Pacman-character_minigame
+[2018.02.10-20.06.14:411][935]LogSavePackage: Save=25.69ms
+[2018.02.10-20.06.14:411][935]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman-character_minigame6A631A3B4809C5CF40478FBE27F2B9C1.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset'
+[2018.02.10-20.06.14:414][935]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset
+[2018.02.10-20.06.15:213][982]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.10-20.06.15:232][982]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.10-20.06.15:232][982]PIE: New page: PIE session: Pacman_minigame (10 Feb 2018 20:06:15)
+[2018.02.10-20.06.15:232][982]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.10-20.06.15:233][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000676s)
+[2018.02.10-20.06.15:233][982]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.10-20.06.15:234][982]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2018.02.10-20.06.15:234][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.001666s)
+[2018.02.10-20.06.15:251][982]LogInit: XAudio2 using 'Reproduktory / sluchátka (Realtek Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-20.06.15:318][982]LogInit: FAudioDevice initialized.
+[2018.02.10-20.06.15:363][982]LogLoad: Game class is 'GameModeBase'
+[2018.02.10-20.06.15:365][982]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 60) at 2018.02.10-20.06.15
+[2018.02.10-20.06.15:366][982]LogWorld: Bringing up level for play took: 0.001374
+[2018.02.10-20.06.15:376][982]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame -0.7
+[2018.02.10-20.07.49:126][990]LogSavePackage: Save=105.54ms
+[2018.02.10-20.07.49:126][990]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_minigame_Auto9E391021D4A2732D9D406339277533379.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Levels/Pacman_minigame_Auto9.umap'
+[2018.02.10-20.07.49:128][990]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Levels/Pacman_minigame_Auto9.umap
+[2018.02.10-20.07.49:130][990]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Pacman_minigame' took 0.179
+[2018.02.10-20.07.49:130][990]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.179
+[2018.02.10-20.11.23:045][  0]BlueprintLog: New page: Compile Pacman_minigame
+[2018.02.10-20.17.50:063][978]LogSavePackage: Save=167.18ms
+[2018.02.10-20.17.50:063][978]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_minigame_Auto047B4CB174643C9F52CD79CA2DAD174FA.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Levels/Pacman_minigame_Auto0.umap'
+[2018.02.10-20.17.50:064][978]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Levels/Pacman_minigame_Auto0.umap
+[2018.02.10-20.17.50:067][978]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Pacman_minigame' took 0.333
+[2018.02.10-20.17.50:067][978]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.333
+[2018.02.10-20.17.50:072][978]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame] ([1] browsable assets)...
+[2018.02.10-20.17.50:072][978]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame]
+[2018.02.10-20.17.50:111][978]LogSavePackage: Save=28.54ms
+[2018.02.10-20.17.50:111][978]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman-character_minigame_Auto0081E8ACA4BF4401660137CAAE92BC90E.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame_Auto0.uasset'
+[2018.02.10-20.17.50:112][978]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame_Auto0.uasset
+[2018.02.10-20.17.50:113][978]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Sprites/Pacman_minigame/Blueprints/Spawner] ([1] browsable assets)...
+[2018.02.10-20.17.50:113][978]OBJ SavePackage: Finished generating thumbnails for package [/Game/Sprites/Pacman_minigame/Blueprints/Spawner]
+[2018.02.10-20.17.50:142][978]LogSavePackage: Save=19.14ms
+[2018.02.10-20.17.50:142][978]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Spawner_Auto0D2D5A9604F46FADA3F8E43849B1819E9.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Blueprints/Spawner_Auto0.uasset'
+[2018.02.10-20.17.50:143][978]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Autosaves/Game/Sprites/Pacman_minigame/Blueprints/Spawner_Auto0.uasset
+[2018.02.10-20.17.50:144][978]LogFileHelpers: Auto-saving content packages took 0.075
+[2018.02.10-20.18.51:711][365]LogAIModule: Creating AISystem for world MainMenu
+[2018.02.10-20.18.53:356][365]LogSavePackage: Save=106.59ms
+[2018.02.10-20.18.53:356][365]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_minigameFC84348147262CCC3E04E88DE989F627.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap'
+[2018.02.10-20.18.53:363][365]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap
+[2018.02.10-20.18.53:406][365]LogFileHelpers: Saving map 'Pacman_minigame' took 0.241
+[2018.02.10-20.18.53:435][365]LogSavePackage: Save=22.54ms
+[2018.02.10-20.18.53:435][365]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman-character_minigame9A04FE2F41BBF882F6D7CAB91B105C2F.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset'
+[2018.02.10-20.18.53:442][365]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset
+[2018.02.10-20.18.53:463][365]LogSavePackage: Save=15.39ms
+[2018.02.10-20.18.53:463][365]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Spawner32FCE1D14FBA0F2C2C69D29744DEB10E.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Spawner.uasset'
+[2018.02.10-20.18.53:470][365]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Blueprints/Spawner.uasset
+[2018.02.10-20.18.53:480][365]LogSavePackage: Save=4.06ms
+[2018.02.10-20.18.53:480][365]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_Tilemap9FF0F9DD4C3A538585B5F78A87DDB362.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Pacman_Tilemap.uasset'
+[2018.02.10-20.18.53:486][365]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Pacman_Tilemap.uasset
+[2018.02.10-20.18.53:499][365]LogSavePackage: Save=6.52ms
+[2018.02.10-20.18.53:499][365]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/black2BCE43BE45D01D5F0242B89DE6893142.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/black.uasset'
+[2018.02.10-20.18.53:516][365]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/black.uasset
+[2018.02.10-20.18.53:542][365]LogSavePackage: Save=8.80ms
+[2018.02.10-20.18.53:542][365]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/PacmanasdasfCC8C90A3451C7277FD8E61812C7C9F8A.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/Pacmanasdasf.uasset'
+[2018.02.10-20.18.53:566][365]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/Pacmanasdasf.uasset
+[2018.02.10-20.18.53:579][365]LogSavePackage: Save=6.00ms
+[2018.02.10-20.18.53:579][365]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/wall-pixilart843FD42046D6A1655BBCE18ED1B71C75.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/wall-pixilart.uasset'
+[2018.02.10-20.18.53:581][365]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Sprites/Pacman_minigame/Tiles/wall-pixilart.uasset
+[2018.02.10-20.18.53:612][365]Cmd: MAP LOAD FILE="../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.10-20.18.53:613][365]LightingResults: New page: Lighting Build
+[2018.02.10-20.18.53:615][365]LoadErrors: New page: Loading map: MainMenu.umap
+[2018.02.10-20.18.53:619][365]MapCheck: New page: Map Check
+[2018.02.10-20.18.53:619][365]LightingResults: New page: Lighting Build
+[2018.02.10-20.18.53:737][365]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.10-20.18.53:781][365]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.10-20.18.53:832][365]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.414ms to complete.
+[2018.02.10-20.18.53:851][365]LogFileHelpers: Loading map 'MainMenu' took 0.270
+[2018.02.10-20.18.54:307][391]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.10-20.18.54:329][391]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.02.10-20.18.54:329][391]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.02.10-20.18.54:329][391]LogPlayLevel: [PlayLevel] Compiling Spawner before play...
+[2018.02.10-20.18.54:402][391]LogPlayLevel: [PlayLevel] Compiling Pacman-character_minigame before play...
+[2018.02.10-20.18.54:493][391]LogPlayLevel: PlayLevel: Blueprint regeneration took 163 ms (2 blueprints)
+[2018.02.10-20.18.54:493][391]PIE: New page: PIE session: MainMenu (10 Feb 2018 20:18:54)
+[2018.02.10-20.18.54:493][391]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.02.10-20.18.54:494][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000933s)
+[2018.02.10-20.18.54:494][391]LogAIModule: Creating AISystem for world MainMenu
+[2018.02.10-20.18.54:495][391]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2018.02.10-20.18.54:495][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001869s)
+[2018.02.10-20.18.54:521][391]LogInit: XAudio2 using 'Reproduktory / sluchátka (Realtek Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-20.18.54:589][391]LogInit: FAudioDevice initialized.
+[2018.02.10-20.18.54:641][391]LogLoad: Game class is 'GameModeBase'
+[2018.02.10-20.18.54:644][391]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 60) at 2018.02.10-20.18.54
+[2018.02.10-20.18.54:645][391]LogWorld: Bringing up level for play took: 0.000873
+[2018.02.10-20.18.54:709][391]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.633
+[2018.02.10-20.18.54:710][391]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.02.10-20.29.49:689][812]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.02.10-20.29.49:743][812]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.02.10-20.29.53:676][ 13]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.10-20.29.53:709][ 13]Cmd: MAP LOAD FILE="../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.10-20.29.53:709][ 13]LightingResults: New page: Lighting Build
+[2018.02.10-20.29.53:709][ 13]LoadErrors: New page: Loading map: Pacman_minigame.umap
+[2018.02.10-20.29.53:710][ 13]MapCheck: New page: Map Check
+[2018.02.10-20.29.53:710][ 13]LightingResults: New page: Lighting Build
+[2018.02.10-20.29.53:811][ 13]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.10-20.29.53:856][ 13]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.10-20.29.53:913][ 13]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.102ms to complete.
+[2018.02.10-20.29.53:915][ 13]LogFileHelpers: Loading map 'Pacman_minigame' took 0.219
+[2018.02.10-20.30.18:495][372]BlueprintLog: New page: Compile Pacman_minigame
+[2018.02.10-20.34.44:488][440]BlueprintLog: New page: Compile Pacman_minigame
+[2018.02.10-20.34.45:227][461]LogSavePackage: Save=137.06ms
+[2018.02.10-20.34.45:227][461]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_minigameD8B0809E48B2FE797E28B9B9739D6426.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap'
+[2018.02.10-20.34.45:230][461]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap
+[2018.02.10-20.34.45:263][461]LogFileHelpers: Saving map 'Pacman_minigame' took 0.267
+[2018.02.10-20.34.47:445][581]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.10-20.34.47:461][581]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.10-20.34.47:461][581]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.10-20.34.47:462][581]PIE: New page: PIE session: Pacman_minigame (10 Feb 2018 20:34:47)
+[2018.02.10-20.34.47:462][581]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.10-20.34.47:463][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001613s)
+[2018.02.10-20.34.47:464][581]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.10-20.34.47:464][581]LogPlayLevel: PIE: World Init took: (0.000837s)
+[2018.02.10-20.34.47:464][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.002680s)
+[2018.02.10-20.34.47:482][581]LogInit: XAudio2 using 'Reproduktory / sluchátka (Realtek Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-20.34.47:560][581]LogInit: FAudioDevice initialized.
+[2018.02.10-20.34.47:612][581]LogLoad: Game class is 'GameModeBase'
+[2018.02.10-20.34.47:615][581]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 60) at 2018.02.10-20.34.47
+[2018.02.10-20.34.47:616][581]LogWorld: Bringing up level for play took: 0.002243
+[2018.02.10-20.34.47:624][581]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame -0.453
+[2018.02.10-20.34.47:625][581]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.10-20.34.48:466][623]LogBlueprintUserMessages: [Pacman_minigame_C_2] 29
+[2018.02.10-20.34.49:441][682]LogBlueprintUserMessages: [Pacman_minigame_C_2] 28
+[2018.02.10-20.34.50:441][742]LogBlueprintUserMessages: [Pacman_minigame_C_2] 27
+[2018.02.10-20.34.51:441][802]LogBlueprintUserMessages: [Pacman_minigame_C_2] 26
+[2018.02.10-20.34.52:441][862]LogBlueprintUserMessages: [Pacman_minigame_C_2] 25
+[2018.02.10-20.34.53:226][909]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.10-20.34.53:276][909]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.10-20.42.30:769][ 76]BlueprintLog: New page: Compile Pacman_minigame
+[2018.02.10-20.42.31:627][108]LogSavePackage: Save=100.51ms
+[2018.02.10-20.42.31:627][108]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_minigameE0B96A92438E286EF9E32DBD0CBECB5F.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap'
+[2018.02.10-20.42.31:630][108]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap
+[2018.02.10-20.42.31:660][108]LogFileHelpers: Saving map 'Pacman_minigame' took 0.239
+[2018.02.10-20.43.38:889][341]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.02.10-20.44.20:169][606]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.10-20.44.20:186][606]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.10-20.44.20:186][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.10-20.44.20:187][606]PIE: New page: PIE session: Pacman_minigame (10 Feb 2018 20:44:20)
+[2018.02.10-20.44.20:187][606]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.10-20.44.20:188][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001158s)
+[2018.02.10-20.44.20:189][606]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.10-20.44.20:189][606]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2018.02.10-20.44.20:189][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.002133s)
+[2018.02.10-20.44.20:207][606]LogInit: XAudio2 using 'Reproduktory / sluchátka (Realtek Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-20.44.20:273][606]LogInit: FAudioDevice initialized.
+[2018.02.10-20.44.20:322][606]LogLoad: Game class is 'GameModeBase'
+[2018.02.10-20.44.20:325][606]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 60) at 2018.02.10-20.44.20
+[2018.02.10-20.44.20:325][606]LogWorld: Bringing up level for play took: 0.001933
+[2018.02.10-20.44.20:331][606]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame 0.255
+[2018.02.10-20.44.20:332][606]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.10-20.44.22:894][755]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.10-20.44.22:962][755]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.10-20.45.01:382][935]BlueprintLog: New page: Compile Pacman_minigame
+[2018.02.10-20.45.02:334][972]LogSavePackage: Save=135.37ms
+[2018.02.10-20.45.02:334][972]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_minigame5CD8F73C4C8485937DA6EE823DCDDF22.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap'
+[2018.02.10-20.45.02:336][972]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap
+[2018.02.10-20.45.02:365][972]LogFileHelpers: Saving map 'Pacman_minigame' took 0.250
+[2018.02.10-20.45.38:655][ 73]BlueprintLog: New page: Compile Pacman_minigame
+[2018.02.10-20.45.39:322][ 95]LogSavePackage: Save=109.08ms
+[2018.02.10-20.45.39:322][ 95]LogSavePackage: Moving '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman_minigame470EC24348E359491E00EC8EBE627534.tmp' to '../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap'
+[2018.02.10-20.45.39:325][ 95]LogSavePackage:Display: Finished SavePackage ../../../../../Github/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap
+[2018.02.10-20.45.39:354][ 95]LogFileHelpers: Saving map 'Pacman_minigame' took 0.220
+[2018.02.10-20.45.40:495][163]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.10-20.45.40:519][163]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.10-20.45.40:519][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.10-20.45.40:519][163]PIE: New page: PIE session: Pacman_minigame (10 Feb 2018 20:45:40)
+[2018.02.10-20.45.40:519][163]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.10-20.45.40:520][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001221s)
+[2018.02.10-20.45.40:520][163]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.10-20.45.40:521][163]LogPlayLevel: PIE: World Init took: (0.000561s)
+[2018.02.10-20.45.40:521][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.002016s)
+[2018.02.10-20.45.40:541][163]LogInit: XAudio2 using 'Reproduktory / sluchátka (Realtek Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.02.10-20.45.40:607][163]LogInit: FAudioDevice initialized.
+[2018.02.10-20.45.40:678][163]LogLoad: Game class is 'GameModeBase'
+[2018.02.10-20.45.40:682][163]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 60) at 2018.02.10-20.45.40
+[2018.02.10-20.45.40:683][163]LogWorld: Bringing up level for play took: 0.002630
+[2018.02.10-20.45.40:698][163]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame 0.621
+[2018.02.10-20.45.40:698][163]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.10-20.45.41:483][201]LogBlueprintUserMessages: [Pacman_minigame_C_0] 29
+[2018.02.10-20.45.42:489][261]LogBlueprintUserMessages: [Pacman_minigame_C_0] 28
+[2018.02.10-20.45.43:496][321]LogBlueprintUserMessages: [Pacman_minigame_C_0] 27
+[2018.02.10-20.45.44:501][381]LogBlueprintUserMessages: [Pacman_minigame_C_0] 26
+[2018.02.10-20.45.45:513][440]LogBlueprintUserMessages: [Pacman_minigame_C_0] 25
+[2018.02.10-20.45.46:518][497]LogBlueprintUserMessages: [Pacman_minigame_C_0] 24
+[2018.02.10-20.45.47:521][554]LogBlueprintUserMessages: [Pacman_minigame_C_0] 23
+[2018.02.10-20.45.48:528][609]LogBlueprintUserMessages: [Pacman_minigame_C_0] 22
+[2018.02.10-20.45.49:533][669]LogBlueprintUserMessages: [Pacman_minigame_C_0] 21
+[2018.02.10-20.45.50:533][729]LogBlueprintUserMessages: [Pacman_minigame_C_0] 20
+[2018.02.10-20.45.51:533][789]LogBlueprintUserMessages: [Pacman_minigame_C_0] 19
+[2018.02.10-20.45.52:533][849]LogBlueprintUserMessages: [Pacman_minigame_C_0] 18
+[2018.02.10-20.45.53:533][909]LogBlueprintUserMessages: [Pacman_minigame_C_0] 17
+[2018.02.10-20.45.54:534][969]LogBlueprintUserMessages: [Pacman_minigame_C_0] 16
+[2018.02.10-20.45.55:534][ 29]LogBlueprintUserMessages: [Pacman_minigame_C_0] 15
+[2018.02.10-20.45.56:534][ 89]LogBlueprintUserMessages: [Pacman_minigame_C_0] 14
+[2018.02.10-20.45.57:537][149]LogBlueprintUserMessages: [Pacman_minigame_C_0] 13
+[2018.02.10-20.45.58:548][209]LogBlueprintUserMessages: [Pacman_minigame_C_0] 12
+[2018.02.10-20.45.59:560][269]LogBlueprintUserMessages: [Pacman_minigame_C_0] 11
+[2018.02.10-20.46.00:565][326]LogBlueprintUserMessages: [Pacman_minigame_C_0] 10
+[2018.02.10-20.46.01:574][383]LogBlueprintUserMessages: [Pacman_minigame_C_0] 9
+[2018.02.10-20.46.02:581][443]LogBlueprintUserMessages: [Pacman_minigame_C_0] 8
+[2018.02.10-20.46.03:583][503]LogBlueprintUserMessages: [Pacman_minigame_C_0] 7
+[2018.02.10-20.46.04:585][563]LogBlueprintUserMessages: [Pacman_minigame_C_0] 6
+[2018.02.10-20.46.05:595][623]LogBlueprintUserMessages: [Pacman_minigame_C_0] 5
+[2018.02.10-20.46.06:595][683]LogBlueprintUserMessages: [Pacman_minigame_C_0] 4
+[2018.02.10-20.46.07:597][743]LogBlueprintUserMessages: [Pacman_minigame_C_0] 3
+[2018.02.10-20.46.08:597][803]LogBlueprintUserMessages: [Pacman_minigame_C_0] 2
+[2018.02.10-20.46.09:597][863]LogBlueprintUserMessages: [Pacman_minigame_C_0] 1
+[2018.02.10-20.46.10:597][923]LogBlueprintUserMessages: [Pacman_minigame_C_0] 0
+[2018.02.10-20.46.10:639][924]LogNet: Browse: /Game/Levels/World
+[2018.02.10-20.46.10:648][924]LogLoad: LoadMap: /Game/Levels/World
+[2018.02.10-20.46.10:674][924]Cmd: MEM
+[2018.02.10-20.46.10:690][924]LogMemory: Platform Memory Stats for Windows
+[2018.02.10-20.46.10:690][924]LogMemory: Process Physical Memory: 704.95 MB used, 1094.11 MB peak
+[2018.02.10-20.46.10:690][924]LogMemory: Process Virtual Memory: 2577.81 MB used, 2777.78 MB peak
+[2018.02.10-20.46.10:690][924]LogMemory: Physical Memory: 5721.27 MB used,  2337.00 MB free, 8058.27 MB total
+[2018.02.10-20.46.10:690][924]LogMemory: Virtual Memory: 3630.63 MB used,  2337.00 MB free, 134217728.00 MB total
+[2018.02.10-20.46.10:690][924]LogMemory: 
+[2018.02.10-20.46.10:690][924]Allocator Stats for TBB: (not implemented)
+[2018.02.10-20.46.12:436][924]LogStats: FPlatformStackWalk::StackWalkAndDump -  1.131 s
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: === Handled ensure: ===
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: 
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: Ensure condition failed: IsObjectValidForDatabase(AssetObject) [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionDatabase.cpp] [Line: 1305]
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: 
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: Stack: 
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E8E9E2B6
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E8C4B8C2
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E8C61E86
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000DA30BCF7
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000DA2DC23D
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000E23E0377
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000E26E31A6
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000E26F9393
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000E26F891A
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DE125ACF
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DE0DEEA8
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DE14460D
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DB882F55
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DC0A8D86
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: UE4Editor.exe!0x000000008DACE2B2
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: UE4Editor.exe!0x000000008DABF0B0
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: UE4Editor.exe!0x000000008DABF12A
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: UE4Editor.exe!0x000000008DAD0CF9
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: UE4Editor.exe!0x000000008DAD25F7
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: KERNEL32.DLL!0x0000000041961FE4
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: ntdll.dll!0x000000004439EFB1
+[2018.02.10-20.46.12:436][924]LogOutputDevice:Error: 
+[2018.02.10-20.46.12:440][924]LogStats:                SubmitErrorReport -  0.000 s
