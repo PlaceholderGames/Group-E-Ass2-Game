@@ -1,0 +1,813 @@
+﻿Log file open, 02/11/18 20:25:10
+LogInit:Display: Running engine for game: PeterIsTheCaptain
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(624076248) SRandInit(624076248).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.103666
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: G:/EpicGames/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.11-20.25.11:023][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.11-20.25.11:023][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.11-20.25.11:037][  0]LogInit: Computer: DESKTOP-E30UDBA
+[2018.02.11-20.25.11:037][  0]LogInit: User: 16079582
+[2018.02.11-20.25.11:037][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.11-20.25.11:037][  0]LogInit: High frequency timer resolution =3.923863 MHz
+[2018.02.11-20.25.11:038][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.02.11-20.25.11:038][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.11-20.25.11:038][  0]LogMemory: Process Physical Memory: 273.41 MB used, 273.41 MB peak
+[2018.02.11-20.25.11:038][  0]LogMemory: Process Virtual Memory: 260.79 MB used, 260.79 MB peak
+[2018.02.11-20.25.11:038][  0]LogMemory: Physical Memory: 4503.09 MB used,  11863.02 MB free, 16366.11 MB total
+[2018.02.11-20.25.11:038][  0]LogMemory: Virtual Memory: 671.54 MB used,  11863.02 MB free, 134217728.00 MB total
+[2018.02.11-20.25.11:125][  0]LogInit: Using OS detected language (en-US).
+[2018.02.11-20.25.11:125][  0]LogInit: Using OS detected locale (en-GB).
+[2018.02.11-20.25.11:129][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.02.11-20.25.12:207][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.11-20.25.12:261][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2018.02.11-20.25.12:261][  0]LogD3D11RHI:       2016/0/8183 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.02.11-20.25.12:265][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.02.11-20.25.12:265][  0]LogD3D11RHI:       0/0/8183 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.02.11-20.25.12:265][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.11-20.25.12:274][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.11-20.25.12:274][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.11-20.25.12:274][  0]LogWindows: EnumDisplayDevices:
+[2018.02.11-20.25.12:274][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2018.02.11-20.25.12:274][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:1)
+[2018.02.11-20.25.12:274][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.02.11-20.25.12:275][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2018.02.11-20.25.12:275][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.02.11-20.25.12:275][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2018.02.11-20.25.12:275][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.02.11-20.25.12:275][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.02.11-20.25.12:275][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.11-20.25.12:316][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.11-20.25.12:380][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.02.11-20.25.12:431][  0]LogShaderCompilers: Guid format shader working directory is -27 characters bigger than the processId version (C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Intermediate/Shaders/WorkingDirectory/10928/).
+[2018.02.11-20.25.12:431][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/16079582/AppData/Local/Temp/UnrealShaderWorkingDir/76DFC4824683595A760E869D9D8339BC/'.
+[2018.02.11-20.25.12:431][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.11-20.25.13:977][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.11-20.25.14:039][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.02.11-20.25.14:103][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.11-20.25.14:168][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.02.11-20.25.14:235][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.02.11-20.25.14:298][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.11-20.25.14:364][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.11-20.25.14:428][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.11-20.25.14:482][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.11-20.25.14:544][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.02.11-20.25.14:609][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.11-20.25.14:671][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.11-20.25.14:736][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.11-20.25.14:800][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.11-20.25.14:868][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.11-20.25.14:994][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.11-20.25.14:994][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.11-20.25.15:044][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.02.11-20.25.15:158][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.02.11-20.25.15:198][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.02.11-20.25.15:262][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.11-20.25.15:326][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.11-20.25.15:390][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.11-20.25.15:453][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.02.11-20.25.15:453][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.11-20.25.16:062][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.11-20.25.16:212][  0]LogDerivedDataCache: Loaded boot cache 0.15s 90MB C:/Users/16079582/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.11-20.25.16:212][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/16079582/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.02.11-20.25.16:212][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.11-20.25.16:212][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.11-20.25.16:212][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.11-20.25.16:212][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.11-20.25.16:232][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.11-20.25.16:245][  0]LogDerivedDataCache: Using Local data cache path C:/Users/16079582/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.11-20.25.16:260][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.11-20.25.16:261][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.11-20.25.16:261][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.11-20.25.16:262][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.11-20.25.16:711][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.11-20.25.16:816][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.11-20.25.17:010][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.11-20.25.17:065][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.11-20.25.17:122][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.11-20.25.17:122][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.02.11-20.25.17:122][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.11-20.25.17:808][  0]LogNetVersion: PeterIsTheCaptain , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1858553666)
+[2018.02.11-20.25.17:882][  0]LogAssetRegistry: FAssetRegistry took 0.0278 seconds to start up
+[2018.02.11-20.25.17:954][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.043183 seconds
+[2018.02.11-20.25.17:961][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.02.11-20.25.17:961][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.02.11-20.25.17:961][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.11-20.25.18:045][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.11-20.25.21:155][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.11-20.25.21:202][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.11-20.25.21:832][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.11-20.25.22:320][  0]SourceControl: Info Source control is disabled
+[2018.02.11-20.25.22:322][  0]SourceControl: Info Source control is disabled
+[2018.02.11-20.25.22:381][  0]SourceControl: Info Source control is disabled
+[2018.02.11-20.25.22:439][  0]SourceControl: Info Source control is disabled
+[2018.02.11-20.25.23:282][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.11-20.25.24:023][  0]LogEngine: Initializing Engine...
+[2018.02.11-20.25.24:032][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2018.02.11-20.25.24:325][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.11-20.25.24:325][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.11-20.25.24:483][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.11-20.25.24:492][  0]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-20.25.24:526][  0]LogInit: FAudioDevice initialized.
+[2018.02.11-20.25.24:605][  0]LogDerivedDataCache: Saved boot cache 0.08s 90MB C:/Users/16079582/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.11-20.25.24:627][  0]LogInit: Texture streaming: Enabled
+[2018.02.11-20.25.24:746][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.11-20.25.25:010][  0]LogInit: Transaction tracking system initialized
+[2018.02.11-20.25.25:399][  0]BlueprintLog: New page: Editor Load
+[2018.02.11-20.25.26:564][  0]LocalizationService: Info Localization service is disabled
+[2018.02.11-20.25.27:402][  0]LogConsoleResponse:Display: 
+[2018.02.11-20.25.27:561][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.11-20.25.27:561][  0]LogCook:Display: Mobile HDR setting 1
+[2018.02.11-20.25.27:743][  0]LogFileCache: Scanning file cache for directory 'C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/' took 0.01s
+[2018.02.11-20.25.28:837][  0]SourceControl: Info Source control is disabled
+[2018.02.11-20.25.28:837][  0]Cmd: MAP LOAD FILE="C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.11-20.25.28:838][  0]LightingResults: New page: Lighting Build
+[2018.02.11-20.25.28:890][  0]MapCheck: New page: Map Check
+[2018.02.11-20.25.28:890][  0]LightingResults: New page: Lighting Build
+[2018.02.11-20.25.28:961][  0]LogAIModule: Creating AISystem for world MainMenu
+[2018.02.11-20.25.28:962][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.11-20.25.28:977][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.11-20.25.29:031][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.385ms to complete.
+[2018.02.11-20.25.29:031][  0]LogFileHelpers: Loading map 'MainMenu' took 0.194
+[2018.02.11-20.25.29:217][  0]LogCollectionManager: Loaded 0 collections in 0.001413 seconds
+[2018.02.11-20.25.29:314][  0]LogFileCache: Scanning file cache for directory 'C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Collections/' took 0.01s
+[2018.02.11-20.25.29:314][  0]LogFileCache: Scanning file cache for directory 'C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Developers/16079582/Collections/' took 0.01s
+[2018.02.11-20.25.29:314][  0]LogFileCache: Scanning file cache for directory 'C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Collections/' took 0.01s
+[2018.02.11-20.25.29:314][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2018.02.11-20.25.29:329][  0]LogContentBrowser: Native class hierarchy populated in 0.0148 seconds. Added 2329 classes and 491 folders.
+[2018.02.11-20.25.29:412][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.02.11-20.25.29:461][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.02.11-20.25.29:516][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.02.11-20.25.29:615][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.02.11-20.25.29:620][  0]LogSlate: Took 0.000305 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.11-20.25.29:625][  0]LogSlate: Took 0.000396 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.11-20.25.29:633][  0]LogSlate: Took 0.000343 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.11-20.25.29:758][  0]LogRenderer: Reallocating scene render targets to support 1072x576 NumSamples 1 (Frame:1).
+[2018.02.11-20.25.30:094][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.02.11-20.25.30:170][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.02.11-20.25.30:170][  0]LogLoad: (Engine Initialization) Total time: 21.04 seconds
+[2018.02.11-20.25.30:170][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
+[2018.02.11-20.25.30:170][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.02.11-20.25.30:511][  0]LogOcInput: OculusInput pre-init called
+[2018.02.11-20.25.30:511][  0]LogHMD: Starting GearVRController plugin
+[2018.02.11-20.25.30:531][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.11-20.25.30:853][  1]LogAssetRegistry: Asset discovery search completed in 12.9939 seconds
+[2018.02.11-20.25.30:855][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.11-20.25.30:855][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2018.02.11-20.25.31:513][  3]LogSlate: Took 0.000348 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.11-20.25.31:855][  4]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.11-20.25.34:286][ 26]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.11-20.25.34:505][ 26]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.11-20.25.34:752][ 26]Cmd: MAP LOAD FILE="C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.11-20.25.34:752][ 26]LightingResults: New page: Lighting Build
+[2018.02.11-20.25.34:753][ 26]LoadErrors: New page: Loading map: Pacman_minigame.umap
+[2018.02.11-20.25.34:753][ 26]MapCheck: New page: Map Check
+[2018.02.11-20.25.34:753][ 26]LightingResults: New page: Lighting Build
+[2018.02.11-20.25.34:871][ 26]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.11-20.25.34:947][ 26]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.11-20.25.35:006][ 26]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.619ms to complete.
+[2018.02.11-20.25.35:006][ 26]LogFileHelpers: Loading map 'Pacman_minigame' took 0.255
+[2018.02.11-20.25.39:418][ 73]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-20.25.39:493][ 73]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.25.39:493][ 73]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-20.25.39:494][ 73]PIE: New page: PIE session: Pacman_minigame (11 Feb 2018 20:25:39)
+[2018.02.11-20.25.39:494][ 73]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.11-20.25.39:505][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011709s)
+[2018.02.11-20.25.39:506][ 73]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.11-20.25.39:506][ 73]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2018.02.11-20.25.39:506][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.012797s)
+[2018.02.11-20.25.39:528][ 73]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-20.25.39:545][ 73]LogInit: FAudioDevice initialized.
+[2018.02.11-20.25.39:594][ 73]LogLoad: Game class is 'GameMode'
+[2018.02.11-20.25.39:602][ 73]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 0) at 2018.02.11-20.25.39
+[2018.02.11-20.25.39:603][ 73]LogWorld: Bringing up level for play took: 0.006138
+[2018.02.11-20.25.39:652][ 73]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.02.11-20.25.39:652][ 73]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.11-20.25.39:652][ 73]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.11-20.25.39:652][ 73]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.11-20.25.39:654][ 73]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.11-20.25.39:654][ 73]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame 0.695
+[2018.02.11-20.25.39:654][ 73]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.25.41:759][ 98]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 1
+[2018.02.11-20.25.42:999][113]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 2
+[2018.02.11-20.25.43:251][116]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 3
+[2018.02.11-20.25.43:509][124]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 4
+[2018.02.11-20.25.44:434][235]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 5
+[2018.02.11-20.25.44:650][261]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 6
+[2018.02.11-20.25.44:959][298]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 7
+[2018.02.11-20.25.45:192][326]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 8
+[2018.02.11-20.25.45:409][352]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 9
+[2018.02.11-20.25.45:625][378]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 10
+[2018.02.11-20.25.46:050][429]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 11
+[2018.02.11-20.25.46:259][454]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 12
+[2018.02.11-20.25.46:475][480]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 13
+[2018.02.11-20.25.46:692][506]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 14
+[2018.02.11-20.25.46:909][532]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 15
+[2018.02.11-20.25.47:251][573]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 16
+[2018.02.11-20.25.47:467][599]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 17
+[2018.02.11-20.25.47:742][632]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 18
+[2018.02.11-20.25.47:968][659]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 19
+[2018.02.11-20.25.48:176][684]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 20
+[2018.02.11-20.25.48:418][713]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 21
+[2018.02.11-20.25.49:376][828]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 22
+[2018.02.11-20.25.49:634][859]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 23
+[2018.02.11-20.25.49:859][886]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 24
+[2018.02.11-20.25.50:193][926]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 25
+[2018.02.11-20.25.50:484][961]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 26
+[2018.02.11-20.25.50:776][996]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 27
+[2018.02.11-20.25.50:993][ 22]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 28
+[2018.02.11-20.25.51:318][ 61]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 29
+[2018.02.11-20.25.51:535][ 87]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 30
+[2018.02.11-20.25.51:751][113]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 31
+[2018.02.11-20.25.51:968][139]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 32
+[2018.02.11-20.25.52:227][170]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 33
+[2018.02.11-20.25.52:444][196]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 34
+[2018.02.11-20.25.52:660][222]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 35
+[2018.02.11-20.25.52:869][247]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 36
+[2018.02.11-20.25.53:177][284]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 37
+[2018.02.11-20.25.53:436][315]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 38
+[2018.02.11-20.25.53:661][342]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 39
+[2018.02.11-20.25.53:894][370]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 40
+[2018.02.11-20.25.54:144][400]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 41
+[2018.02.11-20.25.54:402][431]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 42
+[2018.02.11-20.25.55:811][600]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 43
+[2018.02.11-20.25.56:036][627]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 44
+[2018.02.11-20.25.56:244][652]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 45
+[2018.02.11-20.25.56:461][678]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 46
+[2018.02.11-20.25.56:744][712]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 47
+[2018.02.11-20.25.56:986][741]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 48
+[2018.02.11-20.25.57:211][768]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 49
+[2018.02.11-20.25.57:420][793]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 50
+[2018.02.11-20.25.57:637][819]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 51
+[2018.02.11-20.25.57:937][855]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 52
+[2018.02.11-20.25.58:179][884]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 53
+[2018.02.11-20.25.58:388][909]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 54
+[2018.02.11-20.25.58:604][935]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 55
+[2018.02.11-20.25.59:004][983]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 56
+[2018.02.11-20.25.59:221][  9]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 57
+[2018.02.11-20.25.59:431][ 34]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 58
+[2018.02.11-20.25.59:772][ 75]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 59
+[2018.02.11-20.25.59:997][102]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 60
+[2018.02.11-20.26.00:231][130]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 61
+[2018.02.11-20.26.00:873][207]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 62
+[2018.02.11-20.26.01:214][248]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 63
+[2018.02.11-20.26.01:431][274]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 64
+[2018.02.11-20.26.01:614][296]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 65
+[2018.02.11-20.26.01:840][323]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 66
+[2018.02.11-20.26.02:048][348]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 67
+[2018.02.11-20.26.02:273][375]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 68
+[2018.02.11-20.26.02:473][399]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 69
+[2018.02.11-20.26.02:690][425]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 70
+[2018.02.11-20.26.04:150][600]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 71
+[2018.02.11-20.26.04:399][630]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 72
+[2018.02.11-20.26.04:616][656]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 73
+[2018.02.11-20.26.06:841][923]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 74
+[2018.02.11-20.26.07:108][955]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 75
+[2018.02.11-20.26.07:458][997]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 76
+[2018.02.11-20.26.07:883][ 48]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 77
+[2018.02.11-20.26.09:200][206]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 78
+[2018.02.11-20.26.09:433][234]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 79
+[2018.02.11-20.26.09:959][297]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 80
+[2018.02.11-20.26.10:217][328]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 81
+[2018.02.11-20.26.10:450][356]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 82
+[2018.02.11-20.26.11:466][478]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 83
+[2018.02.11-20.26.11:700][506]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 84
+[2018.02.11-20.26.11:925][533]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 85
+[2018.02.11-20.26.15:092][913]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 86
+[2018.02.11-20.26.15:309][939]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 87
+[2018.02.11-20.26.15:526][965]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 88
+[2018.02.11-20.26.15:834][  2]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 89
+[2018.02.11-20.26.16:075][ 31]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 90
+[2018.02.11-20.26.16:292][ 57]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 91
+[2018.02.11-20.26.16:492][ 81]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 92
+[2018.02.11-20.26.16:851][124]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 93
+[2018.02.11-20.26.17:076][151]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 94
+[2018.02.11-20.26.17:284][176]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 95
+[2018.02.11-20.26.17:492][201]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 96
+[2018.02.11-20.26.17:709][227]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 97
+[2018.02.11-20.26.18:092][273]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 98
+[2018.02.11-20.26.18:309][299]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 99
+[2018.02.11-20.26.18:559][329]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 100
+[2018.02.11-20.26.18:826][361]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 101
+[2018.02.11-20.26.23:759][953]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 102
+[2018.02.11-20.26.23:976][979]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 103
+[2018.02.11-20.26.24:267][ 14]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 104
+[2018.02.11-20.26.24:492][ 41]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.02.11-20.26.24:492][ 41]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.02.11-20.26.24:493][ 41]LogNet: Browse: /Game/Levels/World
+[2018.02.11-20.26.24:493][ 41]LogLoad: LoadMap: /Game/Levels/World
+[2018.02.11-20.26.24:512][ 41]Cmd: MEM
+[2018.02.11-20.26.24:526][ 41]LogMemory: Platform Memory Stats for Windows
+[2018.02.11-20.26.24:526][ 41]LogMemory: Process Physical Memory: 1052.51 MB used, 1152.31 MB peak
+[2018.02.11-20.26.24:526][ 41]LogMemory: Process Virtual Memory: 1312.56 MB used, 1404.79 MB peak
+[2018.02.11-20.26.24:526][ 41]LogMemory: Physical Memory: 5263.26 MB used,  11102.85 MB free, 16366.11 MB total
+[2018.02.11-20.26.24:526][ 41]LogMemory: Virtual Memory: 2149.90 MB used,  11102.85 MB free, 134217728.00 MB total
+[2018.02.11-20.26.24:526][ 41]LogMemory: 
+[2018.02.11-20.26.24:526][ 41]Allocator Stats for TBB: (not implemented)
+[2018.02.11-20.26.24:530][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:530][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/World.umap.
+[2018.02.11-20.26.24:530][ 41]LoadErrors:Error: Error /Game/Levels/World : Can't find file for asset. /Game/AI/BetterAI
+[2018.02.11-20.26.24:594][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:594][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/World.umap.
+[2018.02.11-20.26.24:668][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:669][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/World.umap.
+[2018.02.11-20.26.24:669][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:669][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/World.umap.
+[2018.02.11-20.26.24:669][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:669][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/World.umap.
+[2018.02.11-20.26.24:675][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:675][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/World.umap.
+[2018.02.11-20.26.24:680][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:680][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/World.umap.
+[2018.02.11-20.26.24:681][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:681][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/World.umap.
+[2018.02.11-20.26.24:681][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:681][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/World.umap.
+[2018.02.11-20.26.24:685][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:685][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:686][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:686][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:686][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:686][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:686][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:686][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:686][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:686][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:686][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:686][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:687][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:687][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:687][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:687][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:687][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:687][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:692][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:692][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:692][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:693][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:694][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:694][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:694][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:695][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:696][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:696][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:696][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:696][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:697][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:697][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:697][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:697][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:699][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:699][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:699][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:699][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:699][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:700][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:700][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:700][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:701][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:701][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:701][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:701][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:711][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:711][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.24:711][ 41]LogLinker:Warning: Can't find file '/Game/AI/BetterAI'
+[2018.02.11-20.26.24:711][ 41]LoadErrors: Info Failed to load /Game/AI/BetterAI.BetterAI_C Referenced by PersistentLevel
+[2018.02.11-20.26.24:711][ 41]LogLinker:Warning: Can't find file for asset '/Game/AI/BetterAI' while loading NULL.
+[2018.02.11-20.26.25:182][ 41]LogAIModule: Creating AISystem for world World
+[2018.02.11-20.26.25:183][ 41]LogLoad: Game class is 'GameMode'
+[2018.02.11-20.26.25:188][ 41]LogWorld: Bringing World /Game/Levels/UEDPIE_0_World.World up for play (max tick rate 0) at 2018.02.11-20.26.25
+[2018.02.11-20.26.25:188][ 41]LogWorld: Bringing up level for play took: 0.003385
+[2018.02.11-20.26.25:188][ 41]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.11-20.26.25:188][ 41]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.11-20.26.25:188][ 41]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.11-20.26.25:189][ 41]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.11-20.26.25:189][ 41]LogLoad: Took 0.696305 seconds to LoadMap(/Game/Levels/World)
+[2018.02.11-20.26.25:207][ 42]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Arrow': BetterAI_C /Game/Levels/World.World:PersistentLevel.BetterAI_22
+[2018.02.11-20.26.25:208][ 42]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CollisionCylinder': BetterAI_C /Game/Levels/World.World:PersistentLevel.BetterAI_22
+[2018.02.11-20.26.25:208][ 42]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'CharMoveComp': BetterAI_C /Game/Levels/World.World:PersistentLevel.BetterAI_22
+[2018.02.11-20.26.25:208][ 42]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'Sprite0': BetterAI_C /Game/Levels/World.World:PersistentLevel.BetterAI_22
+[2018.02.11-20.26.25:208][ 42]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'PawnSensing': BetterAI_C /Game/Levels/World.World:PersistentLevel.BetterAI_22
+[2018.02.11-20.26.25:208][ 42]LoadErrors:Warning: Warning CreateExport: Failed to load Outer for resource 'SpotLight': BetterAI_C /Game/Levels/World.World:PersistentLevel.BetterAI_22
+[2018.02.11-20.26.28:081][385]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.26.28:118][385]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.26.30:340][441]Cmd: MAP LOAD FILE="C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.11-20.26.30:340][441]LightingResults: New page: Lighting Build
+[2018.02.11-20.26.30:341][441]LoadErrors: New page: Loading map: Pacman_minigame.umap
+[2018.02.11-20.26.30:366][441]MapCheck: New page: Map Check
+[2018.02.11-20.26.30:366][441]LightingResults: New page: Lighting Build
+[2018.02.11-20.26.30:459][441]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.11-20.26.30:567][441]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.11-20.26.30:639][441]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.11-20.26.30:709][441]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.295ms to complete.
+[2018.02.11-20.26.30:709][441]LogFileHelpers: Loading map 'Pacman_minigame' took 0.370
+[2018.02.11-20.26.51:372][677]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
+[2018.02.11-20.26.52:113][677]LogSlate: Took 0.000219 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.11-20.26.52:213][677]LogSlate: Took 0.000274 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.11-20.26.52:272][678]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.11-20.27.21:926][289]BlueprintLog: New page: Compile Pacman-character_minigame
+[2018.02.11-20.27.25:510][329]LogSavePackage: Save=51.00ms
+[2018.02.11-20.27.25:510][329]LogSavePackage: Moving 'C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Pacman-character_minigame2BF6FBF44C4546FEB6687A95522E2E4C.tmp' to 'C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset'
+[2018.02.11-20.27.25:513][329]LogSavePackage:Display: Finished SavePackage C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Pacman_minigame/Blueprints/Pacman-character_minigame.uasset
+[2018.02.11-20.27.28:235][501]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-20.27.28:276][501]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.27.28:276][501]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-20.27.28:276][501]PIE: New page: PIE session: Pacman_minigame (11 Feb 2018 20:27:28)
+[2018.02.11-20.27.28:276][501]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.11-20.27.28:290][501]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013035s)
+[2018.02.11-20.27.28:290][501]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.11-20.27.28:290][501]LogPlayLevel: PIE: World Init took: (0.000856s)
+[2018.02.11-20.27.28:291][501]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.014135s)
+[2018.02.11-20.27.28:327][501]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-20.27.28:343][501]LogInit: FAudioDevice initialized.
+[2018.02.11-20.27.28:376][501]LogLoad: Game class is 'GameMode'
+[2018.02.11-20.27.28:382][501]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 0) at 2018.02.11-20.27.28
+[2018.02.11-20.27.28:383][501]LogWorld: Bringing up level for play took: 0.005646
+[2018.02.11-20.27.28:384][501]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.11-20.27.28:384][501]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.11-20.27.28:384][501]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.11-20.27.28:385][501]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.11-20.27.28:385][501]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame -0.574
+[2018.02.11-20.27.28:385][501]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.27.29:521][632]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 1
+[2018.02.11-20.27.29:788][664]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 2
+[2018.02.11-20.27.31:013][811]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 3
+[2018.02.11-20.27.32:155][948]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 4
+[2018.02.11-20.27.32:938][ 42]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 5
+[2018.02.11-20.27.33:146][ 67]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 6
+[2018.02.11-20.27.33:363][ 93]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 7
+[2018.02.11-20.27.33:580][119]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 8
+[2018.02.11-20.27.33:888][156]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 9
+[2018.02.11-20.27.34:130][185]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 10
+[2018.02.11-20.27.34:346][211]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 11
+[2018.02.11-20.27.34:563][237]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 12
+[2018.02.11-20.27.34:938][282]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 13
+[2018.02.11-20.27.35:146][307]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 14
+[2018.02.11-20.27.35:363][333]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 15
+[2018.02.11-20.27.35:571][358]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 16
+[2018.02.11-20.27.35:788][384]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 17
+[2018.02.11-20.27.36:138][426]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 18
+[2018.02.11-20.27.36:363][453]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 19
+[2018.02.11-20.27.36:588][480]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 20
+[2018.02.11-20.27.36:821][508]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 21
+[2018.02.11-20.27.37:030][533]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 22
+[2018.02.11-20.27.37:313][567]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 23
+[2018.02.11-20.27.38:255][680]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 24
+[2018.02.11-20.27.38:505][710]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 25
+[2018.02.11-20.27.38:913][759]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 26
+[2018.02.11-20.27.39:155][788]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 27
+[2018.02.11-20.27.39:372][814]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 28
+[2018.02.11-20.27.40:446][943]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 29
+[2018.02.11-20.27.40:671][970]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 30
+[2018.02.11-20.27.40:922][  0]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 31
+[2018.02.11-20.27.41:996][129]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 32
+[2018.02.11-20.27.42:246][159]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 33
+[2018.02.11-20.27.42:463][185]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 34
+[2018.02.11-20.27.42:855][232]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 35
+[2018.02.11-20.27.43:072][258]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 36
+[2018.02.11-20.27.43:280][283]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 37
+[2018.02.11-20.27.43:496][309]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 38
+[2018.02.11-20.27.43:740][338]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 39
+[2018.02.11-20.27.43:956][364]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 40
+[2018.02.11-20.27.44:173][390]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 41
+[2018.02.11-20.27.44:381][415]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 42
+[2018.02.11-20.27.44:706][454]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 43
+[2018.02.11-20.27.44:974][486]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 44
+[2018.02.11-20.27.45:782][583]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 45
+[2018.02.11-20.27.46:024][612]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 46
+[2018.02.11-20.27.47:074][738]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 47
+[2018.02.11-20.27.47:349][771]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 48
+[2018.02.11-20.27.47:716][815]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 49
+[2018.02.11-20.27.47:982][847]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 50
+[2018.02.11-20.27.48:257][880]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 51
+[2018.02.11-20.27.48:483][907]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 52
+[2018.02.11-20.27.48:758][940]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 53
+[2018.02.11-20.27.48:974][966]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 54
+[2018.02.11-20.27.49:216][995]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 55
+[2018.02.11-20.27.49:432][ 21]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 56
+[2018.02.11-20.27.49:616][ 43]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 57
+[2018.02.11-20.27.49:974][ 86]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 58
+[2018.02.11-20.27.50:524][152]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 59
+[2018.02.11-20.27.50:791][184]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 60
+[2018.02.11-20.27.50:867][193]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.27.50:903][193]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.27.52:129][250]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-20.27.52:159][250]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.27.52:159][250]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-20.27.52:159][250]PIE: New page: PIE session: Pacman_minigame (11 Feb 2018 20:27:52)
+[2018.02.11-20.27.52:159][250]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.11-20.27.52:172][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012164s)
+[2018.02.11-20.27.52:172][250]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.11-20.27.52:172][250]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2018.02.11-20.27.52:173][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.013169s)
+[2018.02.11-20.27.52:204][250]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-20.27.52:221][250]LogInit: FAudioDevice initialized.
+[2018.02.11-20.27.52:252][250]LogLoad: Game class is 'GameMode'
+[2018.02.11-20.27.52:258][250]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 0) at 2018.02.11-20.27.52
+[2018.02.11-20.27.52:259][250]LogWorld: Bringing up level for play took: 0.005649
+[2018.02.11-20.27.52:260][250]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.11-20.27.52:260][250]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.11-20.27.52:260][250]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.11-20.27.52:261][250]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.11-20.27.52:261][250]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame -0.698
+[2018.02.11-20.27.52:261][250]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.27.53:039][338]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.27.53:075][338]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.27.53:806][388]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-20.27.53:835][388]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.27.53:835][388]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-20.27.53:835][388]PIE: New page: PIE session: Pacman_minigame (11 Feb 2018 20:27:53)
+[2018.02.11-20.27.53:835][388]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.11-20.27.53:848][388]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013083s)
+[2018.02.11-20.27.53:849][388]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.11-20.27.53:849][388]LogPlayLevel: PIE: World Init took: (0.000839s)
+[2018.02.11-20.27.53:850][388]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.014163s)
+[2018.02.11-20.27.53:878][388]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-20.27.53:895][388]LogInit: FAudioDevice initialized.
+[2018.02.11-20.27.53:925][388]LogLoad: Game class is 'GameMode'
+[2018.02.11-20.27.53:931][388]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 0) at 2018.02.11-20.27.53
+[2018.02.11-20.27.53:932][388]LogWorld: Bringing up level for play took: 0.005620
+[2018.02.11-20.27.53:933][388]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.11-20.27.53:933][388]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.11-20.27.53:933][388]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.11-20.27.53:934][388]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.11-20.27.53:934][388]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame 0.975
+[2018.02.11-20.27.53:934][388]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.27.55:404][559]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.27.55:443][559]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.27.57:857][841]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Pacman_tilemap)
+[2018.02.11-20.27.59:869][ 21]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-20.27.59:898][ 21]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.27.59:898][ 21]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-20.27.59:898][ 21]PIE: New page: PIE session: Pacman_minigame (11 Feb 2018 20:27:59)
+[2018.02.11-20.27.59:898][ 21]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.11-20.27.59:910][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011805s)
+[2018.02.11-20.27.59:911][ 21]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.11-20.27.59:911][ 21]LogPlayLevel: PIE: World Init took: (0.000802s)
+[2018.02.11-20.27.59:911][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.012821s)
+[2018.02.11-20.27.59:945][ 21]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-20.27.59:961][ 21]LogInit: FAudioDevice initialized.
+[2018.02.11-20.27.59:993][ 21]LogLoad: Game class is 'GameMode'
+[2018.02.11-20.27.59:999][ 21]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 0) at 2018.02.11-20.27.59
+[2018.02.11-20.28.00:000][ 21]LogWorld: Bringing up level for play took: 0.005553
+[2018.02.11-20.28.00:000][ 21]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.11-20.28.00:000][ 21]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.11-20.28.00:000][ 21]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.11-20.28.00:001][ 21]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.11-20.28.00:001][ 21]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame 1.042
+[2018.02.11-20.28.00:002][ 21]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.28.01:223][162]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.28.01:277][162]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.28.04:944][349]LogAIModule: Creating AISystem for world Map1
+[2018.02.11-20.28.04:983][349]Cmd: MAP LOAD FILE="C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Maps/Map1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.11-20.28.04:983][349]LightingResults: New page: Lighting Build
+[2018.02.11-20.28.04:984][349]LoadErrors: New page: Loading map: Map1.umap
+[2018.02.11-20.28.04:986][349]MapCheck: New page: Map Check
+[2018.02.11-20.28.04:986][349]LightingResults: New page: Lighting Build
+[2018.02.11-20.28.05:139][349]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.11-20.28.05:217][349]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.11-20.28.05:294][349]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 77.503ms to complete.
+[2018.02.11-20.28.05:294][349]LogFileHelpers: Loading map 'Map1' took 0.312
+[2018.02.11-20.28.12:503][579]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.11-20.28.12:558][579]Cmd: MAP LOAD FILE="C:/Users/16079582/Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/Pacman_minigame.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.11-20.28.12:559][579]LightingResults: New page: Lighting Build
+[2018.02.11-20.28.12:559][579]LoadErrors: New page: Loading map: Pacman_minigame.umap
+[2018.02.11-20.28.12:561][579]MapCheck: New page: Map Check
+[2018.02.11-20.28.12:561][579]LightingResults: New page: Lighting Build
+[2018.02.11-20.28.12:758][579]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.11-20.28.12:837][579]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.11-20.28.12:913][579]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.307ms to complete.
+[2018.02.11-20.28.12:913][579]LogFileHelpers: Loading map 'Pacman_minigame' took 0.355
+[2018.02.11-20.28.13:723][611]LogTemp: Repeting last play command: Selected Viewport
+[2018.02.11-20.28.13:751][611]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.28.13:751][611]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.11-20.28.13:751][611]PIE: New page: PIE session: Pacman_minigame (11 Feb 2018 20:28:13)
+[2018.02.11-20.28.13:751][611]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Pacman_minigame
+[2018.02.11-20.28.13:763][611]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011622s)
+[2018.02.11-20.28.13:764][611]LogAIModule: Creating AISystem for world Pacman_minigame
+[2018.02.11-20.28.13:764][611]LogPlayLevel: PIE: World Init took: (0.000763s)
+[2018.02.11-20.28.13:764][611]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Pacman_minigame.Pacman_minigame to /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame (0.012595s)
+[2018.02.11-20.28.13:795][611]LogInit: XAudio2 using 'Speakers (VIA HD Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.11-20.28.13:811][611]LogInit: FAudioDevice initialized.
+[2018.02.11-20.28.13:848][611]LogLoad: Game class is 'GameMode'
+[2018.02.11-20.28.13:854][611]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Pacman_minigame.Pacman_minigame up for play (max tick rate 0) at 2018.02.11-20.28.13
+[2018.02.11-20.28.13:855][611]LogWorld: Bringing up level for play took: 0.005586
+[2018.02.11-20.28.13:855][611]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.11-20.28.13:856][611]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.11-20.28.13:856][611]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.11-20.28.13:857][611]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.11-20.28.13:857][611]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Pacman_minigame 0.898
+[2018.02.11-20.28.13:857][611]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame' with GeneratedClass '/Game/Levels/Pacman_minigame.Pacman_minigame_C' with ClassGeneratedBy '/Game/Levels/Pacman_minigame.Pacman_minigame:PersistentLevel.Pacman_minigame'
+[2018.02.11-20.28.15:060][750]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 1
+[2018.02.11-20.28.15:277][776]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 2
+[2018.02.11-20.28.15:493][802]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 3
+[2018.02.11-20.28.15:702][827]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 4
+[2018.02.11-20.28.15:918][853]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 5
+[2018.02.11-20.28.16:135][879]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 6
+[2018.02.11-20.28.16:443][916]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 7
+[2018.02.11-20.28.16:685][945]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 8
+[2018.02.11-20.28.16:903][971]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 9
+[2018.02.11-20.28.17:120][997]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 10
+[2018.02.11-20.28.17:462][ 38]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 11
+[2018.02.11-20.28.17:670][ 63]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 12
+[2018.02.11-20.28.17:887][ 89]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 13
+[2018.02.11-20.28.18:096][114]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 14
+[2018.02.11-20.28.18:312][140]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 15
+[2018.02.11-20.28.18:696][186]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 16
+[2018.02.11-20.28.18:913][212]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 17
+[2018.02.11-20.28.19:196][246]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 18
+[2018.02.11-20.28.19:405][271]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 19
+[2018.02.11-20.28.19:622][297]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 20
+[2018.02.11-20.28.19:897][330]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 21
+[2018.02.11-20.28.20:672][423]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 22
+[2018.02.11-20.28.20:931][454]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 23
+[2018.02.11-20.28.21:106][475]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 24
+[2018.02.11-20.28.21:347][504]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 25
+[2018.02.11-20.28.21:564][530]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 26
+[2018.02.11-20.28.22:699][666]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 27
+[2018.02.11-20.28.22:924][693]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 28
+[2018.02.11-20.28.23:291][737]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 29
+[2018.02.11-20.28.23:541][767]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 30
+[2018.02.11-20.28.23:757][793]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 31
+[2018.02.11-20.28.24:050][828]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 32
+[2018.02.11-20.28.24:267][854]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 33
+[2018.02.11-20.28.24:484][880]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 34
+[2018.02.11-20.28.24:700][906]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 35
+[2018.02.11-20.28.24:951][936]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 36
+[2018.02.11-20.28.25:167][962]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 37
+[2018.02.11-20.28.25:384][988]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 38
+[2018.02.11-20.28.25:592][ 13]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 39
+[2018.02.11-20.28.25:893][ 49]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 40
+[2018.02.11-20.28.26:135][ 78]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 41
+[2018.02.11-20.28.26:401][110]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 42
+[2018.02.11-20.28.26:610][135]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 43
+[2018.02.11-20.28.26:977][179]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 44
+[2018.02.11-20.28.27:310][219]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 45
+[2018.02.11-20.28.28:552][368]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 46
+[2018.02.11-20.28.28:777][395]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 47
+[2018.02.11-20.28.28:986][420]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 48
+[2018.02.11-20.28.29:202][446]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 49
+[2018.02.11-20.28.29:427][473]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 50
+[2018.02.11-20.28.29:702][506]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 51
+[2018.02.11-20.28.29:928][533]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 52
+[2018.02.11-20.28.30:136][558]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 53
+[2018.02.11-20.28.30:353][584]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 54
+[2018.02.11-20.28.30:595][613]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 55
+[2018.02.11-20.28.30:811][639]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 56
+[2018.02.11-20.28.31:020][664]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 57
+[2018.02.11-20.28.31:236][690]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 58
+[2018.02.11-20.28.31:528][725]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 59
+[2018.02.11-20.28.31:745][751]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 60
+[2018.02.11-20.28.31:954][776]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 61
+[2018.02.11-20.28.32:312][819]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 62
+[2018.02.11-20.28.32:528][845]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 63
+[2018.02.11-20.28.32:770][874]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 64
+[2018.02.11-20.28.33:497][961]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 65
+[2018.02.11-20.28.33:706][986]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 66
+[2018.02.11-20.28.33:981][ 19]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 67
+[2018.02.11-20.28.34:264][ 53]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 68
+[2018.02.11-20.28.34:489][ 80]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 69
+[2018.02.11-20.28.34:747][111]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 70
+[2018.02.11-20.28.34:972][138]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 71
+[2018.02.11-20.28.35:289][176]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 72
+[2018.02.11-20.28.35:514][203]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 73
+[2018.02.11-20.28.37:664][461]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 74
+[2018.02.11-20.28.37:772][474]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 75
+[2018.02.11-20.28.38:031][505]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 76
+[2018.02.11-20.28.38:339][542]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 77
+[2018.02.11-20.28.38:756][592]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 78
+[2018.02.11-20.28.39:006][622]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 79
+[2018.02.11-20.28.39:256][652]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 80
+[2018.02.11-20.28.39:473][678]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 81
+[2018.02.11-20.28.39:698][705]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 82
+[2018.02.11-20.28.39:998][741]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 83
+[2018.02.11-20.28.40:206][766]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 84
+[2018.02.11-20.28.40:423][792]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 85
+[2018.02.11-20.28.40:639][818]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 86
+[2018.02.11-20.28.40:848][843]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 87
+[2018.02.11-20.28.41:148][879]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 88
+[2018.02.11-20.28.41:373][906]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 89
+[2018.02.11-20.28.41:581][931]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 90
+[2018.02.11-20.28.41:797][957]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 91
+[2018.02.11-20.28.42:006][982]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 92
+[2018.02.11-20.28.42:223][  8]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 93
+[2018.02.11-20.28.42:439][ 34]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 94
+[2018.02.11-20.28.42:681][ 63]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 95
+[2018.02.11-20.28.43:539][166]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 96
+[2018.02.11-20.28.43:773][194]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 97
+[2018.02.11-20.28.44:439][274]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 98
+[2018.02.11-20.28.45:081][351]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 99
+[2018.02.11-20.28.45:314][379]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 100
+[2018.02.11-20.28.45:531][405]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 101
+[2018.02.11-20.28.47:306][618]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 102
+[2018.02.11-20.28.47:531][645]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 103
+[2018.02.11-20.28.47:806][678]LogBlueprintUserMessages: [Pacman-character_minigame_C_0] 104
+[2018.02.11-20.28.48:039][706]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.02.11-20.28.48:039][706]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.02.11-20.28.48:040][706]LogNet: Browse: /Game/Levels/MainMenu
+[2018.02.11-20.28.48:040][706]LogLoad: LoadMap: /Game/Levels/MainMenu
+[2018.02.11-20.28.48:067][706]Cmd: MEM
+[2018.02.11-20.28.48:093][706]LogMemory: Platform Memory Stats for Windows
+[2018.02.11-20.28.48:093][706]LogMemory: Process Physical Memory: 1313.10 MB used, 1341.33 MB peak
+[2018.02.11-20.28.48:093][706]LogMemory: Process Virtual Memory: 1770.41 MB used, 1797.84 MB peak
+[2018.02.11-20.28.48:093][706]LogMemory: Physical Memory: 5440.25 MB used,  10925.86 MB free, 16366.11 MB total
+[2018.02.11-20.28.48:093][706]LogMemory: Virtual Memory: 2676.49 MB used,  10925.86 MB free, 134217728.00 MB total
+[2018.02.11-20.28.48:093][706]LogMemory: 
+[2018.02.11-20.28.48:093][706]Allocator Stats for TBB: (not implemented)
+[2018.02.11-20.28.48:124][706]LogAIModule: Creating AISystem for world MainMenu
+[2018.02.11-20.28.48:124][706]LogLoad: Game class is 'GameMode'
+[2018.02.11-20.28.48:126][706]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.02.11-20.28.48
+[2018.02.11-20.28.48:127][706]LogWorld: Bringing up level for play took: 0.000850
+[2018.02.11-20.28.48:127][706]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.02.11-20.28.48:127][706]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.11-20.28.48:127][706]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2018.02.11-20.28.48:127][706]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2018.02.11-20.28.48:129][706]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2018.02.11-20.28.48:129][706]LogLoad: Took 0.088908 seconds to LoadMap(/Game/Levels/MainMenu)
+[2018.02.11-20.28.51:038][ 22]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2018.02.11-20.28.51:038][ 22]LogGameState: Match State Changed from InProgress to LeavingMap
+[2018.02.11-20.28.51:038][ 22]LogNet: Browse: /Game/Maps/Map1
+[2018.02.11-20.28.51:038][ 22]LogLoad: LoadMap: /Game/Maps/Map1
+[2018.02.11-20.28.51:070][ 22]Cmd: MEM
+[2018.02.11-20.28.51:099][ 22]LogMemory: Platform Memory Stats for Windows
+[2018.02.11-20.28.51:099][ 22]LogMemory: Process Physical Memory: 1319.08 MB used, 1341.33 MB peak
+[2018.02.11-20.28.51:099][ 22]LogMemory: Process Virtual Memory: 1834.20 MB used, 1834.20 MB peak
+[2018.02.11-20.28.51:099][ 22]LogMemory: Physical Memory: 5434.73 MB used,  10931.39 MB free, 16366.11 MB total
+[2018.02.11-20.28.51:099][ 22]LogMemory: Virtual Memory: 2724.49 MB used,  10931.39 MB free, 134217728.00 MB total
+[2018.02.11-20.28.51:099][ 22]LogMemory: 
+[2018.02.11-20.28.51:099][ 22]Allocator Stats for TBB: (not implemented)
+[2018.02.11-20.28.51:397][ 22]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.207 s
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: === Handled ensure: ===
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: 
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: Ensure condition failed: IsObjectValidForDatabase(AssetObject) [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionDatabase.cpp] [Line: 1305]
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: 
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: Stack: 
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C644E2B6
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C61FB8C2
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000C6211E86
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000B27FBCF7
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000B27CC23D
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000C9E00377
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000CA1031A6
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000CA119393
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000CA11891A
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000B5845ACF
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000B57FEEA8
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000B586460D
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000BB092F55
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000BB8B8D86
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: UE4Editor.exe!0x00000000A0F7E2B2
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: UE4Editor.exe!0x00000000A0F6F0B0
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: UE4Editor.exe!0x00000000A0F6F12A
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: UE4Editor.exe!0x00000000A0F80CF9
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: UE4Editor.exe!0x00000000A0F825F7
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: KERNEL32.DLL!0x00000000F1A81FE4
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: ntdll.dll!0x00000000F3B2EFB1
+[2018.02.11-20.28.51:397][ 22]LogOutputDevice:Error: 
+[2018.02.11-20.28.51:407][ 22]LogStats:                SubmitErrorReport -  0.000 s
