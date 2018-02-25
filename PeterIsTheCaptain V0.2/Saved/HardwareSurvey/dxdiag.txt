@@ -1,6 +1,7 @@
 ------------------
 System Information
 ------------------
+<<<<<<< HEAD
       Time of this report: 2/25/2018, 19:53:16
              Machine name: DESKTOP-00B2ES8
                Machine Id: {0B7D962B-DE85-48D0-8FBA-9AD14EA118E2}
@@ -23,6 +24,30 @@ System Information
 Microsoft Graphics Hybrid: Supported
            DxDiag Version: 10.00.16299.0015 64bit Unicode
   DxDiag Previously: Crashed in Direct3D (stage 2) & DirectShow (stage 1). Re-running DxDiag with "dontskip" command line parameter or choosing not to bypass information gathering when prompted might result in DxDiag successfully obtaining this information
+=======
+      Time of this report: 2/19/2018, 15:17:27
+             Machine name: DESKTOP-E30UDBA
+               Machine Id: {E082E784-2529-4249-9E9A-770CDC832B8A}
+         Operating System: Windows 10 Education 64-bit (10.0, Build 16299) (16299.rs3_release.170928-1534)
+                 Language: English (Regional Setting: English)
+      System Manufacturer: System manufacturer
+             System Model: System Product Name
+                     BIOS: BIOS Date: 11/14/12 10:30:51 Ver: 15.03
+                Processor: AMD FX(tm)-8350 Eight-Core Processor            (8 CPUs), ~4.0GHz
+                   Memory: 16384MB RAM
+      Available OS Memory: 16366MB RAM
+                Page File: 6698MB used, 12099MB available
+              Windows Dir: C:\WINDOWS
+          DirectX Version: DirectX 12
+      DX Setup Parameters: Not found
+         User DPI Setting: 96 DPI (100 percent)
+       System DPI Setting: 96 DPI (100 percent)
+          DWM DPI Scaling: Disabled
+                 Miracast: Available, with HDCP
+Microsoft Graphics Hybrid: Not Supported
+           DxDiag Version: 10.00.16299.0015 64bit Unicode
+  DxDiag Previously: Crashed in MediaFoundation (stage 1). Re-running DxDiag with "dontskip" command line parameter or choosing not to bypass information gathering when prompted might result in DxDiag successfully obtaining this information
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 
 ------------
 DxDiag Notes
@@ -46,6 +71,7 @@ DirectShow:  0/6 (retail)
 ---------------
 Display Devices
 ---------------
+<<<<<<< HEAD
            Card name: Intel(R) HD Graphics 630
         Manufacturer: Intel Corporation
            Chip type: Intel(R) HD Graphics Family
@@ -164,10 +190,216 @@ Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
          MPO Formats: Unknown
     PanelFitter Caps: Unknown
  PanelFitter Stretch: Unknown
+=======
+           Card name: NVIDIA GeForce GTX 960
+        Manufacturer: NVIDIA
+           Chip type: GeForce GTX 960
+            DAC type: Integrated RAMDAC
+         Device Type: Full Device
+          Device Key: Enum\PCI\VEN_10DE&DEV_1401&SUBSYS_32021462&REV_A1
+       Device Status: 0180200A [DN_DRIVER_LOADED|DN_STARTED|DN_DISABLEABLE|DN_NT_ENUMERATOR|DN_NT_DRIVER] 
+ Device Problem Code: No Problem
+ Driver Problem Code: Unknown
+      Display Memory: 10199 MB
+    Dedicated Memory: 2016 MB
+       Shared Memory: 8183 MB
+        Current Mode: 1920 x 1080 (32 bit) (60Hz)
+         HDR Support: Not Supported
+    Display Topology: Extend
+ Display Color Space: DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+     Color Primaries: Red(0.641125,0.338391), Green(0.315930,0.629406), Blue(0.159680,0.059094), White Point(0.313977,0.329602)
+   Display Luminance: Min Luminance = 0.500000, Max Luminance = 270.000000, MaxFullFrameLuminance = 270.000000
+        Monitor Name: Generic PnP Monitor
+       Monitor Model: VE247
+          Monitor Id: ACI2493
+         Native Mode: 1920 x 1080(p) (60.000Hz)
+         Output Type: HDMI
+Monitor Advanced Color Capabilities: None
+Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
+         Driver Name: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvldumdx.dll
+ Driver File Version: 23.21.0013.8813 (English)
+      Driver Version: 23.21.13.8813
+         DDI Version: 12
+      Feature Levels: 12_1,12_0,11_1,11_0,10_1,10_0,9_3,9_2,9_1
+        Driver Model: WDDM 2.3
+ Graphics Preemption: DMA
+  Compute Preemption: DMA
+            Miracast: Not Supported
+ Hybrid Graphics GPU: Not Supported
+      Power P-states: Not Supported
+   Driver Attributes: Final Retail
+    Driver Date/Size: 27/10/2017 00:00:00, 945072 bytes
+         WHQL Logo'd: Yes
+     WHQL Date Stamp: Unknown
+   Device Identifier: {D7B71E3E-5741-11CF-BF55-0F121BC2DA35}
+           Vendor ID: 0x10DE
+           Device ID: 0x1401
+           SubSys ID: 0x32021462
+         Revision ID: 0x00A1
+  Driver Strong Name: oem9.inf:0f066de3d2368449:Section110:23.21.13.8813:pci\ven_10de&dev_1401
+      Rank Of Driver: 00D12001
+         Video Accel: 
+         DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeHEVC_VLD_Main10  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  
+   Deinterlace Caps: {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+        D3D9 Overlay: Supported
+             DXVA-HD: Supported
+        DDraw Status: Enabled
+          D3D Status: Enabled
+          AGP Status: Enabled
+       MPO MaxPlanes: 1
+            MPO Caps: Not Supported
+         MPO Stretch: Not Supported
+     MPO Media Hints: Not Supported
+         MPO Formats: Not Supported
+    PanelFitter Caps: Not Supported
+ PanelFitter Stretch: Not Supported
+
+           Card name: NVIDIA GeForce GTX 960
+        Manufacturer: NVIDIA
+           Chip type: GeForce GTX 960
+            DAC type: Integrated RAMDAC
+         Device Type: Full Device
+          Device Key: Enum\PCI\VEN_10DE&DEV_1401&SUBSYS_32021462&REV_A1
+       Device Status: 0180200A [DN_DRIVER_LOADED|DN_STARTED|DN_DISABLEABLE|DN_NT_ENUMERATOR|DN_NT_DRIVER] 
+ Device Problem Code: No Problem
+ Driver Problem Code: Unknown
+      Display Memory: 10199 MB
+    Dedicated Memory: 2016 MB
+       Shared Memory: 8183 MB
+        Current Mode: 1680 x 1050 (32 bit) (60Hz)
+         HDR Support: Not Supported
+    Display Topology: Extend
+ Display Color Space: DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+     Color Primaries: Red(0.649914,0.338391), Green(0.289562,0.609875), Blue(0.146008,0.070813), White Point(0.313000,0.329602)
+   Display Luminance: Min Luminance = 0.500000, Max Luminance = 270.000000, MaxFullFrameLuminance = 270.000000
+        Monitor Name: SyncMaster 2043NW/2043NWX
+       Monitor Model: SyncMaster
+          Monitor Id: SAM0370
+         Native Mode: 1680 x 1050(p) (59.883Hz)
+         Output Type: HD15
+Monitor Advanced Color Capabilities: None
+Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
+         Driver Name: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvldumdx.dll
+ Driver File Version: 23.21.0013.8813 (English)
+      Driver Version: 23.21.13.8813
+         DDI Version: 12
+      Feature Levels: 12_1,12_0,11_1,11_0,10_1,10_0,9_3,9_2,9_1
+        Driver Model: WDDM 2.3
+ Graphics Preemption: DMA
+  Compute Preemption: DMA
+            Miracast: Not Supported
+ Hybrid Graphics GPU: Not Supported
+      Power P-states: Not Supported
+   Driver Attributes: Final Retail
+    Driver Date/Size: 27/10/2017 00:00:00, 945072 bytes
+         WHQL Logo'd: Yes
+     WHQL Date Stamp: Unknown
+   Device Identifier: {D7B71E3E-5741-11CF-BF55-0F121BC2DA35}
+           Vendor ID: 0x10DE
+           Device ID: 0x1401
+           SubSys ID: 0x32021462
+         Revision ID: 0x00A1
+  Driver Strong Name: oem9.inf:0f066de3d2368449:Section110:23.21.13.8813:pci\ven_10de&dev_1401
+      Rank Of Driver: 00D12001
+         Video Accel: 
+         DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeHEVC_VLD_Main10  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  
+   Deinterlace Caps: {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+        D3D9 Overlay: Supported
+             DXVA-HD: Supported
+        DDraw Status: Enabled
+          D3D Status: Enabled
+          AGP Status: Enabled
+       MPO MaxPlanes: 1
+            MPO Caps: Not Supported
+         MPO Stretch: Not Supported
+     MPO Media Hints: Not Supported
+         MPO Formats: Not Supported
+    PanelFitter Caps: Not Supported
+ PanelFitter Stretch: Not Supported
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 
 -------------
 Sound Devices
 -------------
+<<<<<<< HEAD
             Description: Reproduktory / sluchátka (Realtek Audio)
  Default Sound Playback: Yes
  Default Voice Playback: Yes
@@ -180,8 +412,22 @@ Sound Devices
       Driver Attributes: Final Retail
             WHQL Logo'd: Yes
           Date and Size: 02/05/2017 00:00:00, 5762568 bytes
+=======
+            Description: Speakers (VIA HD Audio)
+ Default Sound Playback: Yes
+ Default Voice Playback: Yes
+            Hardware ID: HDAUDIO\FUNC_01&VEN_1106&DEV_0397&SUBSYS_1043836C&REV_1000
+        Manufacturer ID: 1
+             Product ID: 100
+                   Type: WDM
+            Driver Name: viahduaa.sys
+         Driver Version: 6.00.0011.0800 (English)
+      Driver Attributes: Final Retail
+            WHQL Logo'd: Yes
+          Date and Size: 15/06/2015 00:00:00, 701136 bytes
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
             Other Files: 
-        Driver Provider: Realtek Semiconductor Corp.
+        Driver Provider: VIA Technologies, Inc.
          HW Accel Level: Basic
               Cap Flags: 0xF1F
     Min/Max Sample Rate: 100, 200000
@@ -196,6 +442,7 @@ Sensaura(tm) ZoomFX(tm): No
 ---------------------
 Sound Capture Devices
 ---------------------
+<<<<<<< HEAD
             Description: Mikrofon (Realtek Audio)
   Default Sound Capture: Yes
   Default Voice Capture: Yes
@@ -203,11 +450,21 @@ Sound Capture Devices
          Driver Version: 6.00.0001.8142 (English)
       Driver Attributes: Final Retail
           Date and Size: 5/8/2017 08:10:40, 5762568 bytes
+=======
+            Description: Microphone (VIA HD Audio)
+  Default Sound Capture: Yes
+  Default Voice Capture: Yes
+            Driver Name: viahduaa.sys
+         Driver Version: 6.00.0011.0800 (English)
+      Driver Attributes: Final Retail
+          Date and Size: 6/22/2015 01:49:50, 701136 bytes
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
               Cap Flags: 0x1
            Format Flags: 0xFFFFF
 
 ---------------------
 Video Capture Devices
+<<<<<<< HEAD
 Number of Devices: 1
 ---------------------
            FriendlyName: Integrated Webcam
@@ -233,6 +490,10 @@ Number of Devices: 1
                   Stack: \Driver\ksthunk,\Driver\usbvideo,\Driver\ACPI,\Driver\usbccgp
       ContainerCategory: n/a
 
+=======
+Number of Devices: 0
+---------------------
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 -------------------
 DirectInput Devices
 -------------------
@@ -248,6 +509,7 @@ Vendor/Product ID: n/a
 Vendor/Product ID: n/a
         FF Driver: n/a
 
+<<<<<<< HEAD
       Device Name: HIDI2C Device
          Attached: 1
     Controller ID: 0x0
@@ -294,6 +556,36 @@ Vendor/Product ID: 0x045E, 0x0000
          Attached: 1
     Controller ID: 0x0
 Vendor/Product ID: 0x06CB, 0x7E92
+=======
+      Device Name: Gaming Mouse
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x1EA7, 0x8003
+        FF Driver: n/a
+
+      Device Name: Gaming Mouse
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x1EA7, 0x8003
+        FF Driver: n/a
+
+      Device Name: Gaming Mouse
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x1EA7, 0x8003
+        FF Driver: n/a
+
+      Device Name: USB DEVICE
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x0C45, 0x8503
+        FF Driver: n/a
+
+      Device Name: USB DEVICE
+         Attached: 1
+    Controller ID: 0x0
+Vendor/Product ID: 0x0C45, 0x8503
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
         FF Driver: n/a
 
 Poll w/ Interrupt: No
@@ -301,6 +593,7 @@ Poll w/ Interrupt: No
 -----------
 USB Devices
 -----------
+<<<<<<< HEAD
 + USB Root Hub (USB 3.0)
 | Vendor/Product ID: 0x8086, 0xA12F
 | Matching Device ID: USB\ROOT_HUB30
@@ -310,35 +603,94 @@ USB Devices
 +-+ USB Composite Device
 | | Vendor/Product ID: 0x09DA, 0xF613
 | | Location: Port_#0003.Hub_#0001
+=======
++ USB Root Hub
+| Vendor/Product ID: 0x1002, 0x4398
+| Matching Device ID: USB\ROOT_HUB
+| Service: usbhub
+| Driver: usbhub.sys, 9/29/2017 13:41:08, 513944 bytes
+| Driver: usbd.sys, 9/29/2017 13:41:08, 32152 bytes
+| 
++-+ USB Composite Device
+| | Vendor/Product ID: 0x1EA7, 0x8003
+| | Location: Port_#0002.Hub_#0002
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 | | Matching Device ID: USB\COMPOSITE
 | | Service: usbccgp
 | | Driver: usbccgp.sys, 9/29/2017 13:41:08, 168856 bytes
 | | 
 | +-+ USB Input Device
+<<<<<<< HEAD
 | | | Vendor/Product ID: 0x09DA, 0xF613
 | | | Location: 0000.0014.0000.003.000.000.000.000.000
+=======
+| | | Vendor/Product ID: 0x1EA7, 0x8003
+| | | Location: 0000.0012.0001.002.000.000.000.000.000
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 | | | Matching Device ID: USB\Class_03&SubClass_01
+| | | Service: HidUsb
+| | | Driver: hidusb.sys, 9/29/2017 13:41:08, 40960 bytes
+| | | Driver: hidclass.sys, 9/29/2017 13:41:08, 187392 bytes
+| | | Driver: hidparse.sys, 2/10/2018 04:47:33, 46080 bytes
+| | | 
+<<<<<<< HEAD
+| | +-+ HID Keyboard Device
+| | | | Vendor/Product ID: 0x09DA, 0xF613
+=======
+| | +-+ HID-compliant mouse
+| | | | Vendor/Product ID: 0x1EA7, 0x8003
+| | | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
+| | | | Service: mouhid
+| | | | Driver: mouhid.sys, 9/29/2017 13:41:08, 32768 bytes
+| | | | Driver: mouclass.sys, 9/29/2017 13:41:08, 57240 bytes
+| | | 
+| +-+ USB Input Device
+| | | Vendor/Product ID: 0x1EA7, 0x8003
+| | | Location: 0000.0012.0001.002.000.000.000.000.000
+| | | Matching Device ID: USB\Class_03
 | | | Service: HidUsb
 | | | Driver: hidusb.sys, 9/29/2017 13:41:08, 40960 bytes
 | | | Driver: hidclass.sys, 9/29/2017 13:41:08, 187392 bytes
 | | | Driver: hidparse.sys, 2/10/2018 04:47:33, 46080 bytes
 | | | 
 | | +-+ HID Keyboard Device
-| | | | Vendor/Product ID: 0x09DA, 0xF613
+| | | | Vendor/Product ID: 0x1EA7, 0x8003
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 | | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
 | | | | Service: kbdhid
 | | | | Driver: kbdhid.sys, 9/29/2017 13:41:08, 40448 bytes
 | | | | Driver: kbdclass.sys, 9/29/2017 13:41:08, 63384 bytes
+<<<<<<< HEAD
 | | | 
 | +-+ USB Input Device
 | | | Vendor/Product ID: 0x09DA, 0xF613
 | | | Location: 0000.0014.0000.003.000.000.000.000.000
+=======
+| 
++ USB Root Hub (USB 3.0)
+| Vendor/Product ID: 0x1B21, 0x1042
+| Matching Device ID: USB\ROOT_HUB30
+| Service: USBHUB3
+| Driver: USBHUB3.SYS, 12/13/2017 23:53:15, 555416 bytes
+| 
++-+ USB Composite Device
+| | Vendor/Product ID: 0x0C45, 0x8503
+| | Location: Port_#0004.Hub_#0008
+| | Matching Device ID: USB\COMPOSITE
+| | Service: usbccgp
+| | Driver: usbccgp.sys, 9/29/2017 13:41:08, 168856 bytes
+| | 
+| +-+ USB Input Device
+| | | Vendor/Product ID: 0x0C45, 0x8503
+| | | Location: 0002.0000.0000.004.000.000.000.000.000
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 | | | Matching Device ID: USB\Class_03&SubClass_01
 | | | Service: HidUsb
 | | | Driver: hidusb.sys, 9/29/2017 13:41:08, 40960 bytes
 | | | Driver: hidclass.sys, 9/29/2017 13:41:08, 187392 bytes
 | | | Driver: hidparse.sys, 2/10/2018 04:47:33, 46080 bytes
 | | | 
+<<<<<<< HEAD
 | | +-+ HID-compliant mouse
 | | | | Vendor/Product ID: 0x09DA, 0xF613
 | | | | Matching Device ID: HID_DEVICE_SYSTEM_MOUSE
@@ -350,13 +702,30 @@ USB Devices
 | | | Vendor/Product ID: 0x09DA, 0xF613
 | | | Location: 0000.0014.0000.003.000.000.000.000.000
 | | | Matching Device ID: USB\Class_03
+=======
+| | +-+ HID Keyboard Device
+| | | | Vendor/Product ID: 0x0C45, 0x8503
+| | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
+| | | | Service: kbdhid
+| | | | Driver: kbdhid.sys, 9/29/2017 13:41:08, 40448 bytes
+| | | | Driver: kbdclass.sys, 9/29/2017 13:41:08, 63384 bytes
+| | | 
+| +-+ USB Input Device
+| | | Vendor/Product ID: 0x0C45, 0x8503
+| | | Location: 0002.0000.0000.004.000.000.000.000.000
+| | | Matching Device ID: USB\Class_03&SubClass_01
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 | | | Service: HidUsb
 | | | Driver: hidusb.sys, 9/29/2017 13:41:08, 40960 bytes
 | | | Driver: hidclass.sys, 9/29/2017 13:41:08, 187392 bytes
 | | | Driver: hidparse.sys, 2/10/2018 04:47:33, 46080 bytes
 | | | 
 | | +-+ HID Keyboard Device
+<<<<<<< HEAD
 | | | | Vendor/Product ID: 0x09DA, 0xF613
+=======
+| | | | Vendor/Product ID: 0x0C45, 0x8503
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 | | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
 | | | | Service: kbdhid
 | | | | Driver: kbdhid.sys, 9/29/2017 13:41:08, 40448 bytes
@@ -369,6 +738,7 @@ Gameport Devices
 ------------
 PS/2 Devices
 ------------
+<<<<<<< HEAD
 + Standard PS/2 Keyboard
 | Matching Device ID: *PNP0303
 | Service: i8042prt
@@ -394,19 +764,47 @@ PS/2 Devices
 | Service: mouhid
 | Driver: mouhid.sys, 9/29/2017 13:41:08, 32768 bytes
 | Driver: mouclass.sys, 9/29/2017 13:41:08, 57240 bytes
+=======
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 
 ------------------------
 Disk & DVD/CD-ROM Drives
 ------------------------
       Drive: C:
+<<<<<<< HEAD
  Free Space: 428.1 GB
 Total Space: 942.2 GB
 File System: NTFS
       Model: TOSHIBA MQ02ABD100H
+=======
+ Free Space: 80.8 GB
+Total Space: 228.4 GB
+File System: NTFS
+      Model: KingDian S280 240GB ATA Device
+
+      Drive: D:
+ Free Space: 0.1 GB
+Total Space: 0.1 GB
+File System: NTFS
+      Model: WDC WD10EZEX-08M2NA0 ATA Device
+
+      Drive: E:
+ Free Space: 226.6 GB
+Total Space: 953.9 GB
+File System: NTFS
+      Model: WD Ext HDD 1021 USB Device
+
+      Drive: G:
+ Free Space: 428.6 GB
+Total Space: 953.8 GB
+File System: NTFS
+      Model: WDC WD10EZEX-08M2NA0 ATA Device
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 
 --------------
 System Devices
 --------------
+<<<<<<< HEAD
      Name: Intel(R) Dynamic Platform and Thermal Framework Processor Participant
 Device ID: PCI\VEN_8086&DEV_1903&SUBSYS_07981028&REV_05\3&11583659&0&20
    Driver: C:\WINDOWS\system32\DRIVERS\dptf_cpu.sys, 8.02.11000.2996 (English), 8/13/2016 01:39:58, 66624 bytes
@@ -1028,6 +1426,416 @@ Disabled Media Sources
 
 <media source CLSID>
 
+=======
+     Name: AMD SMBus
+Device ID: PCI\VEN_1002&DEV_4385&SUBSYS_83891043&REV_3C\3&267A616A&0&A0
+   Driver: n/a
+
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_9600&SUBSYS_83881043&REV_00\3&267A616A&0&00
+   Driver: n/a
+
+     Name: Standard OpenHCD USB Host Controller
+Device ID: PCI\VEN_1002&DEV_4397&SUBSYS_83891043&REV_00\3&267A616A&0&98
+   Driver: C:\WINDOWS\system32\drivers\usbohci.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:08, 30720 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbport.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:08, 454040 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbhub.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:08, 513944 bytes
+
+     Name: Standard OpenHCD USB Host Controller
+Device ID: PCI\VEN_1002&DEV_4397&SUBSYS_83891043&REV_00\3&267A616A&0&90
+   Driver: C:\WINDOWS\system32\drivers\usbohci.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:08, 30720 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbport.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:08, 454040 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbhub.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:08, 513944 bytes
+
+     Name: NVIDIA GeForce GTX 960
+Device ID: PCI\VEN_10DE&DEV_1401&SUBSYS_32021462&REV_A1\4&2A1FC852&0&0010
+   Driver: C:\Program Files\NVIDIA Corporation\Drs\dbInstaller.exe, 23.21.0013.8813 (English), 11/9/2017 04:36:12, 470456 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\Drs\nvdrsdb.bin, 11/9/2017 03:57:26, 1437380 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\NvContainerSetup.exe, 1.00.0007.0000 (English), 11/9/2017 04:37:40, 4188464 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\NvCplSetupInt.exe, 1.00.0007.0000 (English), 11/9/2017 04:37:44, 101510600 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\license.txt, 11/9/2017 03:57:26, 27203 bytes
+   Driver: C:\Program Files (x86)\NVIDIA Corporation\NvFBC\NVFBCPlugin.dll, 6.14.0013.8813 (English), 11/9/2017 04:38:34, 853432 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVFBC\NVFBCPlugin64.dll, 6.14.0013.8813 (English), 11/9/2017 04:38:40, 894384 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\MCU.exe, 1.01.5204.20580 (English), 11/9/2017 04:37:04, 857200 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvdebugdump.exe, 6.14.0013.8813 (English), 11/9/2017 04:37:58, 423864 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.1.pdf, 11/9/2017 03:57:28, 102016 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvidia-smi.exe, 8.17.0013.8813 (English), 11/9/2017 04:39:20, 517232 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\NVSMI\nvml.dll, 8.17.0013.8813 (English), 11/9/2017 04:40:32, 919992 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\OpenCL\OpenCL.dll, 2.00.0004.0000 (English), 11/9/2017 04:43:28, 446392 bytes
+   Driver: C:\Program Files\NVIDIA Corporation\OpenCL\OpenCL64.dll, 2.00.0004.0000 (English), 11/9/2017 04:43:32, 540784 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvlddmkm.sys, 23.21.0013.8813 (English), 11/9/2017 04:40:28, 16936048 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvd3dumx.dll, 23.21.0013.8813 (English), 11/9/2017 04:25:38, 18917192 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvd3dumx_cfg.dll, 23.21.0013.8813 (English), 11/9/2017 04:25:42, 19297248 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvinitx.dll, 23.21.0013.8813 (English), 11/9/2017 04:30:30, 208832 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvldumdx.dll, 23.21.0013.8813 (English), 11/9/2017 04:30:36, 945072 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvoglshim64.dll, 23.21.0013.8813 (English), 11/9/2017 04:30:40, 183648 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvumdshimx.dll, 23.21.0013.8813 (English), 11/9/2017 04:30:58, 591056 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvwgf2umx.dll, 23.21.0013.8813 (English), 11/9/2017 04:31:04, 28145680 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvwgf2umx_cfg.dll, 23.21.0013.8813 (English), 11/9/2017 04:31:10, 28969976 bytes
+   Driver: C:\WINDOWS\system32\NvFBC64.dll, 6.14.0013.8813 (English), 11/9/2017 04:38:30, 1108408 bytes
+   Driver: C:\WINDOWS\system32\NvIFR64.dll, 6.14.0013.8813 (English), 11/9/2017 04:39:52, 989808 bytes
+   Driver: C:\WINDOWS\system32\NvIFROpenGL.dll, 23.21.0013.8813 (English), 11/9/2017 04:40:00, 624240 bytes
+   Driver: C:\WINDOWS\system32\nv-vk64.json, 11/9/2017 03:57:26, 669 bytes
+   Driver: C:\WINDOWS\system32\nvDecMFTMjpeg.dll, 23.21.0013.8813 (English), 11/9/2017 04:38:08, 748144 bytes
+   Driver: C:\WINDOWS\system32\nvEncMFTH264.dll, 23.21.0013.8813 (English), 11/9/2017 04:25:50, 1342008 bytes
+   Driver: C:\WINDOWS\system32\nvEncMFThevc.dll, 23.21.0013.8813 (English), 11/9/2017 04:25:54, 1351792 bytes
+   Driver: C:\WINDOWS\system32\nvEncodeAPI64.dll, 23.21.0013.8813 (English), 11/9/2017 04:26:02, 810304 bytes
+   Driver: C:\WINDOWS\system32\nvapi64.dll, 23.21.0013.8813 (English), 11/9/2017 04:25:22, 4533184 bytes
+   Driver: C:\WINDOWS\system32\nvcompiler.dll, 23.21.0013.8813 (English), 11/9/2017 04:37:32, 40246384 bytes
+   Driver: C:\WINDOWS\system32\nvcuda.dll, 23.21.0013.8813 (English), 11/9/2017 04:25:28, 13994136 bytes
+   Driver: C:\WINDOWS\system32\nvcuvid.dll, 7.17.0013.8813 (English), 11/9/2017 04:37:48, 4210288 bytes
+   Driver: C:\WINDOWS\system32\nvfatbinaryLoader.dll, 23.21.0013.8813 (English), 11/9/2017 04:26:12, 1154296 bytes
+   Driver: C:\WINDOWS\system32\nvinfo.pb, 11/9/2017 03:57:28, 48442 bytes
+   Driver: C:\WINDOWS\system32\nvmcumd.dll, 23.21.0013.8813 (English), 11/9/2017 04:30:40, 633256 bytes
+   Driver: C:\WINDOWS\system32\nvoglv64.dll, 23.21.0013.8813 (English), 11/9/2017 04:40:56, 36248176 bytes
+   Driver: C:\WINDOWS\system32\nvopencl.dll, 23.21.0013.8813 (English), 11/9/2017 04:30:48, 23474480 bytes
+   Driver: C:\WINDOWS\system32\nvptxJitCompiler.dll, 23.21.0013.8813 (English), 11/9/2017 04:30:56, 13379352 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvd3dum.dll, 23.21.0013.8813 (English), 11/9/2017 04:25:32, 15525768 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvd3dum_cfg.dll, 23.21.0013.8813 (English), 11/9/2017 04:25:46, 15849040 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvinit.dll, 23.21.0013.8813 (English), 11/9/2017 04:30:30, 182304 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvldumd.dll, 23.21.0013.8813 (English), 11/9/2017 04:30:36, 787472 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvoglshim32.dll, 23.21.0013.8813 (English), 11/9/2017 04:30:40, 155768 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvumdshim.dll, 23.21.0013.8813 (English), 11/9/2017 04:30:58, 507936 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvwgf2um.dll, 23.21.0013.8813 (English), 11/9/2017 04:30:58, 23696976 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\nvwgf2um_cfg.dll, 23.21.0013.8813 (English), 11/9/2017 04:31:20, 24589496 bytes
+   Driver: C:\WINDOWS\SysWow64\NvFBC.dll, 6.14.0013.8813 (English), 11/9/2017 04:38:26, 1039800 bytes
+   Driver: C:\WINDOWS\SysWow64\NvIFR.dll, 6.14.0013.8813 (English), 11/9/2017 04:39:48, 940984 bytes
+   Driver: C:\WINDOWS\SysWow64\NvIFROpenGL.dll, 23.21.0013.8813 (English), 11/9/2017 04:39:56, 514672 bytes
+   Driver: C:\WINDOWS\SysWow64\nv-vk32.json, 11/9/2017 03:57:26, 669 bytes
+   Driver: C:\WINDOWS\SysWow64\nvDecMFTMjpeg.dll, 23.21.0013.8813 (English), 11/9/2017 04:38:02, 607160 bytes
+   Driver: C:\WINDOWS\SysWow64\nvEncMFTH264.dll, 23.21.0013.8813 (English), 11/9/2017 04:25:48, 1056720 bytes
+   Driver: C:\WINDOWS\SysWow64\nvEncMFThevc.dll, 23.21.0013.8813 (English), 11/9/2017 04:25:54, 1062920 bytes
+   Driver: C:\WINDOWS\SysWow64\nvEncodeAPI.dll, 23.21.0013.8813 (English), 11/9/2017 04:25:58, 648728 bytes
+   Driver: C:\WINDOWS\SysWow64\nvapi.dll, 23.21.0013.8813 (English), 11/9/2017 04:25:16, 3859848 bytes
+   Driver: C:\WINDOWS\SysWow64\nvcompiler.dll, 23.21.0013.8813 (English), 11/9/2017 04:37:26, 35165624 bytes
+   Driver: C:\WINDOWS\SysWow64\nvcuda.dll, 23.21.0013.8813 (English), 11/9/2017 04:25:26, 11891200 bytes
+   Driver: C:\WINDOWS\SysWow64\nvcuvid.dll, 7.17.0013.8813 (English), 11/9/2017 04:37:44, 3623024 bytes
+   Driver: C:\WINDOWS\SysWow64\nvfatbinaryLoader.dll, 23.21.0013.8813 (English), 11/9/2017 04:26:08, 902312 bytes
+   Driver: C:\WINDOWS\SysWow64\nvoglv32.dll, 23.21.0013.8813 (English), 11/9/2017 04:40:48, 29279672 bytes
+   Driver: C:\WINDOWS\SysWow64\nvopencl.dll, 23.21.0013.8813 (English), 11/9/2017 04:30:44, 19212720 bytes
+   Driver: C:\WINDOWS\SysWow64\nvptxJitCompiler.dll, 23.21.0013.8813 (English), 11/9/2017 04:30:54, 10986768 bytes
+   Driver: C:\WINDOWS\System32\DriverStore\FileRepository\nv_ref_pubwu.inf_amd64_2e7fa54192fe16d0\VulkanRT-Installer.exe, 1.00.0061.0000 (English), 11/9/2017 04:44:00, 988144 bytes
+   Driver: C:\WINDOWS\system32\nvdispco6438813.dll, 2.00.0048.0004 (English), 11/9/2017 04:38:16, 1997752 bytes
+   Driver: C:\WINDOWS\system32\nvdispgenco6438813.dll, 2.00.0026.0002 (English), 11/9/2017 04:38:16, 1682544 bytes
+
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_1601&SUBSYS_00000000&REV_00\3&267A616A&0&C1
+   Driver: n/a
+
+     Name: PCI-to-PCI Bridge
+Device ID: PCI\VEN_1022&DEV_9603&SUBSYS_83881043&REV_00\3&267A616A&0&10
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.16299.0248 (English), 2/10/2018 06:06:11, 362904 bytes
+
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_1604&SUBSYS_00000000&REV_00\3&267A616A&0&C4
+   Driver: n/a
+
+     Name: ASMedia USB 3.0 eXtensible Host Controller - 0.96 (Microsoft)
+Device ID: PCI\VEN_1B21&DEV_1042&SUBSYS_84881043&REV_00\4&AB0F605&0&0038
+   Driver: C:\WINDOWS\system32\DRIVERS\USBXHCI.SYS, 10.00.16299.0125 (English), 12/7/2017 23:24:06, 437144 bytes
+
+     Name: PCI-to-PCI Bridge
+Device ID: PCI\VEN_1002&DEV_4384&SUBSYS_00000000&REV_00\3&267A616A&0&A4
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.16299.0248 (English), 2/10/2018 06:06:11, 362904 bytes
+
+     Name: Realtek PCIe GBE Family Controller
+Device ID: PCI\VEN_10EC&DEV_8168&SUBSYS_85051043&REV_09\4&1708FA51&0&0050
+   Driver: C:\WINDOWS\system32\DRIVERS\rt640x64.sys, 9.01.0406.2015 (English), 9/29/2017 13:41:03, 604160 bytes
+
+     Name: PCI-to-PCI Bridge
+Device ID: PCI\VEN_1022&DEV_9609&SUBSYS_83881043&REV_00\3&267A616A&0&50
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.16299.0248 (English), 2/10/2018 06:06:11, 362904 bytes
+
+     Name: Standard OpenHCD USB Host Controller
+Device ID: PCI\VEN_1002&DEV_4398&SUBSYS_83891043&REV_00\3&267A616A&0&99
+   Driver: C:\WINDOWS\system32\drivers\usbohci.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:08, 30720 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbport.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:08, 454040 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbhub.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:08, 513944 bytes
+
+     Name: Standard OpenHCD USB Host Controller
+Device ID: PCI\VEN_1002&DEV_4398&SUBSYS_83891043&REV_00\3&267A616A&0&91
+   Driver: C:\WINDOWS\system32\drivers\usbohci.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:08, 30720 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbport.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:08, 454040 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbhub.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:08, 513944 bytes
+
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_1602&SUBSYS_00000000&REV_00\3&267A616A&0&C2
+   Driver: n/a
+
+     Name: Standard Dual Channel PCI IDE Controller
+Device ID: PCI\VEN_1002&DEV_4390&SUBSYS_83891043&REV_00\3&267A616A&0&88
+   Driver: C:\WINDOWS\system32\DRIVERS\pciide.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:03, 16280 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pciidex.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:03, 53144 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\atapi.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:03, 28568 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\ataport.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:03, 194456 bytes
+
+     Name: Standard Dual Channel PCI IDE Controller
+Device ID: PCI\VEN_1002&DEV_439C&SUBSYS_83891043&REV_00\3&267A616A&0&A1
+   Driver: C:\WINDOWS\system32\DRIVERS\pciide.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:03, 16280 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\pciidex.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:03, 53144 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\atapi.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:03, 28568 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\ataport.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:03, 194456 bytes
+
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_1605&SUBSYS_00000000&REV_00\3&267A616A&0&C5
+   Driver: n/a
+
+     Name: High Definition Audio Controller
+Device ID: PCI\VEN_10DE&DEV_0FBA&SUBSYS_32021462&REV_A1\4&2A1FC852&0&0110
+   Driver: C:\WINDOWS\system32\DRIVERS\hdaudbus.sys, 10.00.16299.0015 (English), 9/29/2017 13:40:59, 86016 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\drmk.sys, 10.00.16299.0015 (English), 9/29/2017 13:40:59, 96768 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\portcls.sys, 10.00.16299.0015 (English), 9/29/2017 13:40:59, 379392 bytes
+
+     Name: PCI-to-PCI Bridge
+Device ID: PCI\VEN_1022&DEV_9607&SUBSYS_83881043&REV_00\3&267A616A&0&38
+   Driver: C:\WINDOWS\system32\DRIVERS\pci.sys, 10.00.16299.0248 (English), 2/10/2018 06:06:11, 362904 bytes
+
+     Name: Standard Enhanced PCI to USB Host Controller
+Device ID: PCI\VEN_1002&DEV_4396&SUBSYS_83891043&REV_00\3&267A616A&0&9A
+   Driver: C:\WINDOWS\system32\drivers\usbehci.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:08, 95640 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbport.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:08, 454040 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbhub.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:08, 513944 bytes
+
+     Name: Standard Enhanced PCI to USB Host Controller
+Device ID: PCI\VEN_1002&DEV_4396&SUBSYS_83891043&REV_00\3&267A616A&0&92
+   Driver: C:\WINDOWS\system32\drivers\usbehci.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:08, 95640 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbport.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:08, 454040 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbhub.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:08, 513944 bytes
+
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_1600&SUBSYS_00000000&REV_00\3&267A616A&0&C0
+   Driver: n/a
+
+     Name: High Definition Audio Controller
+Device ID: PCI\VEN_1002&DEV_4383&SUBSYS_836C1043&REV_00\3&267A616A&0&A2
+   Driver: C:\WINDOWS\system32\DRIVERS\hdaudbus.sys, 10.00.16299.0015 (English), 9/29/2017 13:40:59, 86016 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\drmk.sys, 10.00.16299.0015 (English), 9/29/2017 13:40:59, 96768 bytes
+   Driver: C:\WINDOWS\system32\DRIVERS\portcls.sys, 10.00.16299.0015 (English), 9/29/2017 13:40:59, 379392 bytes
+
+     Name: Standard OpenHCD USB Host Controller
+Device ID: PCI\VEN_1002&DEV_4399&SUBSYS_83891043&REV_00\3&267A616A&0&A5
+   Driver: C:\WINDOWS\system32\drivers\usbohci.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:08, 30720 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbport.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:08, 454040 bytes
+   Driver: C:\WINDOWS\system32\drivers\usbhub.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:08, 513944 bytes
+
+     Name: PCI standard host CPU bridge
+Device ID: PCI\VEN_1022&DEV_1603&SUBSYS_00000000&REV_00\3&267A616A&0&C3
+   Driver: n/a
+
+     Name: PCI standard ISA bridge
+Device ID: PCI\VEN_1002&DEV_439D&SUBSYS_83891043&REV_00\3&267A616A&0&A3
+   Driver: C:\WINDOWS\system32\DRIVERS\msisadrv.sys, 10.00.16299.0015 (English), 9/29/2017 13:41:03, 18840 bytes
+
+------------------
+DirectShow Filters
+------------------
+
+DirectShow Filters:
+WMAudio Decoder DMO,0x00800800,1,1,WMADMOD.DLL,10.00.16299.0015
+WMAPro over S/PDIF DMO,0x00600800,1,1,WMADMOD.DLL,10.00.16299.0015
+WMSpeech Decoder DMO,0x00600800,1,1,WMSPDMOD.DLL,10.00.16299.0015
+MP3 Decoder DMO,0x00600800,1,1,mp3dmod.dll,10.00.16299.0015
+Mpeg4s Decoder DMO,0x00800001,1,1,mp4sdecd.dll,10.00.16299.0015
+WMV Screen decoder DMO,0x00600800,1,1,wmvsdecd.dll,10.00.16299.0015
+WMVideo Decoder DMO,0x00800001,1,1,wmvdecod.dll,10.00.16299.0015
+Mpeg43 Decoder DMO,0x00800001,1,1,mp43decd.dll,10.00.16299.0015
+Mpeg4 Decoder DMO,0x00800001,1,1,mpg4decd.dll,10.00.16299.0015
+DV Muxer,0x00400000,0,0,qdv.dll,10.00.16299.0015
+Color Space Converter,0x00400001,1,1,quartz.dll,10.00.16299.0015
+WM ASF Reader,0x00400000,0,0,qasf.dll,12.00.16299.0015
+AVI Splitter,0x00600000,1,1,quartz.dll,10.00.16299.0015
+VGA 16 Color Ditherer,0x00400000,1,1,quartz.dll,10.00.16299.0015
+SBE2MediaTypeProfile,0x00200000,0,0,sbe.dll,10.00.16299.0015
+Microsoft DTV-DVD Video Decoder,0x005fffff,2,4,msmpeg2vdec.dll,10.00.16299.0248
+AC3 Parser Filter,0x00600000,1,1,mpg2splt.ax,10.00.16299.0015
+StreamBufferSink,0x00200000,0,0,sbe.dll,10.00.16299.0015
+MJPEG Decompressor,0x00600000,1,1,quartz.dll,10.00.16299.0015
+MPEG-I Stream Splitter,0x00600000,1,2,quartz.dll,10.00.16299.0015
+SAMI (CC) Parser,0x00400000,1,1,quartz.dll,10.00.16299.0015
+VBI Codec,0x00600000,1,4,VBICodec.ax,10.00.16299.0015
+MPEG-2 Splitter,0x005fffff,1,0,mpg2splt.ax,10.00.16299.0015
+Closed Captions Analysis Filter,0x00200000,2,5,cca.dll,10.00.16299.0015
+SBE2FileScan,0x00200000,0,0,sbe.dll,10.00.16299.0015
+Microsoft MPEG-2 Video Encoder,0x00200000,1,1,msmpeg2enc.dll,10.00.16299.0015
+Internal Script Command Renderer,0x00800001,1,0,quartz.dll,10.00.16299.0015
+MPEG Audio Decoder,0x03680001,1,1,quartz.dll,10.00.16299.0015
+DV Splitter,0x00600000,1,2,qdv.dll,10.00.16299.0015
+Video Mixing Renderer 9,0x00200000,1,0,quartz.dll,10.00.16299.0015
+Microsoft MPEG-2 Encoder,0x00200000,2,1,msmpeg2enc.dll,10.00.16299.0015
+ACM Wrapper,0x00600000,1,1,quartz.dll,10.00.16299.0015
+Video Renderer,0x00800001,1,0,quartz.dll,10.00.16299.0015
+MPEG-2 Video Stream Analyzer,0x00200000,0,0,sbe.dll,10.00.16299.0015
+Line 21 Decoder,0x00600000,1,1,,
+Video Port Manager,0x00600000,2,1,quartz.dll,10.00.16299.0015
+Video Renderer,0x00400000,1,0,quartz.dll,10.00.16299.0015
+VPS Decoder,0x00200000,0,0,WSTPager.ax,10.00.16299.0015
+WM ASF Writer,0x00400000,0,0,qasf.dll,12.00.16299.0015
+VBI Surface Allocator,0x00600000,1,1,vbisurf.ax,
+File writer,0x00200000,1,0,qcap.dll,10.00.16299.0015
+DVD Navigator,0x00200000,0,3,qdvd.dll,10.00.16299.0015
+Overlay Mixer2,0x00200000,1,1,,
+AVI Draw,0x00600064,9,1,quartz.dll,10.00.16299.0015
+Microsoft MPEG-2 Audio Encoder,0x00200000,1,1,msmpeg2enc.dll,10.00.16299.0015
+WST Pager,0x00200000,1,1,WSTPager.ax,10.00.16299.0015
+MPEG-2 Demultiplexer,0x00600000,1,1,mpg2splt.ax,10.00.16299.0015
+DV Video Decoder,0x00800000,1,1,qdv.dll,10.00.16299.0015
+SampleGrabber,0x00200000,1,1,qedit.dll,10.00.16299.0015
+Null Renderer,0x00200000,1,0,qedit.dll,10.00.16299.0015
+MPEG-2 Sections and Tables,0x005fffff,1,0,Mpeg2Data.ax,10.00.16299.0015
+Microsoft AC3 Encoder,0x00200000,1,1,msac3enc.dll,10.00.16299.0015
+StreamBufferSource,0x00200000,0,0,sbe.dll,10.00.16299.0015
+Smart Tee,0x00200000,1,2,qcap.dll,10.00.16299.0015
+Overlay Mixer,0x00200000,0,0,,
+AVI Decompressor,0x00600000,1,1,quartz.dll,10.00.16299.0015
+AVI/WAV File Source,0x00400000,0,2,quartz.dll,10.00.16299.0015
+Wave Parser,0x00400000,1,1,quartz.dll,10.00.16299.0015
+MIDI Parser,0x00400000,1,1,quartz.dll,10.00.16299.0015
+Multi-file Parser,0x00400000,1,1,quartz.dll,10.00.16299.0015
+File stream renderer,0x00400000,1,1,quartz.dll,10.00.16299.0015
+Microsoft DTV-DVD Audio Decoder,0x005fffff,1,1,msmpeg2adec.dll,10.00.16299.0015
+StreamBufferSink2,0x00200000,0,0,sbe.dll,10.00.16299.0015
+AVI Mux,0x00200000,1,0,qcap.dll,10.00.16299.0015
+Line 21 Decoder 2,0x00600002,1,1,quartz.dll,10.00.16299.0015
+File Source (Async.),0x00400000,0,1,quartz.dll,10.00.16299.0015
+File Source (URL),0x00400000,0,1,quartz.dll,10.00.16299.0015
+Infinite Pin Tee Filter,0x00200000,1,1,qcap.dll,10.00.16299.0015
+Enhanced Video Renderer,0x00200000,1,0,evr.dll,10.00.16299.0248
+BDA MPEG2 Transport Information Filter,0x00200000,2,0,psisrndr.ax,10.00.16299.0015
+MPEG Video Decoder,0x40000001,1,1,quartz.dll,10.00.16299.0015
+
+WDM Streaming Tee/Splitter Devices:
+Tee/Sink-to-Sink Converter,0x00200000,1,1,ksproxy.ax,10.00.16299.0015
+
+Video Compressors:
+WMVideo8 Encoder DMO,0x00600800,1,1,wmvxencd.dll,10.00.16299.0248
+WMVideo9 Encoder DMO,0x00600800,1,1,wmvencod.dll,10.00.16299.0015
+MSScreen 9 encoder DMO,0x00600800,1,1,wmvsencd.dll,10.00.16299.0248
+DV Video Encoder,0x00200000,0,0,qdv.dll,10.00.16299.0015
+MJPEG Compressor,0x00200000,0,0,quartz.dll,10.00.16299.0015
+
+Audio Compressors:
+WM Speech Encoder DMO,0x00600800,1,1,WMSPDMOE.DLL,10.00.16299.0015
+WMAudio Encoder DMO,0x00600800,1,1,WMADMOE.DLL,10.00.16299.0015
+IMA ADPCM,0x00200000,1,1,quartz.dll,10.00.16299.0015
+PCM,0x00200000,1,1,quartz.dll,10.00.16299.0015
+Microsoft ADPCM,0x00200000,1,1,quartz.dll,10.00.16299.0015
+GSM 6.10,0x00200000,1,1,quartz.dll,10.00.16299.0015
+CCITT A-Law,0x00200000,1,1,quartz.dll,10.00.16299.0015
+CCITT u-Law,0x00200000,1,1,quartz.dll,10.00.16299.0015
+MPEG Layer-3,0x00200000,1,1,quartz.dll,10.00.16299.0015
+
+Audio Capture Sources:
+Microphone (VIA HD Audio),0x00200000,0,0,qcap.dll,10.00.16299.0015
+
+PBDA CP Filters:
+PBDA DTFilter,0x00600000,1,1,CPFilters.dll,10.00.16299.0192
+PBDA ETFilter,0x00200000,0,0,CPFilters.dll,10.00.16299.0192
+PBDA PTFilter,0x00200000,0,0,CPFilters.dll,10.00.16299.0192
+
+Midi Renderers:
+Default MidiOut Device,0x00800000,1,0,quartz.dll,10.00.16299.0015
+Microsoft GS Wavetable Synth,0x00200000,1,0,quartz.dll,10.00.16299.0015
+
+WDM Streaming Capture Devices:
+VIA HD Audio Input,0x00200000,1,1,ksproxy.ax,10.00.16299.0015
+,0x00000000,0,0,,
+
+WDM Streaming Rendering Devices:
+HD Audio digital out,0x00200000,1,1,ksproxy.ax,10.00.16299.0015
+VIA HD Audio Headphone,0x00200000,1,1,ksproxy.ax,10.00.16299.0015
+VIA HD Audio Output 2,0x00200000,1,1,ksproxy.ax,10.00.16299.0015
+HD Audio HDMI out,0x00200000,1,1,ksproxy.ax,10.00.16299.0015
+,0x00000000,0,0,,
+
+BDA Network Providers:
+Microsoft ATSC Network Provider,0x00200000,0,1,MSDvbNP.ax,10.00.16299.0015
+Microsoft DVBC Network Provider,0x00200000,0,1,MSDvbNP.ax,10.00.16299.0015
+Microsoft DVBS Network Provider,0x00200000,0,1,MSDvbNP.ax,10.00.16299.0015
+Microsoft DVBT Network Provider,0x00200000,0,1,MSDvbNP.ax,10.00.16299.0015
+Microsoft Network Provider,0x00200000,0,1,MSNP.ax,10.00.16299.0015
+
+Multi-Instance Capable VBI Codecs:
+VBI Codec,0x00600000,1,4,VBICodec.ax,10.00.16299.0015
+
+BDA Transport Information Renderers:
+BDA MPEG2 Transport Information Filter,0x00600000,2,0,psisrndr.ax,10.00.16299.0015
+MPEG-2 Sections and Tables,0x00600000,1,0,Mpeg2Data.ax,10.00.16299.0015
+
+BDA CP/CA Filters:
+Decrypt/Tag,0x00600000,1,1,EncDec.dll,10.00.16299.0192
+Encrypt/Tag,0x00200000,0,0,EncDec.dll,10.00.16299.0192
+PTFilter,0x00200000,0,0,EncDec.dll,10.00.16299.0192
+XDS Codec,0x00200000,0,0,EncDec.dll,10.00.16299.0192
+
+WDM Streaming Communication Transforms:
+Tee/Sink-to-Sink Converter,0x00200000,1,1,ksproxy.ax,10.00.16299.0015
+
+Audio Renderers:
+Speakers (VIA HD Audio),0x00200000,1,0,quartz.dll,10.00.16299.0015
+Default DirectSound Device,0x00800000,1,0,quartz.dll,10.00.16299.0015
+Default WaveOut Device,0x00200000,1,0,quartz.dll,10.00.16299.0015
+DirectSound: Speakers (VIA HD Audio),0x00200000,1,0,quartz.dll,10.00.16299.0015
+
+
+----------------------------
+Preferred DirectShow Filters
+----------------------------
+
+[HKEY_LOCAL_MACHINE\Software\Microsoft\DirectShow\Preferred]
+
+<media subtype GUID>, [<filter friendly name>, ]<filter CLSID>
+
+MEDIASUBTYPE_MPEG1Payload, MPEG Video Decoder, CLSID_CMpegVideoCodec
+MEDIASUBTYPE_MPEG1Packet, MPEG Video Decoder, CLSID_CMpegVideoCodec
+MEDIASUBTYPE_DVD_LPCM_AUDIO, Microsoft DTV-DVD Audio Decoder, CLSID_CMPEG2AudDecoderDS
+MEDIASUBTYPE_MPEG2_AUDIO, Microsoft DTV-DVD Audio Decoder, CLSID_CMPEG2AudDecoderDS
+MEDIASUBTYPE_MPEG2_VIDEO, Microsoft DTV-DVD Video Decoder, CLSID_CMPEG2VidDecoderDS
+{78766964-0000-0010-8000-00AA00389B71}, Mpeg4s Decoder DMO, CLSID_CMpeg4sDecMediaObject
+{7634706D-0000-0010-8000-00AA00389B71}, Mpeg4s Decoder DMO, CLSID_CMpeg4sDecMediaObject
+MEDIASUBTYPE_mp4s, Mpeg4s Decoder DMO, CLSID_CMpeg4sDecMediaObject
+{6C737664-0000-0010-8000-00AA00389B71}, DV Video Decoder, CLSID_DVVideoCodec
+{64737664-0000-0010-8000-00AA00389B71}, DV Video Decoder, CLSID_DVVideoCodec
+{64697678-0000-0010-8000-00AA00389B71}, Mpeg4s Decoder DMO, CLSID_CMpeg4sDecMediaObject
+{64687664-0000-0010-8000-00AA00389B71}, DV Video Decoder, CLSID_DVVideoCodec
+{58564944-0000-0010-8000-00AA00389B71}, Mpeg4s Decoder DMO, CLSID_CMpeg4sDecMediaObject
+{5634504D-0000-0010-8000-00AA00389B71}, Mpeg4s Decoder DMO, CLSID_CMpeg4sDecMediaObject
+MEDIASUBTYPE_MP4S, Mpeg4s Decoder DMO, CLSID_CMpeg4sDecMediaObject
+MEDIASUBTYPE_WMVR, WMVideo Decoder DMO, CLSID_CWMVDecMediaObject
+MEDIASUBTYPE_WMVP, WMVideo Decoder DMO, CLSID_CWMVDecMediaObject
+MEDIASUBTYPE_MJPG, MJPEG Decompressor, CLSID_MjpegDec
+{44495658-0000-0010-8000-00AA00389B71}, Mpeg4s Decoder DMO, CLSID_CMpeg4sDecMediaObject
+MEDIASUBTYPE_WMVA, WMVideo Decoder DMO, CLSID_CWMVDecMediaObject
+MEDIASUBTYPE_mpg4, Mpeg4 Decoder DMO, CLSID_CMpeg4DecMediaObject
+MEDIASUBTYPE_MPG4, Mpeg4 Decoder DMO, CLSID_CMpeg4DecMediaObject
+MEDIASUBTYPE_h264, Microsoft DTV-DVD Video Decoder, CLSID_CMPEG2VidDecoderDS
+MEDIASUBTYPE_H264, Microsoft DTV-DVD Video Decoder, CLSID_CMPEG2VidDecoderDS
+MEDIASUBTYPE_WMV3, WMVideo Decoder DMO, CLSID_CWMVDecMediaObject
+MEDIASUBTYPE_mp43, Mpeg43 Decoder DMO, CLSID_CMpeg43DecMediaObject
+MEDIASUBTYPE_MP43, Mpeg43 Decoder DMO, CLSID_CMpeg43DecMediaObject
+MEDIASUBTYPE_m4s2, Mpeg4s Decoder DMO, CLSID_CMpeg4sDecMediaObject
+MEDIASUBTYPE_WMV2, WMVideo Decoder DMO, CLSID_CWMVDecMediaObject
+MEDIASUBTYPE_MSS2, WMV Screen decoder DMO, CLSID_CMSSCDecMediaObject
+MEDIASUBTYPE_M4S2, Mpeg4s Decoder DMO, CLSID_CMpeg4sDecMediaObject
+MEDIASUBTYPE_WVP2, WMVideo Decoder DMO, CLSID_CWMVDecMediaObject
+MEDIASUBTYPE_mp42, Mpeg4 Decoder DMO, CLSID_CMpeg4DecMediaObject
+MEDIASUBTYPE_MP42, Mpeg4 Decoder DMO, CLSID_CMpeg4DecMediaObject
+MEDIASUBTYPE_WMV1, WMVideo Decoder DMO, CLSID_CWMVDecMediaObject
+MEDIASUBTYPE_MSS1, WMV Screen decoder DMO, CLSID_CMSSCDecMediaObject
+MEDIASUBTYPE_WVC1, WMVideo Decoder DMO, CLSID_CWMVDecMediaObject
+MEDIASUBTYPE_AVC1, Microsoft DTV-DVD Video Decoder, CLSID_CMPEG2VidDecoderDS
+{20637664-0000-0010-8000-00AA00389B71}, DV Video Decoder, CLSID_DVVideoCodec
+MEDIASUBTYPE_MPEG_LOAS, Microsoft DTV-DVD Audio Decoder, CLSID_CMPEG2AudDecoderDS
+MEDIASUBTYPE_MPEG_ADTS_AAC, Microsoft DTV-DVD Audio Decoder, CLSID_CMPEG2AudDecoderDS
+MEDIASUBTYPE_WMAUDIO_LOSSLESS, WMAudio Decoder DMO, CLSID_CWMADecMediaObject
+MEDIASUBTYPE_WMAUDIO3, WMAudio Decoder DMO, CLSID_CWMADecMediaObject
+WMMEDIASUBTYPE_WMAudioV8, WMAudio Decoder DMO, CLSID_CWMADecMediaObject
+MEDIASUBTYPE_MSAUDIO1, WMAudio Decoder DMO, CLSID_CWMADecMediaObject
+MEDIASUBTYPE_RAW_AAC1, Microsoft DTV-DVD Audio Decoder, CLSID_CMPEG2AudDecoderDS
+WMMEDIASUBTYPE_MP3, MP3 Decoder DMO, CLSID_CMP3DecMediaObject
+MEDIASUBTYPE_MPEG1AudioPayload, MPEG Audio Decoder, CLSID_CMpegAudioCodec
+WMMEDIASUBTYPE_WMSP2, WMSpeech Decoder DMO, CLSID_CWMSPDecMediaObject
+WMMEDIASUBTYPE_WMSP1, WMSpeech Decoder DMO, CLSID_CWMSPDecMediaObject
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 
 ---------------
 EVR Power Information
@@ -1060,6 +1868,7 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
+<<<<<<< HEAD
 Fault bucket 116353518053, type 5
 Event Name: BEX64
 Response: Není k dispozici.
@@ -1075,10 +1884,28 @@ P6: 58d16fa6
 P7: 000000000022af80
 P8: c0000409
 P9: 0000000000000007
+=======
+Fault bucket 1343524389255015352, type 4
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: SpaceEngineers.exe
+P2: 1.0.0.0
+P3: 5a86caa0
+P4: HavokWrapper.dll
+P5: 0.0.0.0
+P6: 5a83190f
+P7: c0000005
+P8: 00000000009745cd
+P9: 
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 P10: 
 
 
 +++ WER1 +++:
+<<<<<<< HEAD
 Fault bucket , type 0
 Event Name: BEX64
 Response: Není k dispozici.
@@ -1094,10 +1921,28 @@ P6: 58d16fa6
 P7: 000000000022af80
 P8: c0000409
 P9: 0000000000000007
+=======
+Fault bucket 129574467603, type 5
+Event Name: RADAR_PRE_LEAK_64
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: SpaceEngineersDedicated.exe
+P2: 1.0.0.0
+P3: 10.0.16299.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 P10: 
 
 
 +++ WER2 +++:
+<<<<<<< HEAD
 Fault bucket 116353518053, type 5
 Event Name: BEX64
 Response: Není k dispozici.
@@ -1113,11 +1958,29 @@ P6: 58d16fa6
 P7: 000000000022af80
 P8: c0000409
 P9: 0000000000000007
+=======
+Fault bucket , type 0
+Event Name: BlueScreen
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 124
+P2: 0
+P3: ffffe70f0218c8f8
+P4: 0
+P5: 0
+P6: 10_0_16299
+P7: 0_0
+P8: 256_1
+P9: 
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 P10: 
 
 
 +++ WER3 +++:
 Fault bucket , type 0
+<<<<<<< HEAD
 Event Name: BEX64
 Response: Není k dispozici.
 Cab Id: 0
@@ -1132,10 +1995,27 @@ P6: 58d16fa6
 P7: 000000000022af80
 P8: c0000409
 P9: 0000000000000007
+=======
+Event Name: AppHangB1
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: SpaceEngineers.exe
+P2: 1.0.0.0
+P3: 5a86caa0
+P4: afc6
+P5: 134217984
+P6: 
+P7: 
+P8: 
+P9: 
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 P10: 
 
 
 +++ WER4 +++:
+<<<<<<< HEAD
 Fault bucket 116353518053, type 5
 Event Name: BEX64
 Response: Není k dispozici.
@@ -1151,10 +2031,28 @@ P6: 58d16fa6
 P7: 000000000022af80
 P8: c0000409
 P9: 0000000000000007
+=======
+Fault bucket 2193852600877128273, type 4
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: SpaceEngineers.exe
+P2: 1.0.0.0
+P3: 5a8591aa
+P4: KERNELBASE.dll
+P5: 10.0.16299.15
+P6: 4736733c
+P7: c0020001
+P8: 0000000000013fb8
+P9: 
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 P10: 
 
 
 +++ WER5 +++:
+<<<<<<< HEAD
 Fault bucket , type 0
 Event Name: BEX64
 Response: Není k dispozici.
@@ -1170,10 +2068,28 @@ P6: 58d16fa6
 P7: 000000000022af80
 P8: c0000409
 P9: 0000000000000007
+=======
+Fault bucket 1923179336000030754, type 4
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: SpaceEngineers.exe
+P2: 1.0.0.0
+P3: 5a7d9f49
+P4: KERNELBASE.dll
+P5: 10.0.16299.15
+P6: 4736733c
+P7: c0020001
+P8: 0000000000013fb8
+P9: 
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 P10: 
 
 
 +++ WER6 +++:
+<<<<<<< HEAD
 Fault bucket 120565376172, type 4
 Event Name: APPCRASH
 Response: Není k dispozici.
@@ -1188,11 +2104,28 @@ P5: 0.0.0.0
 P6: 573caceb
 P7: c0000005
 P8: 0000000000009b8e
+=======
+Fault bucket 1923179336000030754, type 4
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: SpaceEngineers.exe
+P2: 1.0.0.0
+P3: 5a7d9f49
+P4: KERNELBASE.dll
+P5: 10.0.16299.15
+P6: 4736733c
+P7: c0020001
+P8: 0000000000013fb8
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 P9: 
 P10: 
 
 
 +++ WER7 +++:
+<<<<<<< HEAD
 Fault bucket 116353518053, type 5
 Event Name: BEX64
 Response: Není k dispozici.
@@ -1208,11 +2141,29 @@ P6: 58d16fa6
 P7: 000000000022af80
 P8: c0000409
 P9: 0000000000000007
+=======
+Fault bucket , type 0
+Event Name: BlueScreen
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 124
+P2: 0
+P3: ffffbd0548375038
+P4: 0
+P5: 0
+P6: 10_0_16299
+P7: 0_0
+P8: 256_1
+P9: 
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 P10: 
 
 
 +++ WER8 +++:
 Fault bucket , type 0
+<<<<<<< HEAD
 Event Name: BEX64
 Response: Není k dispozici.
 Cab Id: 0
@@ -1227,10 +2178,27 @@ P6: 58d16fa6
 P7: 000000000022af80
 P8: c0000409
 P9: 0000000000000007
+=======
+Event Name: BlueScreen
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: 124
+P2: 0
+P3: ffffbd0548375038
+P4: 0
+P5: 0
+P6: 10_0_16299
+P7: 0_0
+P8: 256_1
+P9: 
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 P10: 
 
 
 +++ WER9 +++:
+<<<<<<< HEAD
 Fault bucket 116353518053, type 5
 Event Name: BEX64
 Response: Není k dispozici.
@@ -1246,6 +2214,23 @@ P6: 58d16fa6
 P7: 000000000022af80
 P8: c0000409
 P9: 0000000000000007
+=======
+Fault bucket 1331449699297823289, type 5
+Event Name: RADAR_PRE_LEAK_64
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: Overwatch.exe
+P2: 1.20.0.43515
+P3: 10.0.16299.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+>>>>>>> eecbd151bf2ac0aeecccc1284dbce9d86e3a3ea3
 P10: 
 
 
