@@ -1,0 +1,340 @@
+﻿Log file open, 02/09/18 11:02:04
+LogInit:Display: Running engine for game: PeterIsTheCaptain
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(172494641) SRandInit(172494641).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.086188
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.02.09-11.02.05:164][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.09-11.02.05:164][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.02.09-11.02.05:181][  0]LogInit: Computer: TRJ208-06
+[2018.02.09-11.02.05:181][  0]LogInit: User: 17055903
+[2018.02.09-11.02.05:181][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.02.09-11.02.05:181][  0]LogInit: High frequency timer resolution =3.507675 MHz
+[2018.02.09-11.02.05:181][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2018.02.09-11.02.05:181][  0]LogMemory: Platform Memory Stats for Windows
+[2018.02.09-11.02.05:181][  0]LogMemory: Process Physical Memory: 275.53 MB used, 275.53 MB peak
+[2018.02.09-11.02.05:181][  0]LogMemory: Process Virtual Memory: 263.89 MB used, 263.89 MB peak
+[2018.02.09-11.02.05:181][  0]LogMemory: Physical Memory: 7328.86 MB used,  25279.48 MB free, 32608.34 MB total
+[2018.02.09-11.02.05:181][  0]LogMemory: Virtual Memory: 622.65 MB used,  25279.48 MB free, 8388608.00 MB total
+[2018.02.09-11.02.05:232][  0]LogInit: Using OS detected language (en-GB).
+[2018.02.09-11.02.05:232][  0]LogInit: Using OS detected locale (en-GB).
+[2018.02.09-11.02.05:234][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.02.09-11.02.05:976][  0]LogD3D11RHI: D3D11 adapters:
+[2018.02.09-11.02.05:995][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.02.09-11.02.05:995][  0]LogD3D11RHI:       4007/0/16048 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.02.09-11.02.06:003][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.02.09-11.02.06:003][  0]LogD3D11RHI:       192/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.02.09-11.02.06:003][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.02.09-11.02.06:007][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.02.09-11.02.06:007][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.02.09-11.02.06:007][  0]LogWindows: EnumDisplayDevices:
+[2018.02.09-11.02.06:007][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.02.09-11.02.06:007][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.02.09-11.02.06:007][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.02.09-11.02.06:007][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.02.09-11.02.06:007][  0]LogWindows:    4. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.02.09-11.02.06:007][  0]LogWindows:    5. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.02.09-11.02.06:007][  0]LogWindows:    6. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.02.09-11.02.06:007][  0]LogWindows:    7. 'RDPDD Chained DD' (P:0 D:0)
+[2018.02.09-11.02.06:007][  0]LogWindows:    8. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.02.09-11.02.06:007][  0]LogWindows:    9. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.02.09-11.02.06:007][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.02.09-11.02.06:007][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.02.09-11.02.06:007][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2018.02.09-11.02.06:007][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2018.02.09-11.02.06:007][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.02.09-11.02.06:015][  0]LogD3D11RHI: Async texture creation enabled
+[2018.02.09-11.02.06:029][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.02.09-11.02.06:030][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Intermediate/Shaders/WorkingDirectory/5852/).
+[2018.02.09-11.02.06:030][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/17055903/AppData/Local/Temp/UnrealShaderWorkingDir/FA3D105242D56611B771D3A14E3FFE96/'.
+[2018.02.09-11.02.06:030][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.02.09-11.02.06:890][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.02.09-11.02.06:927][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.02.09-11.02.06:964][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.02.09-11.02.07:002][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.02.09-11.02.07:040][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.02.09-11.02.07:077][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.02.09-11.02.07:119][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.02.09-11.02.07:156][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.02.09-11.02.07:188][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.02.09-11.02.07:225][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.02.09-11.02.07:261][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.02.09-11.02.07:298][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.02.09-11.02.07:334][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.02.09-11.02.07:371][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.02.09-11.02.07:408][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.02.09-11.02.07:480][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.02.09-11.02.07:480][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.02.09-11.02.07:507][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.02.09-11.02.07:578][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.02.09-11.02.07:601][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.02.09-11.02.07:638][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.02.09-11.02.07:674][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.02.09-11.02.07:710][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.02.09-11.02.07:747][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.02.09-11.02.07:747][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.02.09-11.02.08:071][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.02.09-11.02.08:149][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/17055903/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.09-11.02.08:149][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/17055903/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.02.09-11.02.08:150][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.02.09-11.02.08:150][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.02.09-11.02.08:150][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.02.09-11.02.08:150][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.02.09-11.02.08:165][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.02.09-11.02.08:176][  0]LogDerivedDataCache: Using Local data cache path C:/Users/17055903/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.02.09-11.02.08:184][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.02.09-11.02.08:184][  0]LogSlate: Using Freetype 2.6.0
+[2018.02.09-11.02.08:185][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.09-11.02.08:185][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.02.09-11.02.08:485][  0]LogInit: Selected Device Profile: [Windows]
+[2018.02.09-11.02.08:488][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.02.09-11.02.08:678][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.02.09-11.02.08:710][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.02.09-11.02.08:749][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.02.09-11.02.08:749][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.02.09-11.02.08:749][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.02.09-11.02.09:143][  0]LogNetVersion: PeterIsTheCaptain , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1858553666)
+[2018.02.09-11.02.09:196][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2018.02.09-11.02.09:345][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.129231 seconds
+[2018.02.09-11.02.09:350][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.02.09-11.02.09:350][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.02.09-11.02.09:350][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.02.09-11.02.09:394][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.02.09-11.02.11:103][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.02.09-11.02.11:134][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.02.09-11.02.11:134][  0]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.09-11.02.11:511][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.02.09-11.02.11:803][  0]SourceControl: Info Source control is disabled
+[2018.02.09-11.02.11:924][  0]SourceControl: Info Source control is disabled
+[2018.02.09-11.02.11:955][  0]SourceControl: Info Source control is disabled
+[2018.02.09-11.02.11:985][  0]SourceControl: Info Source control is disabled
+[2018.02.09-11.02.12:421][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.02.09-11.02.12:820][  0]LogEngine: Initializing Engine...
+[2018.02.09-11.02.12:821][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.02.09-11.02.12:987][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.02.09-11.02.12:987][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.02.09-11.02.13:076][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.02.09-11.02.13:083][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.09-11.02.13:102][  0]LogInit: FAudioDevice initialized.
+[2018.02.09-11.02.13:137][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/17055903/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.02.09-11.02.13:148][  0]LogInit: Texture streaming: Enabled
+[2018.02.09-11.02.13:228][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.02.09-11.02.13:387][  0]LogInit: Transaction tracking system initialized
+[2018.02.09-11.02.13:592][  0]BlueprintLog: New page: Editor Load
+[2018.02.09-11.02.14:239][  0]LocalizationService: Info Localization service is disabled
+[2018.02.09-11.02.14:701][  0]LogConsoleResponse:Display: 
+[2018.02.09-11.02.14:822][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.02.09-11.02.14:822][  0]LogCook:Display: Mobile HDR setting 1
+[2018.02.09-11.02.15:269][  0]LogFileCache: Scanning file cache for directory 'F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/' took 0.02s
+[2018.02.09-11.02.15:514][  0]SourceControl: Info Source control is disabled
+[2018.02.09-11.02.15:514][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.09-11.02.15:514][  0]LightingResults: New page: Lighting Build
+[2018.02.09-11.02.15:545][  0]MapCheck: New page: Map Check
+[2018.02.09-11.02.15:545][  0]LightingResults: New page: Lighting Build
+[2018.02.09-11.02.15:717][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2018.02.09-11.02.15:717][  0]LogActorComponent: RegisterComponentWithWorld: (/Temp/Untitled_1.Untitled_1:PersistentLevel.WorldSettings_1.StaticMeshComponent0) Trying to register component with IsPendingKill() == true. Aborting.
+[2018.02.09-11.02.15:721][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.09-11.02.15:734][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.09-11.02.15:760][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 26.092ms to complete.
+[2018.02.09-11.02.15:760][  0]LogFileHelpers: Loading map 'Template_Default' took 0.246
+[2018.02.09-11.02.15:874][  0]LogCollectionManager: Loaded 0 collections in 0.002194 seconds
+[2018.02.09-11.02.15:946][  0]LogFileCache: Scanning file cache for directory 'F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Collections/' took 0.01s
+[2018.02.09-11.02.15:946][  0]LogFileCache: Scanning file cache for directory 'F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Developers/17055903/Collections/' took 0.01s
+[2018.02.09-11.02.15:946][  0]LogFileCache: Scanning file cache for directory 'F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Collections/' took 0.01s
+[2018.02.09-11.02.15:946][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.02.09-11.02.15:957][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2329 classes and 491 folders.
+[2018.02.09-11.02.16:012][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.02.09-11.02.16:041][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.02.09-11.02.16:079][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.02.09-11.02.16:108][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.02.09-11.02.16:111][  0]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.02.09-11.02.16:113][  0]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.02.09-11.02.16:118][  0]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.02.09-11.02.16:216][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2018.02.09-11.02.16:374][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.02.09-11.02.16:375][  0]LogLoad: (Engine Initialization) Total time: 12.76 seconds
+[2018.02.09-11.02.16:375][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2018.02.09-11.02.16:375][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.02.09-11.02.16:375][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.02.09-11.02.16:383][  0]LogOcInput: OculusInput pre-init called
+[2018.02.09-11.02.16:383][  0]LogHMD: Starting GearVRController plugin
+[2018.02.09-11.02.16:397][  0]LogAssetRegistry: Asset discovery search completed in 7.2214 seconds
+[2018.02.09-11.02.16:398][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.02.09-11.02.16:398][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000017 seconds (updated 0 objects)
+[2018.02.09-11.02.16:398][  0]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.09-11.02.16:398][  0]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/', and we were unable to create a new request.
+[2018.02.09-11.02.16:398][  0]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.09-11.02.16:398][  0]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Developers/17055903/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.09-11.02.16:398][  0]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.09-11.02.16:399][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.02.09-11.02.16:439][  0]LogSlate: Took 0.000132 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.09-11.02.16:474][  1]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.09-11.02.16:475][  1]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Saved/Collections/', and we were unable to create a new request.
+[2018.02.09-11.02.16:475][  1]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.09-11.02.16:475][  1]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Collections/', and we were unable to create a new request.
+[2018.02.09-11.02.16:475][  1]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Developers/17055903/Collections/' because it was empty or there was a buffer overflow. Attemping another request...
+[2018.02.09-11.02.16:475][  1]LogDirectoryWatcher: A directory notification failed for 'F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Developers/17055903/Collections/', and we were unable to create a new request.
+[2018.02.09-11.02.20:392][464]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.09-11.02.20:462][464]LogAIModule: Creating AISystem for world MainMenu
+[2018.02.09-11.02.20:475][464]Cmd: MAP LOAD FILE="F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.09-11.02.20:475][464]LightingResults: New page: Lighting Build
+[2018.02.09-11.02.20:475][464]LoadErrors: New page: Loading map: MainMenu.umap
+[2018.02.09-11.02.20:476][464]MapCheck: New page: Map Check
+[2018.02.09-11.02.20:476][464]LightingResults: New page: Lighting Build
+[2018.02.09-11.02.20:487][464]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.09-11.02.20:520][464]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.09-11.02.20:548][464]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 27.695ms to complete.
+[2018.02.09-11.02.20:548][464]LogFileHelpers: Loading map 'MainMenu' took 0.074
+[2018.02.09-11.02.25:216][986]LogTexture:Display: Building textures: Goner (BGRA8, 217X203)
+[2018.02.09-11.02.25:218][986]LogAIModule: Creating AISystem for world OldNewMap
+[2018.02.09-11.02.25:231][986]Cmd: MAP LOAD FILE="F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/OldNewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.09-11.02.25:231][986]LightingResults: New page: Lighting Build
+[2018.02.09-11.02.25:232][986]LoadErrors: New page: Loading map: OldNewMap.umap
+[2018.02.09-11.02.25:233][986]MapCheck: New page: Map Check
+[2018.02.09-11.02.25:233][986]LightingResults: New page: Lighting Build
+[2018.02.09-11.02.25:244][986]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.09-11.02.25:276][986]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.09-11.02.25:305][986]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 28.713ms to complete.
+[2018.02.09-11.02.25:305][986]LogFileHelpers: Loading map 'OldNewMap' took 0.074
+[2018.02.09-11.02.29:058][408]LogTexture:Display: Building textures: 35410807-718bb6ac-020e-11e8-96fa-e1d1feafdff5 (BGRA8, 333X158)
+[2018.02.09-11.02.29:124][408]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2018.02.09-11.02.29:129][408]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.02.09-11.02.29:153][408]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2018.02.09-11.02.29:163][408]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2018.02.09-11.02.29:165][408]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.02.09-11.02.29:173][408]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2018.02.09-11.02.29:176][408]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 512X32)
+[2018.02.09-11.02.29:177][408]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 256X128)
+[2018.02.09-11.02.29:177][408]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2018.02.09-11.02.29:184][408]LogTexture:Display: Building textures: 35410813-784da202-020e-11e8-91ab-5630b86c71bb (BGRA8, 283X266)
+[2018.02.09-11.02.29:190][408]LogTexture:Display: Building textures: 35410823-7f389c70-020e-11e8-933d-b16eef11cc1b (BGRA8, 102X102)
+[2018.02.09-11.02.29:191][408]LogAIModule: Creating AISystem for world World
+[2018.02.09-11.02.29:207][408]Cmd: MAP LOAD FILE="F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/World.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.09-11.02.29:207][408]LightingResults: New page: Lighting Build
+[2018.02.09-11.02.29:208][408]LoadErrors: New page: Loading map: World.umap
+[2018.02.09-11.02.29:208][408]MapCheck: New page: Map Check
+[2018.02.09-11.02.29:208][408]LightingResults: New page: Lighting Build
+[2018.02.09-11.02.29:220][408]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.09-11.02.29:249][408]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.09-11.02.29:278][408]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 29.513ms to complete.
+[2018.02.09-11.02.29:279][408]LogFileHelpers: Loading map 'World' took 0.072
+[2018.02.09-11.02.32:666][808]LogAIModule: Creating AISystem for world MainMenu
+[2018.02.09-11.02.32:678][808]Cmd: MAP LOAD FILE="F:/My Documents/GitHub/Group-E-Ass2-Game/PeterIsTheCaptain V0.2/Content/Levels/MainMenu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.02.09-11.02.32:678][808]LightingResults: New page: Lighting Build
+[2018.02.09-11.02.32:679][808]LoadErrors: New page: Loading map: MainMenu.umap
+[2018.02.09-11.02.32:680][808]MapCheck: New page: Map Check
+[2018.02.09-11.02.32:680][808]LightingResults: New page: Lighting Build
+[2018.02.09-11.02.32:692][808]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.02.09-11.02.32:721][808]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.02.09-11.02.32:752][808]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 31.058ms to complete.
+[2018.02.09-11.02.32:752][808]LogFileHelpers: Loading map 'MainMenu' took 0.075
+[2018.02.09-11.02.34:681][ 37]LogLinker:Warning: Can't find file '/Game/Blueprints/GameMode'
+[2018.02.09-11.02.34:682][ 37]LogLinker:Warning: Can't find file '/Game/Blueprints/GameMode'
+[2018.02.09-11.02.34:682][ 37]LogUObjectGlobals:Warning: Failed to find object 'Object /Game/Blueprints/GameMode.GameMode_C'
+[2018.02.09-11.02.35:093][ 83]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.02.09-11.02.35:900][141]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2018.02.09-11.02.36:380][141]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.02.09-11.02.36:428][142]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.02.09-11.02.52:255][765]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.02.09-11.02.52:361][765]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.02.09-11.02.52:361][765]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.02.09-11.02.52:361][765]PIE: New page: PIE session: MainMenu (9 Feb 2018 11:02:52)
+[2018.02.09-11.02.52:361][765]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainMenu
+[2018.02.09-11.02.52:362][765]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000792s)
+[2018.02.09-11.02.52:363][765]LogAIModule: Creating AISystem for world MainMenu
+[2018.02.09-11.02.52:363][765]LogPlayLevel: PIE: World Init took: (0.000478s)
+[2018.02.09-11.02.52:363][765]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainMenu.MainMenu to /Game/Levels/UEDPIE_0_MainMenu.MainMenu (0.001414s)
+[2018.02.09-11.02.52:381][765]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.02.09-11.02.52:387][765]LogInit: FAudioDevice initialized.
+[2018.02.09-11.02.52:434][765]LogLoad: Game class is 'GameModeBase'
+[2018.02.09-11.02.52:436][765]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainMenu.MainMenu up for play (max tick rate 0) at 2018.02.09-11.02.52
+[2018.02.09-11.02.52:436][765]LogWorld: Bringing up level for play took: 0.000637
+[2018.02.09-11.02.52:477][765]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 11 classes and 0 folders.
+[2018.02.09-11.02.52:482][765]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainMenu 0.764
+[2018.02.09-11.02.52:483][765]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainMenu.MainMenu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu' with GeneratedClass '/Game/Levels/MainMenu.MainMenu_C' with ClassGeneratedBy '/Game/Levels/MainMenu.MainMenu:PersistentLevel.MainMenu'
+[2018.02.09-11.02.52:488][765]LogRenderer: Reallocating scene render targets to support 1292x756 NumSamples 1 (Frame:1).
+[2018.02.09-11.03.14:491][395]LogNet: Browse: /Game/Levels/World
+[2018.02.09-11.03.14:491][395]LogLoad: LoadMap: /Game/Levels/World
+[2018.02.09-11.03.14:506][395]Cmd: MEM
+[2018.02.09-11.03.14:517][395]LogMemory: Platform Memory Stats for Windows
+[2018.02.09-11.03.14:517][395]LogMemory: Process Physical Memory: 1186.14 MB used, 1189.97 MB peak
+[2018.02.09-11.03.14:517][395]LogMemory: Process Virtual Memory: 1539.89 MB used, 1679.81 MB peak
+[2018.02.09-11.03.14:517][395]LogMemory: Physical Memory: 7480.92 MB used,  25127.42 MB free, 32608.34 MB total
+[2018.02.09-11.03.14:517][395]LogMemory: Virtual Memory: 2221.24 MB used,  25127.42 MB free, 8388608.00 MB total
+[2018.02.09-11.03.14:517][395]LogMemory: 
+[2018.02.09-11.03.14:517][395]Allocator Stats for TBB: (not implemented)
+[2018.02.09-11.03.14:673][395]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.115 s
+[2018.02.09-11.03.14:673][395]LogOutputDevice:Error: === Handled ensure: ===
+[2018.02.09-11.03.14:673][395]LogOutputDevice:Error: 
+[2018.02.09-11.03.14:673][395]LogOutputDevice:Error: Ensure condition failed: IsObjectValidForDatabase(AssetObject) [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionDatabase.cpp] [Line: 1305]
+[2018.02.09-11.03.14:673][395]LogOutputDevice:Error: 
+[2018.02.09-11.03.14:673][395]LogOutputDevice:Error: Stack: 
+[2018.02.09-11.03.14:673][395]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D9B6E2B6
+[2018.02.09-11.03.14:673][395]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D991B8C2
+[2018.02.09-11.03.14:673][395]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000D9931E86
+[2018.02.09-11.03.14:674][395]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000C97CBCF7
+[2018.02.09-11.03.14:674][395]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000C979C23D
+[2018.02.09-11.03.14:674][395]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DA970377
+[2018.02.09-11.03.14:674][395]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DAC731A6
+[2018.02.09-11.03.14:674][395]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DAC89393
+[2018.02.09-11.03.14:674][395]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DAC8891A
+[2018.02.09-11.03.14:674][395]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D5FD5ACF
+[2018.02.09-11.03.14:674][395]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D5F8EEA8
+[2018.02.09-11.03.14:674][395]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D5FF460D
+[2018.02.09-11.03.14:674][395]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000D2642F55
+[2018.02.09-11.03.14:674][395]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000D2E68D86
+[2018.02.09-11.03.14:674][395]LogOutputDevice:Error: UE4Editor.exe!0x000000003F69E2B2
+[2018.02.09-11.03.14:674][395]LogOutputDevice:Error: UE4Editor.exe!0x000000003F68F0B0
+[2018.02.09-11.03.14:674][395]LogOutputDevice:Error: UE4Editor.exe!0x000000003F68F12A
+[2018.02.09-11.03.14:674][395]LogOutputDevice:Error: UE4Editor.exe!0x000000003F6A0CF9
+[2018.02.09-11.03.14:674][395]LogOutputDevice:Error: UE4Editor.exe!0x000000003F6A25F7
+[2018.02.09-11.03.14:674][395]LogOutputDevice:Error: kernel32.dll!0x00000000774359CD
+[2018.02.09-11.03.14:674][395]LogOutputDevice:Error: ntdll.dll!0x000000007756A561
+[2018.02.09-11.03.14:674][395]LogOutputDevice:Error: 
+[2018.02.09-11.03.14:678][395]LogStats:                SubmitErrorReport -  0.000 s
